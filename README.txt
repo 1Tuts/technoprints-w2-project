@@ -3,7 +3,9 @@ technoprints
 
 Website technoprints.ir
 
-_we are going to design for a barcode company and our source is http://themes.truethemes.net/Karma/?style=karma-teal-grey_
+_we are going to design for a barcode company and our source is http://themes.truethemes.net/Karma/?style=karma-teal-grey_.
+
+master:ali.md
 
 team manager:ebrahim tehranipour
 
