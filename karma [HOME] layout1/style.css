@@ -1,0 +1,11 @@
+div{
+	outline: 1px dashed red;
+}
+
+div.container{
+	width     : 980px;
+	min-height: 1791px;
+	background-image   : url('images/backguide.png');
+	background-repeat  : no-repeat;
+	background-position: center;
+}
