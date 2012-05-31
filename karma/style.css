@@ -1,0 +1,121 @@
+div{
+	outline:dotted black 1px;	
+}
+a{
+	text-decoration:none;	
+}
+body{
+	background-image:url('images/karma.png');
+	min-height:1820px;
+	background-position: top center;
+	background-repeat:no-repeat;
+}
+.container{
+	width:980px;	
+}
+.tooltip{
+	width:980px;
+	min-height:27px;
+	background-color:#19292e;
+}
+#tooltip-link{
+	color:#B1B1B1;	
+	float:right;
+	padding: 6px 8px;
+}
+#tooltip-right {
+	background-image:url('images/separator-toolbar.png');	
+	background-repeat:no-repeat;
+	background-position:center left;
+	color:#B1B1B1;	
+	float:right;
+	padding: 6px 8px;
+	font-size:12px;
+}
+/*div#tooltip-right a:hover {
+	color:#fff;	
+}
+div#tooltip-right a:last-child{
+	background-image:none;	
+}*/
+#tooltip-left {
+	background-image:url('images/separator-toolbar.png');	
+	background-repeat:no-repeat;
+	background-position:center left;
+	color:#B1B1B1;	
+	float:left;
+	padding: 6px 8px;
+	font-size:12px;
+}
+.header{
+	min-height:132px;	
+}
+.logo{
+	min-height:132px;	
+}
+.menu{
+	min-height:132px;	
+	margin-left:200px;	
+	min-width:780px;
+}
+.slide{
+	min-height:335px;	
+}
+.banner{
+	width:940px;
+	min-height:283px;
+	margin:48px auto 0;
+	background-image:url('images/slide.jpg');
+	background-repeat:no-repeat;
+}
+.button{
+	min-height:55px;	
+}
+.top-content{
+	min-height:100px;	
+}
+.main-content{
+	min-height:400px;	
+}
+.adv1{
+	min-height:400px;
+	min-width:240px;		
+
+}
+.adv2{
+	min-height:400px;		
+	min-width:240px;		
+
+}
+.adv3{
+	min-height:400px;	
+	min-width:240px;		
+
+}
+.adv4{
+	min-height:400px;		
+	margin-left:750px;
+}
+.buttom-content{
+	min-height:290px;
+}
+.module{
+	min-height:370px;
+}
+.module1{
+	min-height:370px;	
+}
+.module2{
+	min-height:370px;	
+}
+.module3{
+	min-height:370px;	
+	min-width:250px;
+}
+.module4{
+	min-height:370px;	
+	margin-left:740px;
+}
+.footer{
+	min-height:90px;	
+}
