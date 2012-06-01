@@ -9,20 +9,29 @@ div.container{
 	background-repeat  : no-repeat;
 	background-position: center;
 }
-
-div.container-tooltip{
-	padding: 2px 5px;
-	min-height:24px;
+/* ----------------Tooltip---------------- */
+.container-tooltip{
+	padding   : 2px 5px;
+	min-height: 24px;
 }
 
 .tooltip{
-	min-height:24px;
+	min-height: 24px;
 }
 
-div.container-tooltip .menu{
-	min-height:24px;
+.container-tooltip .menu{
+	min-height: 24px;
+}
+/* ----------------Header---------------- */
+.container-header{
+	min-height: 33px;
+	padding   : 50px 10px;
 }
 
-div.container-tooltip .menu li{
-	float: left;
+.container-header .menu{
+	min-height: 25px;
+}
+
+.container-header .logo{
+	min-height: 25px;
 }
