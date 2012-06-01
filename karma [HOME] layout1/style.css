@@ -67,3 +67,8 @@ div.container{
 .container-Banner .picture .pic1,.pic2,.pic3,.pic4{
 	min-height: 350px;
 }
+
+.container-Banner .textslide{
+	min-height: 200px;
+	margin-top: 40px;
+}
