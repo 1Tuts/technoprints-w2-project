@@ -65,10 +65,28 @@ div.container{
 }
 
 .container-Banner .picture .pic1,.pic2,.pic3,.pic4{
-	min-height: 350px;
+	min-height  : 350px;
+	padding-left: 20px;
+	margin-left : 20px;
+}
+
+.container-Banner .picture .pic1:first-child{
+	margin-left: 0;
 }
 
 .container-Banner .textslide{
 	min-height: 200px;
-	margin-top: 40px;
+}
+/* ----------------Footer---------------- */
+.container-footer{
+	
+}
+
+.container-footer .foot1,.foot2,.foot3,.foot4{
+	min-height: 370px;
+	margin-left: 10px;
+}
+
+.container-footer .foot1:first-child{
+	margin-left: 0px;
 }
