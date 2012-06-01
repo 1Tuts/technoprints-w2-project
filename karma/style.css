@@ -1,5 +1,5 @@
 div{
-	outline:dotted black 1px;	
+
 }
 a{
 	text-decoration:none;	
@@ -47,7 +47,11 @@ div#tooltip-right a:last-child{
 	padding: 6px 8px;
 	font-size:12px;
 }
+
 .header{
+	background-image:url('images/header.PNG');
+	background-repeat:no-repeat;
+	background-position:top center;
 	min-height:132px;	
 }
 .logo{
@@ -57,6 +61,22 @@ div#tooltip-right a:last-child{
 	min-height:132px;	
 	margin-left:200px;	
 	min-width:780px;
+}
+.menu ul{
+
+}
+.menu li{
+
+}
+.menu a{
+	color:#fff;
+	float:right;	
+	padding:15px 8px;
+
+	
+}
+.menu  li:hover{
+	
 }
 .slide{
 	min-height:335px;	
