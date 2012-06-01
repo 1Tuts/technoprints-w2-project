@@ -35,3 +35,12 @@ div.container{
 .container-header .logo{
 	min-height: 25px;
 }
+/* ----------------Slide---------------- */
+.container-slide{
+	min-height: 320px;
+	padding: 50px 20px 10px;
+}
+
+.container-slide .slideshow{
+	min-height: 320px;
+}
