@@ -44,3 +44,26 @@ div.container{
 .container-Banner .slideshow{
 	min-height: 320px;
 }
+
+.container-Banner .topline{
+	min-height: 15px;
+	margin-top: 5px;
+}
+
+.container-Banner .text{
+	min-height: 75px;
+	margin-top: 5px;
+}
+
+.container-Banner .bottomline{
+	min-height: 15px;
+	margin-top: 5px;
+}
+
+.container-Banner .picture{
+	margin-top: 20px;
+}
+
+.container-Banner .picture .pic1,.pic2,.pic3,.pic4{
+	min-height: 350px;
+}
