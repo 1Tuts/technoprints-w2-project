@@ -1,13 +1,10 @@
-body *{
-	outline: 1px dashed red;
+div{
+	outline:dashed red 1px;	
 }
-
 div.body-backguide{
 	bottom:0;
 	right: 0;
 	left: 0;
-	background-repeat:no-repeat;
-	background-position:center top;
 	z-index:-1;
 }
 /* -----------------------Top Header--------------------- */
@@ -16,6 +13,8 @@ div.body-backguide{
 	left:0; /* be jae 100% in komak mikone ;) */
 	right:0;
 	min-height: 28px;
+	background-color:#19292E;
+	background-repeat:no-repeat;
 }
 
 .container-topheader .container{
@@ -35,22 +34,27 @@ div.body-backguide{
 /* -----------------------Header--------------------- */
 .container-header{
 	outline:blue solid 1px;
+	min-height: 108px;
 	left:0;
 	right:0;
-	min-height: 134px;
+	z-index:-1;
+	background-color:#13262a;
+	background-image:url('images/header.png');
+	background-repeat:repeat-x;
 }
 
 .container-header .container{
-	min-height: 134px;
+	min-height: 108px;
+
 }
 
 .container-header .container .menu{
 	outline:green 2px dashed;
-	min-height: 134px;
+	min-height: 108px;
 }
 
 .container-header .container .logo{
-	min-height: 134px;	
+	min-height: 108px;	
 }
 /* -----------------------Banner--------------------- */
 .container-banner{
@@ -58,16 +62,96 @@ div.body-backguide{
 	left:0;
 	right:0;
 	min-height: 1173px;
+	background-color:#f4f4f2;
 }
-
+.top-shadow{
+	min-height:30px;
+	left:0;
+	right:0;
+	background-image:url(images/bg-div-main.jpg);
+	background-repeat:repeat-x;
+	background-size:100% 100%;	
+}
 .container-banner .container{
+	padding:0 20px;
 	min-height : 1173px;
 	padding-top: 1px;
 }
 
-.container-banner .container .slidshow{
-	min-height: 325px;
+.container-banner .container .banner{
+	width:940px;
+	min-height: 338px;
 	margin-top: 40px;
+	overflow:hidden;
+	margin-top:20px;
+	position:relative;
+}
+
+div.banner div.scroll{
+	width:5000px; /* 5*980 (per img) */
+	height:283px;
+	position:absolute;
+	left:0;
+	top:0;
+	-webkit-transition-property:all;
+	-webkit-transition-duration:800ms;
+	-webkit-transition-timing-function:cubic-bezier(0,0.7,0.3,1);
+
+}
+
+div.banner div.scroll > div{
+	width:940px;
+	height:inherit;
+	float:left;
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+div.banner div.scroll > div.adv1{
+	background-image:url(images/b1.jpg);
+}
+div.banner div.scroll > div.adv2{
+	background-image:url(images/b2.jpg);
+}
+div.banner div.scroll > div.adv3{
+	background-image:url(images/b3.jpg);
+}
+div.banner div.scroll > div.adv4{
+	background-image:url(images/b4.jpg);
+}
+div.banner div.scroll > div.adv5{
+	background-image:url(images/b5.jpg);
+}
+
+div.banner ul.btn{
+	margin:25px 370px 25px;
+	list-style-type:none;
+	width:200px;
+	height:16px;
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+
+div.banner ul.btn li{
+	float:left;
+	width:20px;
+	height:20px;
+	margin-right:5px;
+	background-color:#333;
+	cursor:pointer;
+	-webkit-transition:all 1000ms;
+	-moz-transition:all 1000ms;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+}
+
+div.banner ul.btn li:hover,
+div.banner ul.btn li.active{
+	background-color:#39D;
+	height:22px;
+	margin-top:-6px;
+	-webkit-transition-duration:300ms;
 }
 
 .container-banner .container .topline{
@@ -92,6 +176,12 @@ div.body-backguide{
 .container-banner .container .textslide{
 	min-height: 200px;
 	margin-top: 20px;
+}
+.bot-shadow{
+	min-height:40px;
+	background-image:url(images/rotate-bg-div-main.jpg);
+	background-repeat:repeat-x;
+	background-size:100% 100%;
 }
 /* -----------------------Footer--------------------- */
 .container-footer{
