@@ -1,0 +1,133 @@
+body *{
+	outline: 1px dashed red;
+}
+
+div.body-backguide{
+	bottom:0;
+	right: 0;
+	left: 0;
+	background-repeat:no-repeat;
+	background-position:center top;
+	z-index:-1;
+}
+/* -----------------------Top Header--------------------- */
+.container-topheader{
+	outline:solid blue 1px;
+	left:0; /* be jae 100% in komak mikone ;) */
+	right:0;
+	min-height: 28px;
+}
+
+.container-topheader .container{
+	outline:solid black 1px;
+	margin:0 auto;
+	min-height: 28px;
+	width: 950px; /* mage containeremun nist? ostad takid kard container kuchike hatman 950 bashe ma tebghe 950 mirim na ax */
+}
+
+.container-topheader .container .menu{ /* eival havaset be rtl bude */
+	min-height: 28px;
+}
+
+.container-topheader .container .tooltip{
+	min-height: 28px;	
+}
+/* -----------------------Header--------------------- */
+.container-header{
+	outline:blue solid 1px;
+	left:0;
+	right:0;
+	min-height: 134px;
+}
+
+.container-header .container{
+	min-height: 134px;
+}
+
+.container-header .container .menu{
+	outline:green 2px dashed;
+	min-height: 134px;
+}
+
+.container-header .container .logo{
+	min-height: 134px;	
+}
+/* -----------------------Banner--------------------- */
+.container-banner{
+	outline:magenta 1px solid;
+	left:0;
+	right:0;
+	min-height: 1173px;
+}
+
+.container-banner .container{
+	min-height : 1173px;
+	padding-top: 1px;
+}
+
+.container-banner .container .slidshow{
+	min-height: 325px;
+	margin-top: 40px;
+}
+
+.container-banner .container .topline{
+	min-height: 15px;
+	margin-top: 10px;
+}
+
+.container-banner .container .text{
+	min-height: 60px;
+	margin-top: 10px;
+}
+
+.container-banner .container .bottomline{
+	min-height: 15px;
+	margin-top: 15px;
+}
+
+.container-banner .container .pic1,.pic2,.pic3,.pic4{
+	min-height: 380px;
+}
+
+.container-banner .container .textslide{
+	min-height: 200px;
+	margin-top: 20px;
+}
+/* -----------------------Footer--------------------- */
+.container-footer{
+	left:0;
+	right:0;
+	min-height: 367px;
+}
+
+.container-footer .container{
+	min-height: 367px;
+}
+
+.container-footer .container .title{
+	padding-top: 1px;
+}
+
+.container-footer .container .title1,.title2,.title3,.title4{
+	outline:solid black 1px;
+	min-height: 330px;
+	margin-top: 30px;
+}
+/* -----------------------Bottom of Footer--------------------- */
+.container-bottomfooter{
+	left:0;
+	right:0;
+	min-height: 90px;
+}
+
+.container-bottomfooter .container{ /* vaghti be dota dive kenare ham mikhaim andaze bedim float lefto right midim...vaghtiam 3ta bud bazam lefto right midim vasataie miad bala....az 3ta bishtar beheshun left midim masalan be akhari margine left toole 3ta midim.....pas in kari ke kardi male 3ta div bishtare*/
+	min-height: 90px;
+}
+
+.container-bottomfooter .container .menu{
+	min-height: 90px;
+}
+
+.container-bottomfooter .container .copyright{
+	min-height: 90px;
+}
