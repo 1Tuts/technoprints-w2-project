@@ -86,3 +86,22 @@ div.body-backguide{
 	min-height: 200px;
 	margin-top: 20px;
 }
+/* -----------------------Footer--------------------- */
+.container-footer{
+	width     : 1280;
+	margin    : 0 auto;
+	min-height: 367px;
+}
+
+.container-footer .container{
+	min-height: 367px;
+}
+
+.container-footer .container .title{
+	padding-top: 1px;
+}
+
+.container-footer .container .title1,.title2,.title3,.title4{
+	min-height: 280px;
+	margin-top: 30px;
+}
