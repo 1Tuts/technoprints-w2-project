@@ -3,21 +3,21 @@ body *{
 }
 
 div.body-backguide{
-	width     : 1663px;
-	min-height: 1791px;
+	width: 1663px;
 	background-image   : url('images/backguide.png');
 	background-repeat  : no-repeat;
 	background-position: center;
 }
 /* -----------------------Top Header--------------------- */
 .container-topheader{
-	width : 1280;
-	margin: 0 auto;
+	width     : 1280px;
+	margin    : 0 auto;
 	min-height: 28px;
 }
 
 .container-topheader .container{
 	min-height: 28px;
+	width: 970px;
 }
 
 .container-topheader .container .menu{
@@ -29,8 +29,8 @@ div.body-backguide{
 }
 /* -----------------------Header--------------------- */
 .container-header{
-	width : 1280;
-	margin: 0 auto;
+	width     : 1280px;
+	margin    : 0 auto;
 	min-height: 133px;
 }
 
@@ -47,7 +47,7 @@ div.body-backguide{
 }
 /* -----------------------Banner--------------------- */
 .container-banner{
-	width     : 1280;
+	width     : 1280px;
 	margin    : 0 auto;
 	min-height: 1173px;
 }
@@ -88,7 +88,7 @@ div.body-backguide{
 }
 /* -----------------------Footer--------------------- */
 .container-footer{
-	width     : 1280;
+	width     : 1280px;
 	margin    : 0 auto;
 	min-height: 367px;
 }
@@ -104,4 +104,23 @@ div.body-backguide{
 .container-footer .container .title1,.title2,.title3,.title4{
 	min-height: 280px;
 	margin-top: 30px;
+}
+/* -----------------------Bottom of Footer--------------------- */
+.container-bottomfooter{
+	width     : 1280px;
+	margin    : 0 auto;
+	min-height: 90px;
+}
+
+.container-bottomfooter .container{
+	width: 970px;
+	min-height: 90px;
+}
+
+.container-bottomfooter .container .menu{
+	min-height: 50px;
+}
+
+.container-bottomfooter .container .copyright{
+	min-height: 50px;
 }
