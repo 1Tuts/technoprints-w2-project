@@ -11,37 +11,78 @@ div.body-backguide{
 }
 /* -----------------------Top Header--------------------- */
 .container-topheader{
-	min-height: 20px;
+	width : 1280;
+	margin: 0 auto;
+	min-height: 28px;
 }
 
 .container-topheader .container{
-	width: 950px;
-	margin: 0 auto;
-	min-height: 20px;
-	padding   : 4px 0;
+	min-height: 28px;
 }
 
 .container-topheader .container .menu{
-	min-height: 20px;
+
 }
 
 .container-topheader .container .tooltip{
-	min-height: 20px;
+	
 }
 /* -----------------------Header--------------------- */
 .container-header{
+	width : 1280;
+	margin: 0 auto;
 	min-height: 133px;
 }
 
 .container-header .container{
-	min-height: 53px;
-	padding: 40px 0px;
+	min-height: 133px;
 }
 
 .container-header .container .menu{
-	min-height: 50px;
+	
 }
 
 .container-header .container .logo{
-	min-height: 50px;
+	
+}
+/* -----------------------Banner--------------------- */
+.container-banner{
+	width     : 1280;
+	margin    : 0 auto;
+	min-height: 1173px;
+}
+
+.container-banner .container{
+	min-height : 1173px;
+	padding-top: 1px;
+}
+
+.container-banner .container .slidshow{
+	min-height: 325px;
+	margin-top: 40px;
+	padding   : 0 20px;
+}
+
+.container-banner .container .topline{
+	min-height: 15px;
+	margin-top: 10px;
+}
+
+.container-banner .container .text{
+	min-height: 60px;
+	margin-top: 10px;
+}
+
+.container-banner .container .bottomline{
+	min-height: 15px;
+	margin-top: 15px;
+}
+
+.container-banner .container .pic1,.pic2,.pic3,.pic4{
+	min-height: 380px;
+}
+
+.container-banner .container .textslide{
+	min-height: 200px;
+	margin-top: 20px;
 }
