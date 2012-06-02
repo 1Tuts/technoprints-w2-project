@@ -3,10 +3,26 @@ body *{
 }
 
 div.body-backguide{
-	width: 1663px;
+	width     : 1663px;
 	min-height: 1791px;
 	background-image   : url('images/backguide.png');
 	background-repeat  : no-repeat;
 	background-position: center;
 }
+/* -----------------------Tooltip--------------------- */
+.container-topheader{
+	min-height: 20px;
+}
 
+.container-topheader .container{
+	min-height: 20px;
+	padding   : 4px 0;
+}
+
+.container-topheader .menu{
+	min-height: 20px;
+}
+
+.container-topheader .tooltip{
+	min-height: 20px;
+}
