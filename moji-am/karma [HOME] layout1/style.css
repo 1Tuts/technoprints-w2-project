@@ -2,105 +2,11 @@ body *{
 	outline: 1px dashed red;
 }
 
-div.container{
-	width     : 980px;
+div.body-backguide{
+	width: 1663px;
 	min-height: 1791px;
 	background-image   : url('images/backguide.png');
 	background-repeat  : no-repeat;
 	background-position: center;
 }
-/* ----------------Tooltip---------------- */
-.container-tooltip{
-	padding   : 2px 5px;
-	min-height: 24px;
-}
 
-.tooltip{
-	min-height: 24px;
-}
-
-.container-tooltip .menu{
-	min-height: 24px;
-}
-/* ----------------Header---------------- */
-.container-header{
-	min-height: 33px;
-	padding   : 50px 10px;
-}
-
-.container-header .menu{
-	min-height: 25px;
-}
-
-.container-header .logo{
-	min-height: 25px;
-}
-/* ----------------Banner---------------- */
-.container-Banner{
-	min-height: 1122px;
-	padding   : 50px 20px 0px;
-}
-
-.container-Banner .slideshow{
-	min-height: 320px;
-}
-
-.container-Banner .topline{
-	min-height: 15px;
-	margin-top: 5px;
-}
-
-.container-Banner .text{
-	min-height: 75px;
-	margin-top: 5px;
-}
-
-.container-Banner .bottomline{
-	min-height: 15px;
-	margin-top: 5px;
-}
-
-.container-Banner .picture{
-	margin-top: 20px;
-}
-
-.container-Banner .picture .pic1,.pic2,.pic3,.pic4{
-	min-height  : 350px;
-	padding-left: 20px;
-	margin-left : 20px;
-}
-
-.container-Banner .picture .pic1:first-child{
-	margin-left: 0;
-}
-
-.container-Banner .textslide{
-	margin-top: 40px;
-	min-height: 200px;
-}
-/* ----------------Footer---------------- */
-.container-footer{
-	
-}
-
-.container-footer .foot1,.foot2,.foot3,.foot4{
-	min-height : 370px;
-	margin-left: 10px;
-}
-
-.container-footer .foot1:first-child{
-	margin-left: 0px;
-}
-
-.footer-copyright{
-	min-height: 60px;
-	padding   : 30px 5px 0;
-}
-
-.footer-copyright .menu{
-	min-height: 20px;
-}
-
-.footer-copyright .copyright{
-	min-height: 20px;
-}
