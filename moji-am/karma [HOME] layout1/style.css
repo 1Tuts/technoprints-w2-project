@@ -9,20 +9,39 @@ div.body-backguide{
 	background-repeat  : no-repeat;
 	background-position: center;
 }
-/* -----------------------Tooltip--------------------- */
+/* -----------------------Top Header--------------------- */
 .container-topheader{
 	min-height: 20px;
 }
 
 .container-topheader .container{
+	width: 950px;
+	margin: 0 auto;
 	min-height: 20px;
 	padding   : 4px 0;
 }
 
-.container-topheader .menu{
+.container-topheader .container .menu{
 	min-height: 20px;
 }
 
-.container-topheader .tooltip{
+.container-topheader .container .tooltip{
 	min-height: 20px;
+}
+/* -----------------------Header--------------------- */
+.container-header{
+	min-height: 133px;
+}
+
+.container-header .container{
+	min-height: 53px;
+	padding: 40px 0px;
+}
+
+.container-header .container .menu{
+	min-height: 50px;
+}
+
+.container-header .container .logo{
+	min-height: 50px;
 }
