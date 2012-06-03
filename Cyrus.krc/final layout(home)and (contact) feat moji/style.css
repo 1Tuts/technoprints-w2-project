@@ -1,0 +1,344 @@
+div{
+	outline: dashed red 0px;	
+}
+
+/* -----------------------Top Header--------------------- */
+.container-topheader{
+	left      : 0;
+	right     : 0;
+	min-height: 28px;
+	background-color : #19292E;
+}
+
+.container-topheader .container{
+	width     : 970px;
+	min-height: 28px;
+}
+
+.container-topheader .container .menu{
+	min-height: 28px;
+}
+
+.container-topheader .container .tooltip{
+	min-height: 28px;	
+}
+/* -----------------------Header--------------------- */
+.container-header{
+	min-height: 108px;
+	left      : 0;
+	right     : 0;
+	z-index   : -1;
+	background-color: #13262a;
+	background-image: url('images/header.png');
+	background-size : 100% 100%;
+}
+
+.container-header .container{
+	min-height: 108px;
+}
+
+.container-header .container .menu{
+	min-height: 108px;
+}
+
+.container-header .container .logo{
+	min-height: 108px;	
+}
+/* -----------------------Banner--------------------- */
+.container-banner{
+	left      : 0;
+	right     : 0;
+	min-height: 1173px;
+	background-color: #f4f4f2;
+}
+.top-shadow{
+	min-height: 30px;
+	left      : 0;
+	right     : 0;
+	background-image : url(images/bg-div-main.jpg);
+	background-repeat: repeat-x;
+	background-size  : 100% 100%;	
+}
+.container-banner .container{
+	min-height : 1173px;
+	padding-top: 1px;
+}
+
+.container-banner .container .banner{
+	width     : 950px;
+	min-height: 338px;
+	overflow  : hidden;
+	margin-top: 20px;
+	position  : relative;
+}
+
+div.banner div.scroll{
+	width   : 5000px;
+	height  : 283px;
+	position: absolute;
+	left    : 0;
+	top     : 0;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 800ms;
+	-webkit-transition-timing-function: cubic-bezier(0,0.7,0.3,1);
+
+}
+
+div.banner div.scroll > div{
+	width : 950px;
+	height: inherit;
+	float : left;
+	background-repeat  : no-repeat;
+	background-position: left top;
+}
+
+div.banner div.scroll > div.adv1{
+	background-image: url('images/b1.jpg');
+}
+
+div.banner div.scroll > div.adv2{
+	background-image: url('images/b2.jpg');
+}
+
+div.banner div.scroll > div.adv3{
+	background-image: url('images/b3.jpg');
+}
+
+div.banner div.scroll > div.adv4{
+	background-image: url('images/b4.jpg');
+}
+
+div.banner div.scroll > div.adv5{
+	background-image: url('images/b5.jpg');
+}
+
+div.banner ul.btn{
+	margin: 25px 370px 25px;
+	list-style-type: none;
+	width   : 200px;
+	height  : 16px;
+	position: absolute;
+	right : 0;
+	bottom: 0;
+}
+
+div.banner ul.btn li{
+	float : left;
+	width : 20px;
+	height: 20px;
+	margin-right    : 5px;
+	background-color: #333;
+	cursor          : pointer;
+	-webkit-transition   : all 1000ms;
+	-moz-transition      : all 1000ms;
+	-webkit-border-radius: 10px;
+	-moz-border-radius   : 10px;
+}
+
+div.banner ul.btn li:hover,
+div.banner ul.btn li.active{
+	background-color: #39D;
+	height          : 22px;
+	margin-top      : -6px;
+	-webkit-transition-duration: 300ms;
+}
+
+.container-banner .container .topline{
+	min-height: 15px;
+	margin-top: 10px;
+}
+
+.container-banner .container .text{
+	min-height: 60px;
+	margin-top: 10px;
+}
+
+.container-banner .container .bottomline{
+	min-height: 15px;
+	margin-top: 15px;
+}
+
+.container-banner .container .frame{
+	margin-top: 10px;
+}
+
+.container-banner .container .pic1,.pic2,.pic3,.pic4{
+	min-height: 380px;
+}
+
+.container-banner .container .textslide{
+	min-height: 200px;
+	margin-top: 20px;
+}
+.bot-shadow{
+	min-height: 40px;
+	background-image : url('images/rotate-bg-div-main.jpg');
+	background-repeat: repeat-x;
+	background-size  : 100% 100%;
+}
+/* -----------------------Footer--------------------- */
+.container-footer{
+	left      : 0;
+	right     : 0;
+	min-height: 367px;
+	z-index   : -1;
+	background-image : url('images/footer.jpg');
+	background-size  : 100% 100%;
+}
+
+.container-footer .container{
+	min-height: 367px;
+}
+
+.container-footer .container .title{
+	padding-top: 1px;
+}
+
+.container-footer .container .title1,.title2,.title3,.title4{
+	min-height: 330px;
+	margin-top: 30px;
+}
+/* -----------------------Bottom of Footer--------------------- */
+.container-bottomfooter{
+	left      : 0;
+	right     : 0;
+	min-height: 90px;
+	z-index   : -1;
+	background-image: url('images/copyright.jpg');
+	background-size : 100% 100%;
+}
+
+.container-bottomfooter .container{
+	width     : 970px;
+	min-height: 90px;
+}
+
+.container-bottomfooter .container .menu{
+	min-height: 90px;
+}
+
+.container-bottomfooter .container .copyright{
+	min-height: 90px;
+}
+
+/* -----------------------Contact  Page--------------------- */
+div.middle{
+	width:950px;
+	margin:0 auto;
+	background-color:#f4f4f2;
+	
+}
+
+/*  header of contact */
+div.middle .header{
+	width:950px;	
+	height:42px;
+	text-align:center;
+	background-color:#333333;
+}
+div.middle .header .search{
+	float:left;
+	width:130px;	
+	height:42px;
+	outline:1px solid blue;
+}
+div.middle .header .menu{
+	width:150px;
+	height:42px;
+	float:left;50px;
+	margin-left:10px;
+	outline:1px solid green;
+}
+div.middle .header .text{
+	margin-left:790px;
+	height:42px;
+	outline:1px solid blue;
+	position:relative;
+}
+div.middle .header .text h3{
+	font-size:26px;
+	color:red;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	
+	
+}
+/* end */ 
+
+/*  CONTACT INFO */
+div.middle .mobile{
+	float:left;
+	margin-top:60px;
+	margin-left:30px;
+	text-align:center;
+}
+div.middle .mobile img{
+	width:210px;
+	height:450px;
+}
+div.middle .info{
+	width:600px;
+	margin-top:60px;
+	margin-left:350px;
+	min-height:450px;
+	outline:1px solid blue;
+		
+}
+
+div.middle .info .text{
+	width:450px;
+	height:85px;
+	margin-left:120px;
+	
+}
+div.middle .info .name, .email, .website, .comment{
+	margin-top:7px;
+	text-align:right;
+}
+div.middle .info input{
+	width:240px;	
+	height:35px;
+	margin-right:30px;
+	border:2px solid #999;
+	text-align:right;
+	direction:rtl;
+}
+div.middle .info textarea{
+	margin-right:30px;
+	width:330px;
+	height:145px;
+	border:2px solid #999;
+	text-align:right;
+	direction:rtl;
+}
+div.middle .info .botton{
+	text-align:right;
+	margin-right:0px;
+	margin-top:10px;		
+}
+div.middle .info .botton input{
+	width:85px;
+	height:40px;	
+	color:#FFF;	
+	font-size:19px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color:#272727;
+	border-radius:8px;
+	border:3px outset #444;
+	box-shadow:3px 3px 3px  #272727;
+}
+div.middle .info .botton input:hover{
+	background-color:#5F5F5F;	
+	border:3px outset #555;
+	-moz-transition-duration:300ms;
+	-ms-transition-duration:300ms;
+	-o-transition-duration:300ms;
+	-webkit-transition-duration:300ms;
+}
+/*  End INFO  */
+
+
+/*  End Of Contact  Page   */
