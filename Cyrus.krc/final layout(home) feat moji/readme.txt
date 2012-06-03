@@ -1,4 +1,0 @@
-1-containerae bozorgtar tool nabaiad dashte bashe vaghti % ham nabaiad bedi behtarin rah ineke left:0 va right:0 bedi ke tu har zoomi keshide beshe.
-2- vaghti be dota dive kenare ham mikhaim andaze bedim float lefto right midim...vaghtiam 3ta bud bazam lefto right midim vasataie miad bala....az 3ta bishtar beheshun left midim be akhari margine left toole 3ta midim...
-3-takide ostad ru in bud ke containere kuchik hatman 950 bashe maham matalebemuno tu 950 ja midim na 980
-in layout tu har zoomi tu har browseri emtehan shode vaghtetuno bezarin ru ghesmatae dige pls...fek nakonam iradi dashte bashe age dasht khodetun fix konin be nadaze kafi rush vaght gozashtim....tnx 

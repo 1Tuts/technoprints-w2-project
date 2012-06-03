@@ -176,6 +176,7 @@ div.banner ul.btn li.active{
 	background-repeat: repeat-x;
 	background-size  : 100% 100%;
 }
+
 /* -----------------------Footer--------------------- */
 .container-footer{
 	left      : 0;
@@ -220,3 +221,125 @@ div.banner ul.btn li.active{
 .container-bottomfooter .container .copyright{
 	min-height: 90px;
 }
+
+/* -----------------------Contact--------------------- */
+div.middle{
+	width:950px;
+	margin:0 auto;
+	background-color:#f4f4f2;
+	
+}
+
+/*  header of contact */
+div.middle .header{
+	width:950px;	
+	height:42px;
+	text-align:center;
+	background-color:#333333;
+}
+div.middle .header .search{
+	float:left;
+	width:130px;	
+	height:42px;
+	outline:1px solid blue;
+}
+div.middle .header .menu{
+	width:150px;
+	height:42px;
+	float:left;50px;
+	margin-left:10px;
+	outline:1px solid green;
+}
+div.middle .header .text{
+	margin-left:790px;
+	height:42px;
+	outline:1px solid blue;
+	position:relative;
+}
+div.middle .header .text h3{
+	font-size:26px;
+	color:red;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	
+	
+}
+/* end */ 
+
+/*  CONTACT INFO */
+div.middle .mobile{
+	float:left;
+	margin-top:60px;
+	margin-left:30px;
+	text-align:center;
+}
+div.middle .mobile img{
+	width:210px;
+	height:450px;
+}
+div.middle .info{
+	width:600px;
+	margin-top:60px;
+	margin-left:350px;
+	min-height:450px;
+	outline:1px solid blue;
+		
+}
+
+div.middle .info .text{
+	width:450px;
+	height:85px;
+	margin-left:120px;
+	
+}
+div.middle .info .name, .email, .website, .comment{
+	margin-top:7px;
+	text-align:right;
+}
+div.middle .info input{
+	width:240px;	
+	height:35px;
+	margin-right:30px;
+	border:2px solid #999;
+	text-align:right;
+	direction:rtl;
+}
+div.middle .info textarea{
+	margin-right:30px;
+	width:330px;
+	height:145px;
+	border:2px solid #999;
+	text-align:right;
+	direction:rtl;
+}
+div.middle .info .botton{
+	text-align:right;
+	margin-right:0px;
+	margin-top:10px;		
+}
+div.middle .info .botton input{
+	width:85px;
+	height:40px;	
+	color:#FFF;	
+	font-size:19px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color:#272727;
+	border-radius:8px;
+	border:3px outset #444;
+	box-shadow:3px 3px 3px  #272727;
+}
+div.middle .info .botton input:hover{
+	background-color:#5F5F5F;	
+	border:3px outset #555;
+	-moz-transition-duration:300ms;
+	-ms-transition-duration:300ms;
+	-o-transition-duration:300ms;
+	-webkit-transition-duration:300ms;
+}
+/*  End INFO  */
+
+
+/*  End Of Contact  Page   */
