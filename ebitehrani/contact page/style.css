@@ -1,125 +1,62 @@
 div{
-	outline:1px dashed red;	
+	outline:0px dashed red;	
 
 }
 a{
 	text-decoration:none;	
 }
 body{
-	min-height:1820px;
-}
-.container{
-	width:980px;	
-}
-.tooltip{
-	width:980px;
-	min-height:27px;
-	background-color:#19292e;
-}
-#tooltip-link{
-	color:#B1B1B1;	
-	float:right;
-	padding: 6px 8px;
-}
-#tooltip-right {
-	background-image:url('images/separator-toolbar.png');	
-	background-repeat:no-repeat;
-	background-position:center left;
-	color:#B1B1B1;	
-	float:right;
-	padding: 6px 8px;
-	font-size:12px;
-}
-/*div#tooltip-right a:hover {
-	color:#fff;	
-}
-div#tooltip-right a:last-child{
-	background-image:none;	
-}*/
-#tooltip-left {
-	background-image:url('images/separator-toolbar.png');	
-	background-repeat:no-repeat;
-	background-position:center left;
-	color:#B1B1B1;	
-	float:left;
-	padding: 6px 8px;
-	font-size:12px;
+	min-height:1000px;
 }
 
-.head{
-	background-image:url('images/header.PNG');
-	background-repeat:no-repeat;
-	background-position:top center;
-	min-height:109px;	
-}
-.logo{
+div.middle{
+	width:950px;
+	margin:0 auto;
+	border:2px solid red;
+	background-color:#f4f4f2;
 	
-}
-div.container .head .menu{
-	
-	margin-left:200px;	
-	min-width:780px;
-}
-.menu ul{
-
-}
-.menu li{
-
-}
-.menu a{
-	color:#fff;
-	float:right;	
-	padding:15px 8px;
-
-	
-}
-.menu  li:hover{
-	
-}
-/*  End Of menu  */  
-
-div.container .empty{
-	width:980px;	
-	height:32px;
-}
-div.container .middle{
-	width:980px;
-	height:682px;
 }
 
 
 
 /*   CONTACT   PART  */
-div.container .middle .contact{
-	margin:0 auto;
-	width:710px;
-	height:620px;	
-}
 
 /*  header of contact */
-div.container .middle .contact .header{
-	width:709px;	
+div.middle .header{
+	width:950px;	
 	height:42px;
-	
+	text-align:center;
+	background-color:#333333;
 }
-div.container .middle .contact .header .search{
+div.middle .header .search{
 	float:left;
 	width:130px;	
 	height:42px;
 	outline:1px solid blue;
 }
-div.container .middle .contact .header .menu{
+div.middle .header .menu{
 	width:150px;
 	height:42px;
 	float:left;50px;
 	margin-left:10px;
 	outline:1px solid green;
 }
-div.container .middle .contact .header .text{
-	margin-righ:0px;
-	width:110px;	
+div.middle .header .text{
+	margin-left:790px;
 	height:42px;
 	outline:1px solid blue;
+	position:relative;
+}
+div.middle .header .text h3{
+	font-size:26px;
+	color:red;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	
+	
 }
 
 
@@ -128,131 +65,76 @@ div.container .middle .contact .header .text{
 
 
 /*  CONTACT INFO */
-div.container .middle .contact .info{
+div.middle .header{
+
+}
+
+div.middle .info{
 	margin-left:215px;
 	width:460px;
 	height:450px;
-	outline:1px solid blue;
+	outline:0px solid blue;
 }
-div.container .middle .contact .info .text{
-	width:425px;
+div.middle .info .text{
+	width:580px;
 	height:85px;
-	margin-top:30px;
-	margin-right:10px;
+	margin-top:60px;
+	margin-right:30px;
+	
 }
-div.container .middle .contact .info .name, .email, .website, .comment{
+
+div.middle .info .name, .email, .website, .comment{
 	margin-top:7px;
 	text-align:right;
 }
-div.container .middle .contact .info input{
+div.middle .info input{
 	width:240px;	
 	height:35px;
-	margin-right:10px;
+	margin-right:30px;
 	border:2px solid #999;
 }
-div.container .middle .contact .info textarea{
-	margin-right:10px;
+div.middle .info textarea{
+	margin-right:30px;
 	width:330px;
 	height:145px;
 	border:2px solid #999;
 }
-div.container .middle .contact .info .pic{
-	width:230px;
-	height:95px;	
-	margin-right:10px;
-	margin-top:5px;	
-}
-div.container .middle .contact .info .botton{
+
+div.middle .info .botton{
 	text-align:right;
 	margin-right:0px;
 	margin-top:10px;		
 }
-div.container .middle .contact .info .botton input{
+div.middle .info .botton input{
 	width:85px;
 	height:40px;	
-	color:#CCC;	
+	color:#FFF;	
 	font-size:19px;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	background-color:#333;
-	border:2px outset #222;
-	border-radius:10px;
+	background-color:#272727;
+	border-radius:8px;
+	border:3px outset #444;
+	box-shadow:3px 3px 3px  #272727;
+}
+div.middle .info .botton input:hover{
+	background-color:#5F5F5F;	
+	border:3px outset #555;
+	-moz-transition-duration:300ms;
+	-ms-transition-duration:300ms;
+	-o-transition-duration:300ms;
+	-webkit-transition-duration:300ms;
 }
 /*  End INFO  */
 
-
-
-
-div.container .middle .contact .mobile{
+div.middle .mobile{
 	float:left;
-	margin-top:30px;
-	height:4500px;	
-	outline:1px solid blue;
+	margin-top:60px;
+	margin-left:30px;
 	text-align:center;
-	
-	
 }
-div.container .middle .contact .mobile img{
+div.middle .mobile img{
 	width:210px;
-	height:400px;
-	box-shadow: 0px 40px 5px #888888;
+	height:450px;
 }
 /*  END OF CONTACT PART   */
 
-
-
-
-/*  BigFooter  */
-div.container .bigfooter{
-	width:978px;
-	height:264px;
-	padding:1px;
-}
-div.container .bigfooter .first{
-	float:left;
-	margin-left:130px;
-	margin-top:23px;
-	width:180px;
-	height:210px;
-}
-div.container .bigfooter .second{
-	float:left;
-	margin-top:23px;
-	width:180px;
-	height:210px;
-}
-div.container .bigfooter .third{
-	float:left;
-	margin-top:23px;
-	width:180px;
-	height:210px;
-}
-div.container .bigfooter .forth{
-	margin-left:675px;
-	margin-top:23px;
-	width:180px;
-	height:210px;
-}
-/*  end*/ 
-
-
-
-
-/*  Footer  */
-div.container .footer{
-	width:978px;
-	height:63px;
-	padding:1px;
-}
-div.container .footer .copyright{
-	float:left;
-	margin-left:130px;
-	margin-top:15px;
-	width:220px;
-	height:40px;	
-}
-div.container .footer .menu{
-	margin-left:565px;
-	margin-top:15px;
-	width:280px;
-	height:40px;		
-}
