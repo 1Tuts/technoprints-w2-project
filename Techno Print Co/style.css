@@ -112,7 +112,11 @@ div.banner div.scroll > div.adv4{
 div.banner div.scroll > div.adv5{
 	background-image: url('images/b5.jpg');
 }
-
+div.btn{
+	width:950px;
+	min-height:50px;
+	position:relative;	
+}
 div.banner ul.btn{
 	list-style-type: none;
 	width   : 200px;
@@ -120,6 +124,9 @@ div.banner ul.btn{
 	position: absolute;
 	right : 0;
 	bottom: 0;
+	top:0;
+	left:0;
+	margin:300px auto 10px;
 }
 
 div.banner ul.btn li{
@@ -127,7 +134,7 @@ div.banner ul.btn li{
 	width : 20px;
 	height: 20px;
 	margin-right    : 5px;
-	background-color: #333;
+	background-color: #aaa;
 	cursor          : pointer;
 	-webkit-transition   : all 1000ms;
 	-moz-transition      : all 1000ms;
@@ -137,10 +144,8 @@ div.banner ul.btn li{
 
 div.banner ul.btn li:hover,
 div.banner ul.btn li.active{
-	background-color: #39D;
-	height          : 22px;
-	margin-top      : -6px;
-	-webkit-transition-duration: 300ms;
+	background-color: #777;
+	-webkit-transition-duration: 500ms;
 }
 
 .container-banner .container .topline{
