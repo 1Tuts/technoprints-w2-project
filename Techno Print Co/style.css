@@ -1,5 +1,5 @@
 div{
-	outline: dashed red 0px;	
+	outline: dashed red 1px;	
 }
 
 /* -----------------------Top Header--------------------- */
@@ -74,7 +74,7 @@ div{
 
 div.banner div.scroll{
 	width   : 5000px;
-	height  : 283px;
+	height  : 286px;
 	position: absolute;
 	left    : 0;
 	top     : 0;
@@ -90,6 +90,7 @@ div.banner div.scroll > div{
 	float : left;
 	background-repeat  : no-repeat;
 	background-position: left top;
+	background-size:100% 100%;
 }
 
 div.banner div.scroll > div.adv1{
@@ -113,7 +114,6 @@ div.banner div.scroll > div.adv5{
 }
 
 div.banner ul.btn{
-	margin: 25px 370px 25px;
 	list-style-type: none;
 	width   : 200px;
 	height  : 16px;
