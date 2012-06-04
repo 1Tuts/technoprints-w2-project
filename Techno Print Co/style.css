@@ -254,47 +254,57 @@ div.banner ul.btn li.active{
 	background-repeat:no-repeat;
 }
 .move{
-	outline:solid blue 1px;
 	min-height:200px;
 	width:950px;	
 }
 .text-banner{
-	outline:solid red 1px;
 	width:948px;
-	height:200px;
+	height:150px;
 	overflow:hidden;
 	position:relative;
+	border:1px solid	#c8c9c6;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
 }
 .text-train{
-	outline:solid blue 2px;
 	width:6500px;
 	height:150px;
 	top:0;
 	left:0;
 	position:absolute;
 	z-index:1;
-	-webkit-animation:move 40s infinite;
-	-moz-animation:move 40s infinite;
+	-webkit-animation:move 30s infinite;
+	-moz-animation:move 30s infinite;
 }
 div.text-banner div.text-train > div{
 	width:948px;
 	height:150px;
-	border:1px solid	##c8c9c6;
 	background-color:#d1d3d0;
 	float:left;
 }
 @-webkit-keyframes move{
 0%{left:0}
 11%{left:0}
-12% {left:-948px}
-24% {left:-948px}
-25%{left:-1896px}
+12% {left:-958px}
+13%{left:-940px;}
+14%{left:-948px}
+25% {left:-948px}
+26%{left:-1906px}
+27%{left:-1888px}
+28%{left:-1896px}
 36%{left:-1896px}
-37%{left:-2844px}
+37%{left:-2854px}
+38%{left:-2836px}
+39%{left:-2844px}
 49%{left:-2844px}
-50%{left:-3792px}
+50%{left:-3802px}
+51%{left:-3788px}
+52%{left:-3792px}
 61%{left:-3792px}
-62%{left:-4740px}
+62%{left:-4750px}
+63%{left:-4742px}
+64%{left:-4740px}
 74%{left:-4740px}
 100%{left:0}
 }
@@ -302,18 +312,27 @@ div.text-banner div.text-train > div{
 @-moz-keyframes move{
 0%{left:0}
 11%{left:0}
-12% {left:-948px}
-24% {left:-948px}
-25%{left:-1896px}
+12% {left:-958px}
+13%{left:-940px;}
+14%{left:-948px}
+25% {left:-948px}
+26%{left:-1906px}
+27%{left:-1888px}
+28%{left:-1896px}
 36%{left:-1896px}
-37%{left:-2844px}
+37%{left:-2854px}
+38%{left:-2836px}
+39%{left:-2844px}
 49%{left:-2844px}
-50%{left:-3792px}
+50%{left:-3802px}
+51%{left:-3788px}
+52%{left:-3792px}
 61%{left:-3792px}
+62%{left:-4750px}
+62%{left:-4742px}
 62%{left:-4740px}
 74%{left:-4740px}
-75%{left:0}
-100%{border:1px solid	##c8c9c6;background-color:#d1d3d0;left:0}
+100%{left:0}
 }
 .bot-shadow{
 	min-height: 40px;
