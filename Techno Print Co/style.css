@@ -84,11 +84,17 @@ div{
 	border-right: none;
 }
 
+
+.container-header .container .menu li:hover{
+	border-right : 1px solid transparent;
+}
+
 .container-header .container .menu a{
 	text-decoration: none;
 	display: block;
 	color  : #fff;
-	padding: 10px 10px;
+	padding: 10px 15px;
+	font-size: 20px;
 }
 
 .container-header .container .menu li > ul{
@@ -105,19 +111,25 @@ div{
 	border: 0 none;
 }
 
+.container-header .container .menu li li:hover{
+	border-right: none;
+}
+
 .container-header .container .menu li li a{
 	white-space: nowrap;
 	text-align: right;
 }
 
-.container-header .container .menu li:hover ul{
+.container-header .container .menu li:hover > ul{
 	display         : block;
 	background-color: #222;
 	min-width       : 100%;
+	border-radius: 10px 0 10px 10px;
 }
 
 .container-header .container .menu li:hover a{
 	background-color: #222;
+	border-radius: 10px 10px 0 0;
 }
 
 .container-header .container .logo{
@@ -126,10 +138,9 @@ div{
 
 .container-header .container .menu li li ul{
 	position: absolute;
-	display : none;
-	top    : 10px;
-	right  : 90px;
-	z-index: 2;
+	top     : 0;
+	right   : 120px;
+	z-index : 2;
 }
 /* -----------------------Banner--------------------- */
 .container-banner{
