@@ -56,7 +56,7 @@ div{
 	right     : 0;
 	z-index   : -1;
 	background-color: #13262a;
-	background-image: url('file:///D|/projects/technoprints/Techno Print Co/images/header.png');
+	background-image: url('images/header.png');
 	background-size : 100% 100%;
 }
 
@@ -142,7 +142,7 @@ div{
 	min-height: 30px;
 	left      : 0;
 	right     : 0;
-	background-image : url(file:///D|/projects/technoprints/Techno%20Print%20Co/images/bg-div-main.jpg);
+	background-image : url('images/bg-div-main.jpg');
 	background-repeat: repeat-x;
 	background-size  : 100% 100%;	
 }
@@ -181,23 +181,23 @@ div.banner div.scroll > div{
 }
 
 div.banner div.scroll > div.adv1{
-	background-image: url('file:///D|/projects/technoprints/Techno Print Co/images/b1.jpg');
+	background-image: url('images/b1.jpg');
 }
 
 div.banner div.scroll > div.adv2{
-	background-image: url('file:///D|/projects/technoprints/Techno Print Co/images/b2.jpg');
+	background-image: url('images/b2.jpg');
 }
 
 div.banner div.scroll > div.adv3{
-	background-image: url('file:///D|/projects/technoprints/Techno Print Co/images/b3.jpg');
+	background-image: url('images/b3.jpg');
 }
 
 div.banner div.scroll > div.adv4{
-	background-image: url('file:///D|/projects/technoprints/Techno Print Co/images/b4.jpg');
+	background-image: url('images/b4.jpg');
 }
 
 div.banner div.scroll > div.adv5{
-	background-image: url('file:///D|/projects/technoprints/Techno Print Co/images/b5.jpg');
+	background-image: url('images/b5.jpg');
 }
 div.btn{
 	width:950px;
@@ -256,7 +256,7 @@ div.banner ul.btn li.active{
 
 .container-banner .container .pic1,.pic2,.pic3,.pic4{
 	min-height: 380px;
-	background-image:url('file:///D|/projects/technoprints/Techno Print Co/images/window.png');
+	background-image:url('images/window.png');
 	background-repeat:no-repeat;
 }
 
@@ -315,7 +315,7 @@ div.text-banner div.text-train > div{
 	right     : 0;
 	min-height: 367px;
 	z-index   : -1;
-	background-image : url('file:///D|/projects/technoprints/Techno Print Co/images/footer.jpg');
+	background-image : url('images/footer.jpg');
 	background-size  : 100% 100%;
 }
 
@@ -385,7 +385,7 @@ div.text-banner div.text-train > div{
 	right     : 0;
 	min-height: 90px;
 	z-index   : -1;
-	background-image: url('file:///D|/projects/technoprints/Techno Print Co/images/copyright.jpg');
+	background-image: url('images/copyright.jpg');
 	background-size : 100% 100%;
 }
 
