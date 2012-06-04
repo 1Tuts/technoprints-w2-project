@@ -1,5 +1,5 @@
 div{
-	outline: dashed red 1px;	
+
 }
 
 .en{
@@ -56,7 +56,7 @@ div{
 	right     : 0;
 	z-index   : -1;
 	background-color: #13262a;
-	background-image: url('images/header.png');
+	background-image: url('file:///D|/projects/technoprints/Techno Print Co/images/header.png');
 	background-size : 100% 100%;
 }
 
@@ -142,7 +142,7 @@ div{
 	min-height: 30px;
 	left      : 0;
 	right     : 0;
-	background-image : url(images/bg-div-main.jpg);
+	background-image : url(file:///D|/projects/technoprints/Techno%20Print%20Co/images/bg-div-main.jpg);
 	background-repeat: repeat-x;
 	background-size  : 100% 100%;	
 }
@@ -181,23 +181,23 @@ div.banner div.scroll > div{
 }
 
 div.banner div.scroll > div.adv1{
-	background-image: url('images/b1.jpg');
+	background-image: url('file:///D|/projects/technoprints/Techno Print Co/images/b1.jpg');
 }
 
 div.banner div.scroll > div.adv2{
-	background-image: url('images/b2.jpg');
+	background-image: url('file:///D|/projects/technoprints/Techno Print Co/images/b2.jpg');
 }
 
 div.banner div.scroll > div.adv3{
-	background-image: url('images/b3.jpg');
+	background-image: url('file:///D|/projects/technoprints/Techno Print Co/images/b3.jpg');
 }
 
 div.banner div.scroll > div.adv4{
-	background-image: url('images/b4.jpg');
+	background-image: url('file:///D|/projects/technoprints/Techno Print Co/images/b4.jpg');
 }
 
 div.banner div.scroll > div.adv5{
-	background-image: url('images/b5.jpg');
+	background-image: url('file:///D|/projects/technoprints/Techno Print Co/images/b5.jpg');
 }
 div.btn{
 	width:950px;
@@ -256,13 +256,51 @@ div.banner ul.btn li.active{
 
 .container-banner .container .pic1,.pic2,.pic3,.pic4{
 	min-height: 380px;
-	background-image:url('images/window.png');
+	background-image:url('file:///D|/projects/technoprints/Techno Print Co/images/window.png');
 	background-repeat:no-repeat;
 }
 
 .container-banner .container .textslide{
 	min-height: 200px;
 	margin-top: 20px;
+}
+.text-banner{
+	width:948px;
+	min-height:150px;
+	overflow:hidden;
+	position:relative;
+	margin:0 auto;
+	border:1px solid	##c8c9c6;
+	background-color:#d1d3d0;
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+}
+.text-train{
+	width:5500px;
+	min-height:150px;
+	top:0;
+	left:0;
+	position:absolute;
+	z-index:1;
+	animation-name:move 3s infinite;
+	-webkit-animation-name:move 3s infinite;
+	-moz-animation-name:move 3s infinite;
+}
+div.text-banner div.text-train > div{
+	width:948px;
+	min-height:inherit;
+	float:left;
+}
+@keyframes move{
+0% {left:0;}
+50% {left:-948px;}
+100% {left:0;}	
+}
+@-webkit-keyframes move{
+0% {left:0;}
+50% {left:-948px;}
+100% {left:0;}
 }
 .bot-shadow{
 	min-height: 40px;
@@ -277,7 +315,7 @@ div.banner ul.btn li.active{
 	right     : 0;
 	min-height: 367px;
 	z-index   : -1;
-	background-image : url('images/footer.jpg');
+	background-image : url('file:///D|/projects/technoprints/Techno Print Co/images/footer.jpg');
 	background-size  : 100% 100%;
 }
 
@@ -347,7 +385,7 @@ div.banner ul.btn li.active{
 	right     : 0;
 	min-height: 90px;
 	z-index   : -1;
-	background-image: url('images/copyright.jpg');
+	background-image: url('file:///D|/projects/technoprints/Techno Print Co/images/copyright.jpg');
 	background-size : 100% 100%;
 }
 
