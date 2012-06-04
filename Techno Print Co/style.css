@@ -101,8 +101,7 @@ div{
 	list-style-type: none;
 	position       : absolute;
 	top    : 36px;
-
-	right: 0;
+	right  : 0;
 	z-index: 2;
 	display: none;
 }
@@ -118,7 +117,7 @@ div{
 
 .container-header .container .menu li li a{
 	white-space: nowrap;
-	text-align: right;
+	text-align : right;
 }
 
 .container-header .container .menu li:hover > ul{
