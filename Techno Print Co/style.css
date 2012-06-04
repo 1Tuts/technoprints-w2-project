@@ -1,5 +1,5 @@
 div{
-	outline: dashed red 0px;	
+	outline: dashed red 1px;	
 }
 
 /* -----------------------Top Header--------------------- */
@@ -98,7 +98,7 @@ div{
 
 div.banner div.scroll{
 	width   : 5000px;
-	height  : 283px;
+	height  : 286px;
 	position: absolute;
 	left    : 0;
 	top     : 0;
@@ -114,6 +114,7 @@ div.banner div.scroll > div{
 	float : left;
 	background-repeat  : no-repeat;
 	background-position: left top;
+	background-size:100% 100%;
 }
 
 div.banner div.scroll > div.adv1{
@@ -135,15 +136,21 @@ div.banner div.scroll > div.adv4{
 div.banner div.scroll > div.adv5{
 	background-image: url('images/b5.jpg');
 }
-
+div.btn{
+	width:950px;
+	min-height:50px;
+	position:relative;	
+}
 div.banner ul.btn{
-	margin: 25px 370px 25px;
 	list-style-type: none;
 	width   : 200px;
 	height  : 16px;
 	position: absolute;
 	right : 0;
 	bottom: 0;
+	top:0;
+	left:0;
+	margin:300px auto 10px;
 }
 
 div.banner ul.btn li{
@@ -151,7 +158,7 @@ div.banner ul.btn li{
 	width : 20px;
 	height: 20px;
 	margin-right    : 5px;
-	background-color: #333;
+	background-color: #aaa;
 	cursor          : pointer;
 	-webkit-transition   : all 1000ms;
 	-moz-transition      : all 1000ms;
@@ -161,10 +168,8 @@ div.banner ul.btn li{
 
 div.banner ul.btn li:hover,
 div.banner ul.btn li.active{
-	background-color: #39D;
-	height          : 22px;
-	margin-top      : -6px;
-	-webkit-transition-duration: 300ms;
+	background-color: #777;
+	-webkit-transition-duration: 500ms;
 }
 
 .container-banner .container .topline{
@@ -222,6 +227,54 @@ div.banner ul.btn li.active{
 .container-footer .container .title1,.title2,.title3,.title4{
 	min-height: 330px;
 	margin-top: 30px;
+	text-align:right;
+}
+.container-footer .container .title .first{
+	width:215px;
+}
+.container-footer .container .title h3{
+	display:block;
+	color:#FFF;
+	font-size:18px;
+	border-bottom:1px solid #FFF;
+	padding-bottom:10px;
+	margin-bottom:25px;
+}
+
+.container-footer .container .title h4{
+	font-size:14px;
+	color:#FFF;	
+	margin-bottom:11px;
+}
+.container-footer .container .title p{
+	color:#3399FF;		
+	font-size:15px;
+}
+/*-------------- Second  title--------------------- */
+/*-------------- Third  title--------------------- */
+.container-footer .container .title .third ul{
+	text-decoration:none;	
+}
+.container-footer .container .title .third li{
+		float:right;
+		margin-left:10px;
+}
+.container-footer .container .title .third a:hover{
+	opacity:0.6;	
+}
+.container-footer .container .title .third img{
+	width:42px;
+	height:42px;
+}
+/*--------------------Forth title--------------------- */
+.container-footer .container .title .forth input{
+	width:200px;
+	height:30px;
+}
+.container-footer .container .title .forth h6{
+	color:#FFF;	
+	font-size:14px;
+	margin-top:17px;
 }
 /* -----------------------Bottom of Footer--------------------- */
 .container-bottomfooter{

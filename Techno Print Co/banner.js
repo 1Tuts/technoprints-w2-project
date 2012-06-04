@@ -1,4 +1,4 @@
-var picWidth = 940,
+var picWidth = 950,
 currentSlide = 0,
 divScrl, liBtns, picsLen, go2slide, nextSlide, prvSlide;
 
