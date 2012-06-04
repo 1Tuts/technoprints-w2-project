@@ -24,7 +24,6 @@ div{
 
 .container-topheader .container .menu li{
 	float : right;
-	border: 4px solid transparent;
 }
 
 .container-topheader .container .menu a{
@@ -33,14 +32,12 @@ div{
 	display        : block;
 	font-family    : Arial, sans-serif;
 	font-size      : 12px;
-	padding        : 5px 2px;
 }
 
 .container-topheader .container .tooltip{
 	color      : #B1B1B1;	
 	font-family: Arial;
 	font-size  : 12px;
-	padding    : 7px 2px;
 }
 
 .container-topheader .container .tooltip a{
@@ -62,27 +59,61 @@ div{
 
 .container-header .container{
 	min-height: 108px;
+
 }
 
 .container-header .container .menu{
 	min-height: 108px;
+
 }
 
-.container-header .container .menu ul{
+.container-header .container .menu > ul{
 	list-style-type: none;
 }
 
 .container-header .container .menu li{
-	float: right;
-	border: 4px solid transparent;
+	float : right;
+	border-right: 1px solid #5A7C87;
+	position    : relative;
+}
+
+.container-header .container .menu > ul > li:first-child{
+	border-right: none;
 }
 
 .container-header .container .menu a{
 	text-decoration: none;
 	display: block;
-	color: #fff;
-	padding: 40px 5px;
+	color  : #fff;
+	padding: 10px 10px;
+}
 
+.container-header .container .menu li ul{
+	list-style-type: none;
+	position       : absolute;
+	top    : 36px;
+	left   : 0;
+	z-index: 2;
+	display: none;
+}
+
+.container-header .container .menu li li{
+	float : none;
+	border: 0 none;
+}
+
+.container-header .container .menu li li a{
+	white-space: nowrap;
+}
+
+.container-header .container .menu li:hover ul{
+	display         : block;
+	background-color: #222;
+	min-width       : 100%;
+}
+
+.container-header .container .menu li:hover a{
+	background-color: #222;
 }
 
 .container-header .container .logo{
@@ -92,7 +123,7 @@ div{
 .container-banner{
 	left      : 0;
 	right     : 0;
-	min-height: 1173px;
+	min-height      : 1173px;
 	background-color: #f4f4f2;
 }
 .top-shadow{
