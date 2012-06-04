@@ -249,6 +249,8 @@ div.banner ul.btn li.active{
 
 .container-banner .container .pic1,.pic2,.pic3,.pic4{
 	min-height: 380px;
+	background-image:url('images/window.png');
+	background-repeat:no-repeat;
 }
 
 .container-banner .container .textslide{
