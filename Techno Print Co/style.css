@@ -91,11 +91,12 @@ div{
 	padding: 10px 10px;
 }
 
-.container-header .container .menu li > ul{
+.container-header .container .menu li ul{
 	list-style-type: none;
 	position       : absolute;
 	top    : 36px;
-	right  : 0;
+
+	right: 0;
 	z-index: 2;
 	display: none;
 }
@@ -122,14 +123,6 @@ div{
 
 .container-header .container .logo{
 	min-height: 108px;	
-}
-
-.container-header .container .menu li li ul{
-	position: absolute;
-	display : none;
-	top    : 10px;
-	right  : 90px;
-	z-index: 2;
 }
 /* -----------------------Banner--------------------- */
 .container-banner{
@@ -242,16 +235,17 @@ div.banner ul.btn li.active{
 
 .container-banner .container .text{
 	min-height: 60px;
-	margin-top: 10px;
+	margin-top:10px;
 }
 
 .container-banner .container .bottomline{
 	min-height: 15px;
-	margin-top: 15px;
+	margin-top:10px;
+
 }
 
 .container-banner .container .frame{
-	margin-top: 10px;
+
 }
 
 .container-banner .container .pic1,.pic2,.pic3,.pic4{
@@ -259,48 +253,67 @@ div.banner ul.btn li.active{
 	background-image:url('images/window.png');
 	background-repeat:no-repeat;
 }
-
-.container-banner .container .textslide{
-	min-height: 200px;
-	margin-top: 20px;
+.move{
+	outline:solid blue 1px;
+	min-height:200px;
+	width:950px;	
 }
 .text-banner{
+	outline:solid red 1px;
 	width:948px;
-	min-height:150px;
+	height:200px;
 	overflow:hidden;
 	position:relative;
-	margin:0 auto;
-	border:1px solid	##c8c9c6;
-	background-color:#d1d3d0;
-	border-radius:7px;
-	-webkit-border-radius:7px;
-	-moz-border-radius:7px;
 }
 .text-train{
-	width:5500px;
-	min-height:150px;
+	outline:solid blue 2px;
+	width:6500px;
+	height:150px;
 	top:0;
 	left:0;
 	position:absolute;
 	z-index:1;
-	animation-name:move 3s infinite;
-	-webkit-animation-name:move 3s infinite;
-	-moz-animation-name:move 3s infinite;
+	-webkit-animation:move 40s infinite;
+	-moz-animation:move 40s infinite;
 }
 div.text-banner div.text-train > div{
 	width:948px;
-	min-height:inherit;
+	height:150px;
+	border:1px solid	##c8c9c6;
+	background-color:#d1d3d0;
 	float:left;
 }
-@keyframes move{
-0% {left:0;}
-50% {left:-948px;}
-100% {left:0;}	
-}
 @-webkit-keyframes move{
-0% {left:0;}
-50% {left:-948px;}
-100% {left:0;}
+0%{left:0}
+11%{left:0}
+12% {left:-948px}
+24% {left:-948px}
+25%{left:-1896px}
+36%{left:-1896px}
+37%{left:-2844px}
+49%{left:-2844px}
+50%{left:-3792px}
+61%{left:-3792px}
+62%{left:-4740px}
+74%{left:-4740px}
+100%{left:0}
+}
+
+@-moz-keyframes move{
+0%{left:0}
+11%{left:0}
+12% {left:-948px}
+24% {left:-948px}
+25%{left:-1896px}
+36%{left:-1896px}
+37%{left:-2844px}
+49%{left:-2844px}
+50%{left:-3792px}
+61%{left:-3792px}
+62%{left:-4740px}
+74%{left:-4740px}
+75%{left:0}
+100%{border:1px solid	##c8c9c6;background-color:#d1d3d0;left:0}
 }
 .bot-shadow{
 	min-height: 40px;
