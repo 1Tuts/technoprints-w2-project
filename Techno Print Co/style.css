@@ -2,6 +2,9 @@ div{
 	outline: dashed red 1px;	
 }
 
+.en{
+	direction: ltr;
+}
 /* -----------------------Top Header--------------------- */
 .container-topheader{
 	left      : 0;
@@ -346,8 +349,25 @@ div.banner ul.btn li.active{
 	min-height: 90px;
 }
 
+.container-bottomfooter .container .menu ul{
+	list-style-type: none;
+}
+
+.container-bottomfooter .container .menu li{
+	float : right;
+}
+
+.container-bottomfooter .container .menu a{
+	color          : #B1B1B1;
+	text-decoration: none;
+	display        : block;
+	font-family    : Arial, sans-serif;
+	font-size      : 12px;
+}
+
 .container-bottomfooter .container .copyright{
 	min-height: 90px;
+	color     : #B1B1B1;
 }
 
 /* -----------------------Contact--------------------- */
