@@ -1,7 +1,7 @@
-div{
-
+/*body *{
+	outline: 1px dashed red;
 }
-
+*/
 .en{
 	direction: ltr;
 }
@@ -15,7 +15,7 @@ div{
 
 .container-topheader .container{
 	min-height: 28px;
-	width: 970px;
+	width     : 970px;
 }
 
 .container-topheader .container .menu{
@@ -80,6 +80,10 @@ div{
 	position    : relative;
 }
 
+.container-header .container .menu li:hover{
+	border-right:1px solid transparent;
+}
+
 .container-header .container .menu > ul > li:first-child{
 	border-right: none;
 }
@@ -93,12 +97,11 @@ div{
 
 .container-header .container .menu li ul{
 	list-style-type: none;
-	position       : absolute;
-	top    : 36px;
-
-	right: 0;
-	z-index: 2;
-	display: none;
+	position: absolute;
+	top     : 35px;
+	right   : 0;
+	z-index : 2;
+	display : none;
 }
 
 .container-header .container .menu li li{
@@ -111,7 +114,11 @@ div{
 	text-align: right;
 }
 
-.container-header .container .menu li:hover ul{
+.container-header .container .menu li li:hover{
+	border-right: none;
+}
+
+.container-header .container .menu li:hover > ul{
 	display         : block;
 	background-color: #222;
 	min-width       : 100%;
@@ -121,8 +128,23 @@ div{
 	background-color: #222;
 }
 
+.container-header .container .menu li li ul{
+	position: absolute;
+	top     : 5px;
+	right   : 100px;
+	z-index : 2;
+}
+
 .container-header .container .logo{
 	min-height: 108px;	
+}
+
+.container-header .container .logo .text{
+
+}
+
+.container-header .container .logo .pic{
+
 }
 /* -----------------------Banner--------------------- */
 .container-banner{
