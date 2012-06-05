@@ -160,6 +160,8 @@
 	padding-top: 1px;
 }
 .show{
+	-webkit-box-shadow:5px 5px 5px #364d53;
+	-moz-box-shadow:5px 5px 5px #364d53;
 	border:1px solid #162427;
 	border-radius:6px;
 	-webkit-border-radius:6px;
@@ -222,7 +224,7 @@ div.btn{
 }
 div.banner ul.btn{
 	list-style-type: none;
-	width   : 200px;
+	width   :138px;
 	height  : 16px;
 	position: absolute;
 	right : 0;
@@ -233,22 +235,31 @@ div.banner ul.btn{
 }
 
 div.banner ul.btn li{
+	background:-webkit-gradient(linear,left top,right top,  from(#777), to(#ccc));
+	background:-moz-gradient(linear,left top,right top,  from(#777), to(#ccc));
+	background:-o-gradient(linear,left top,right top,  from(#777), to(#ccc));
+	background:-o-gradient(linear,left top,right top,  from(#777), to(#ccc));
 	float : left;
 	width : 20px;
 	height: 20px;
-	margin-right    : 5px;
-	background-color: #aaa;
-	cursor          : pointer;
-	-webkit-transition   : all 1000ms;
-	-moz-transition      : all 1000ms;
+	margin-right: 5px;
+	cursor: pointer;
+	-webkit-transition: all 1400ms;
+	-moz-transition : all 1400ms;
 	-webkit-border-radius: 10px;
-	-moz-border-radius   : 10px;
+	-moz-border-radius: 10px;
+	border:solid 1px #b5b5b5;
 }
 
 div.banner ul.btn li:hover,
 div.banner ul.btn li.active{
-	background-color: #777;
-	-webkit-transition-duration: 500ms;
+	-webkit-transition:all;
+	background:-webkit-gradient(linear,left top,right top,  from(#333), to(#bbb));
+	background:-moz-gradient(linear,left top,right top,  from(#333), to(#bbb));
+	background:-o-gradient(linear,left top,right top,  from(#333), to(#bbb));
+	background:-o-gradient(linear,left top,right top,  from(#333), to(#bbb));
+	-webkit-transition-duration: 700ms;
+	-moz-transition-duration: 700ms;
 }
 
 .container-banner .container .topline{
@@ -279,7 +290,7 @@ div.banner ul.btn li.active{
 .move{
 	margin-top:60px;
 	min-height:200px;
-	width:950px;	
+	width:948px;	
 }
 .text-banner{
 	margin:60px auto 0;
