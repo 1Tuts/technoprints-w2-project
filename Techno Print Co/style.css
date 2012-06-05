@@ -1,5 +1,5 @@
-div{
-
+body *{
+	outline: 1px dashed red;
 }
 a{
 	text-decoration:none;
@@ -17,7 +17,7 @@ a{
 
 .container-topheader .container{
 	min-height: 28px;
-	width: 970px;
+	width     : 970px;
 }
 
 .container-topheader .container .menu{
@@ -93,12 +93,16 @@ a{
 	padding: 10px 10px;
 }
 
+.container-header .container .menu li:hover{
+	border-right: 1px solid transparent;
+}
+
+
 .container-header .container .menu li ul{
 	list-style-type: none;
 	position       : absolute;
 	top    : 36px;
-
-	right: 0;
+	right  : 0;
 	z-index: 2;
 	display: none;
 }
@@ -110,10 +114,14 @@ a{
 
 .container-header .container .menu li li a{
 	white-space: nowrap;
-	text-align: right;
+	text-align : right;
 }
 
-.container-header .container .menu li:hover ul{
+.container-header .container .menu li li:hover{
+  	border-right: none;
+}
+
+.container-header .container .menu li:hover > ul{
 	display         : block;
 	background-color: #222;
 	min-width       : 100%;
@@ -123,15 +131,29 @@ a{
 	background-color: #222;
 }
 
+.container-header .container .menu li li ul{
+	position: absolute;
+ 	top     : 5px;
+  	right   : 100px;	  	
+}
+
 .container-header .container .logo{
 	min-height: 108px;	
+}
+
+.container-header .container .logo .text{
+
+}
+
+.container-header .container .logo .pic{
+
 }
 /* -----------------------Banner--------------------- */
 .container-banner{
 	left      : 0;
 	right     : 0;
-	min-height      : 1173px;
-	background-color: #f4f4e2;
+	min-height: 1173px;
+	background-color : #f4f4e2;
 	background-image : url('images/bg-div-main.jpg');
 	background-repeat:repeat-x;
 }
@@ -204,7 +226,7 @@ div.btn{
 }
 div.banner ul.btn{
 	list-style-type: none;
-	width   :145px;
+	width   :125px;
 	height  : 16px;
 	position: absolute;
 	right : 0;
@@ -221,14 +243,14 @@ div.banner ul.btn li{
 	background:-o-gradient(linear,left top,right top,  from(#777), to(#ccc));
 	background:-o-gradient(linear,left top,right top,  from(#777), to(#ccc));
 	float : left;
-	width : 20px;
-	height: 20px;
+	width : 15px;
+	height: 15px;
 	margin-right: 5px;
 	cursor: pointer;
 	-webkit-transition: all 1400ms;
 	-moz-transition : all 1400ms;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
 	border:solid 1px #b5b5b5;
 	z-index:3;
 }
