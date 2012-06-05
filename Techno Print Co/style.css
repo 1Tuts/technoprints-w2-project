@@ -1,5 +1,5 @@
 body *{
-	outline: 1px dashed red;
+	outline: 0px dashed red;
 }
 a{
 	text-decoration:none;
@@ -148,15 +148,24 @@ a{
 .container-header .container .logo .pic{
 
 }
+/*  Top Shadow  */
+.top-shadow{
+	min-height: 40px;
+	left   : 0;
+	right : 0;
+	background-image : url('images/bg-div-main.jpg');
+	background-repeat: repeat-x;
+	background-size  : 100% 100%;  	
+	background-color:#FFF;
+}
 /* -----------------------Banner--------------------- */
 .container-banner{
 	left      : 0;
 	right     : 0;
 	min-height: 1173px;
 	background-color : #f4f4e2;
-	background-image : url('images/bg-div-main.jpg');
-	background-repeat:repeat-x;
 }
+
 .container-banner .container{
 	min-height : 1173px;
 	padding-top: 1px;
@@ -270,7 +279,7 @@ div.banner ul.btn li.active{
 	min-height:200px;
 	position:relative;	
 }
-.container-banner .container .text{
+container-banner .container .text{
 	height: 90px;
 	border-top:solid 1px #fff;
 	border-bottom:solid 1px #fff;
@@ -378,11 +387,11 @@ div.text-banner div.text-train > div{
 96%{left:-4740px}
 100%{left:0}
 }
+
 .bot-shadow{
 	min-height:80px;
-	left      : 0;
-	right     : 0;
-	background-color:#19292E;
+	left:0;
+	right:0;
 	background-image:url('images/rotate-bg-div-main.jpg');
 	background-repeat:repeat-x;
 	background-size: 100% 100%;
@@ -528,7 +537,7 @@ div.middle{
 	width:950px;
 	margin:0 auto;
 	background-color:#f4f4f2;
-	margin-top:40px;
+	margin-top:10px;
 	
 }
 
