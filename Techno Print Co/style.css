@@ -1,7 +1,9 @@
 div{
 
 }
-
+a{
+	text-decoration:none;
+}
 .en{
 	direction: ltr;
 }
@@ -387,9 +389,7 @@ div.text-banner div.text-train > div{
 	margin-top: 30px;
 	text-align:right;
 }
-.container-footer .container .title .first{
-	width:215px;
-}
+/*  Title   H3  H4   */
 .container-footer .container .title h3{
 	display:block;
 	color:#FFF;
@@ -398,42 +398,59 @@ div.text-banner div.text-train > div{
 	padding-bottom:10px;
 	margin-bottom:25px;
 }
-
 .container-footer .container .title h4{
 	font-size:14px;
 	color:#FFF;	
 	margin-bottom:11px;
 }
-.container-footer .container .title p{
-	color:#3399FF;		
-	font-size:15px;
+/*--------------------First title--------------------- */
+.container-footer .container .title .first input{
+	width:220px;
+	height:27px;
+	border:2px inset #CCC;
+	margin-top:5px;
 }
-/*-------------- Second  title--------------------- */
-/*-------------- Third  title--------------------- */
-.container-footer .container .title .third ul{
-	text-decoration:none;	
-}
-.container-footer .container .title .third li{
-		float:right;
-		margin-left:10px;
-}
-.container-footer .container .title .third a:hover{
-	opacity:0.6;	
-}
-.container-footer .container .title .third img{
-	width:42px;
-	height:42px;
-}
-/*--------------------Forth title--------------------- */
-.container-footer .container .title .forth input{
-	width:200px;
-	height:30px;
-}
-.container-footer .container .title .forth h6{
+.container-footer .container .title .first h6{
 	color:#FFF;	
 	font-size:14px;
 	margin-top:17px;
 }
+/*---------------------- Second  title--------------------- */
+.container-footer .container .title .second ul{
+	text-decoration:none;	
+}
+.container-footer .container .title .second li{
+		float:right;
+		margin-left:10px;
+}
+.container-footer .container .title .second a:hover{
+	opacity:0.6;	
+}
+.container-footer .container .title .second img{
+	width:42px;
+	height:42px;
+}
+/*------------------------- third Title---------------------- */
+
+
+
+/*------------------------- Forth Title----------------------- */
+.container-footer .container .title .forth h4 a{
+	color:#fff;
+}
+.container-footer .container .title .forth h4 a:hover{
+	text-decoration:underline;
+}
+
+.container-footer .container .title .forth p a{
+	color:#3399FF;		
+	font-size:15px;	
+}
+.container-footer .container .title .forth p a:hover{
+	text-decoration:underline;
+	color:#fff;
+}
+
 /* -----------------------Bottom of Footer--------------------- */
 .container-bottomfooter{
 	left      : 0;
