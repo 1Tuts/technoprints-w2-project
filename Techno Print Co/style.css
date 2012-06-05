@@ -93,7 +93,6 @@
 
 .container-header .container .menu li:hover{
 	border-right: 1px solid transparent;
-	
 }
 
 .container-header .container .menu > ul > li:hover > a{
@@ -115,11 +114,22 @@
 	right  : 0;
 	z-index: 2;
 	display: none;
+	width: 160px;
 }
 
 .container-header .container .menu li li{
 	float : none;
 	border: 0 none;
+}
+
+.container-header .container .menu li a span{
+	display: block;
+	padding: 7px 5px;
+}
+
+.container-header .container .menu li:hover > a > span{
+	background-color: #80979F;
+	border-radius   : 3px;
 }
 
 .container-header .container .menu li li a{
@@ -132,8 +142,7 @@
 }
 
 .container-header .container .menu li:hover > ul{
-	display         : block;
-	min-width       : 100%;
+	display: block;
 }
 
 .container-header .container .menu li:hover a{
