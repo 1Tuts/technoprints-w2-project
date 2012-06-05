@@ -423,8 +423,18 @@ div.text-banner div.text-train > div{
 		float:right;
 		margin-left:10px;
 }
+.container-footer .container .title .second a{
+	-webkit-transition-duration:300ms;
+	-moz-transition-duration:300ms;
+	-o-transition-duration:300ms;
+	-ms-transition-duration:300ms;	
+}
 .container-footer .container .title .second a:hover{
-	opacity:0.6;	
+	opacity:0.6;
+	-webkit-transition-duration:300ms;
+	-moz-transition-duration:300ms;
+	-o-transition-duration:300ms;
+	-ms-transition-duration:300ms;
 }
 .container-footer .container .title .second img{
 	width:42px;
@@ -496,34 +506,39 @@ div.middle{
 	width:950px;
 	margin:0 auto;
 	background-color:#f4f4f2;
+	margin-top:40px;
 	
 }
 
 /*  header of contact */
 div.middle .header{
 	width:950px;	
-	height:42px;
+	height:40px;
 	text-align:center;
+	vertical-align:bottom;
 	background-color:#333333;
+	
 }
 div.middle .header .search{
 	float:left;
 	width:130px;	
-	height:42px;
-	outline:1px solid blue;
+	outline:0px solid blue;
+	height:40px;
+	line-height:32px;
 }
 div.middle .header .menu{
 	width:150px;
-	height:42px;
 	float:left;50px;
 	margin-left:10px;
-	outline:1px solid green;
+	outline:0px solid green;
+	
 }
 div.middle .header .text{
 	margin-left:790px;
-	height:42px;
-	outline:1px solid blue;
+	outline:0px solid blue;
 	position:relative;
+	line-height:2em;
+	
 }
 div.middle .header .text h3{
 	font-size:26px;
@@ -555,9 +570,7 @@ div.middle .info{
 	margin-left:350px;
 	min-height:450px;
 	outline:1px solid blue;
-		
 }
-
 div.middle .info .text{
 	width:450px;
 	height:85px;
