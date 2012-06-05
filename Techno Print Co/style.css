@@ -1,6 +1,7 @@
-body *{
-	outline: 0px dashed red;
+/*body {
+	outline: 1px dashed red;
 }
+*/
 a{
 	text-decoration:none;
 }
@@ -51,9 +52,9 @@ a{
 	font-size      : 12px;
 	color          : #B1B1B1;
 }
-/* -----------------------Header--------------------- */
+/* -----------------------Header-------------------------------------------- */
 .container-header{
-	min-height: 108px;
+	min-height: 130px;
 	left      : 0;
 	right     : 0;
 	z-index   : -1;
@@ -97,6 +98,17 @@ a{
 	border-right: 1px solid transparent;
 }
 
+.container-header .container .menu > ul > li:hover > a{
+	border-radius: 5px 5px 0 0;
+}
+
+.container-header .container .menu li  li:first-child > a{
+	border-radius: 5px 0 0 0;
+}
+
+.container-header .container .menu li  li:last-child > a{
+	border-radius: 0 0 5px 5px;
+}
 
 .container-header .container .menu li ul{
 	list-style-type: none;
@@ -105,11 +117,22 @@ a{
 	right  : 0;
 	z-index: 2;
 	display: none;
+	width: 160px;
 }
 
 .container-header .container .menu li li{
 	float : none;
 	border: 0 none;
+}
+
+.container-header .container .menu li a span{
+	display: block;
+	padding: 7px 5px;
+}
+
+.container-header .container .menu li:hover > a > span{
+	background-color: #80979F;
+	border-radius   : 3px;
 }
 
 .container-header .container .menu li li a{
@@ -122,9 +145,7 @@ a{
 }
 
 .container-header .container .menu li:hover > ul{
-	display         : block;
-	background-color: #222;
-	min-width       : 100%;
+	display: block;
 }
 
 .container-header .container .menu li:hover a{
@@ -146,7 +167,7 @@ a{
 }
 
 .container-header .container .logo .pic{
-
+	
 }
 /*  Top Shadow  */
 .top-shadow{
@@ -165,7 +186,6 @@ a{
 	min-height: 1173px;
 	background-color : #f4f4e2;
 }
-
 .container-banner .container{
 	min-height : 1173px;
 	padding-top: 1px;
@@ -279,7 +299,7 @@ div.banner ul.btn li.active{
 	min-height:200px;
 	position:relative;	
 }
-container-banner .container .text{
+.container-banner .container .text{
 	height: 90px;
 	border-top:solid 1px #fff;
 	border-bottom:solid 1px #fff;
@@ -387,7 +407,6 @@ div.text-banner div.text-train > div{
 96%{left:-4740px}
 100%{left:0}
 }
-
 .bot-shadow{
 	min-height:80px;
 	left:0;
