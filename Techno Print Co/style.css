@@ -1,7 +1,7 @@
-/*body *{
-	outline: 1px dashed red;
+div{
+
 }
-*/
+
 .en{
 	direction: ltr;
 }
@@ -15,7 +15,7 @@
 
 .container-topheader .container{
 	min-height: 28px;
-	width     : 970px;
+	width: 970px;
 }
 
 .container-topheader .container .menu{
@@ -80,10 +80,6 @@
 	position    : relative;
 }
 
-.container-header .container .menu li:hover{
-	border-right:1px solid transparent;
-}
-
 .container-header .container .menu > ul > li:first-child{
 	border-right: none;
 }
@@ -97,11 +93,12 @@
 
 .container-header .container .menu li ul{
 	list-style-type: none;
-	position: absolute;
-	top     : 35px;
-	right   : 0;
-	z-index : 2;
-	display : none;
+	position       : absolute;
+	top    : 36px;
+
+	right: 0;
+	z-index: 2;
+	display: none;
 }
 
 .container-header .container .menu li li{
@@ -114,11 +111,7 @@
 	text-align: right;
 }
 
-.container-header .container .menu li li:hover{
-	border-right: none;
-}
-
-.container-header .container .menu li:hover > ul{
+.container-header .container .menu li:hover ul{
 	display         : block;
 	background-color: #222;
 	min-width       : 100%;
@@ -128,23 +121,8 @@
 	background-color: #222;
 }
 
-.container-header .container .menu li li ul{
-	position: absolute;
-	top     : 5px;
-	right   : 100px;
-	z-index : 2;
-}
-
 .container-header .container .logo{
 	min-height: 108px;	
-}
-
-.container-header .container .logo .text{
-
-}
-
-.container-header .container .logo .pic{
-
 }
 /* -----------------------Banner--------------------- */
 .container-banner{
@@ -319,55 +297,58 @@ div.text-banner div.text-train > div{
 	background-color:#d1d3d0;
 	float:left;
 }
+.text6{
+	width:958  !important;	
+}
 @-webkit-keyframes move{
 0%{left:0}
-11%{left:0}
-12% {left:-958px}
-13%{left:-940px;}
-14%{left:-948px}
-25% {left:-948px}
-26%{left:-1906px}
-27%{left:-1888px}
-28%{left:-1896px}
-36%{left:-1896px}
-37%{left:-2854px}
-38%{left:-2836px}
-39%{left:-2844px}
-49%{left:-2844px}
-50%{left:-3802px}
-51%{left:-3788px}
-52%{left:-3792px}
-61%{left:-3792px}
-62%{left:-4750px}
-63%{left:-4742px}
-64%{left:-4740px}
-74%{left:-4740px}
+16%{left:0}
+17% {left:-958px}
+18%{left:-940px;}
+19%{left:-948px}
+32% {left:-948px}
+33%{left:-1906px}
+34%{left:-1888px}
+35%{left:-1896px}
+48%{left:-1896px}
+49%{left:-2854px}
+50%{left:-2836px}
+51%{left:-2844px}
+64%{left:-2844px}
+65%{left:-3802px}
+66%{left:-3788px}
+67%{left:-3792px}
+80%{left:-3792px}
+81%{left:-4750px}
+82%{left:-4742px}
+83%{left:-4740px}
+96%{left:-4740px}
 100%{left:0}
 }
 
 @-moz-keyframes move{
 0%{left:0}
-11%{left:0}
-12% {left:-958px}
-13%{left:-940px;}
-14%{left:-948px}
-25% {left:-948px}
-26%{left:-1906px}
-27%{left:-1888px}
-28%{left:-1896px}
-36%{left:-1896px}
-37%{left:-2854px}
-38%{left:-2836px}
-39%{left:-2844px}
-49%{left:-2844px}
-50%{left:-3802px}
-51%{left:-3788px}
-52%{left:-3792px}
-61%{left:-3792px}
-62%{left:-4750px}
-62%{left:-4742px}
-62%{left:-4740px}
-74%{left:-4740px}
+16%{left:0}
+17% {left:-958px}
+18%{left:-940px;}
+19%{left:-948px}
+32% {left:-948px}
+33%{left:-1906px}
+34%{left:-1888px}
+35%{left:-1896px}
+48%{left:-1896px}
+49%{left:-2854px}
+50%{left:-2836px}
+51%{left:-2844px}
+64%{left:-2844px}
+65%{left:-3802px}
+66%{left:-3788px}
+67%{left:-3792px}
+80%{left:-3792px}
+81%{left:-4750px}
+82%{left:-4742px}
+83%{left:-4740px}
+96%{left:-4740px}
 100%{left:0}
 }
 .bot-shadow{
