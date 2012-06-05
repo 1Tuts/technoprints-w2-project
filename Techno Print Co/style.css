@@ -130,29 +130,27 @@ div{
 	right     : 0;
 	min-height      : 1173px;
 	background-color: #f4f4f2;
-}
-.top-shadow{
-	min-height: 30px;
-	left      : 0;
-	right     : 0;
 	background-image : url('images/bg-div-main.jpg');
-	background-repeat: repeat-x;
-	background-size  : 100% 100%;	
+	background-repeat:repeat-x;
 }
 .container-banner .container{
 	min-height : 1173px;
 	padding-top: 1px;
 }
-
+.show{
+	border:1px solid #162427;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;	
+	height  : 286px;
+	margin:40px auto 0;
+	position:relative;
+}
 .container-banner .container .banner{
-	width     : 950px;
-	min-height: 338px;
+	width     : 948px;
+	height: 338px;
 	overflow  : hidden;
-	margin-top: 20px;
 	position  : relative;
-	border-radius:5px;
-	-webkit-border-radius:5px;
-	-moz-border-radius:5px;
 }
 
 div.banner div.scroll{
@@ -164,7 +162,7 @@ div.banner div.scroll{
 	-webkit-transition-property: all;
 	-webkit-transition-duration: 800ms;
 	-webkit-transition-timing-function: cubic-bezier(0,0.7,0.3,1);
-
+	background-color:#162427;
 }
 
 div.banner div.scroll > div{
@@ -198,7 +196,7 @@ div.banner div.scroll > div.adv5{
 div.btn{
 	width:950px;
 	min-height:50px;
-	position:relative;	
+	position:relative;
 }
 div.banner ul.btn{
 	list-style-type: none;
@@ -257,10 +255,12 @@ div.banner ul.btn li.active{
 	background-repeat:no-repeat;
 }
 .move{
+	margin-top:60px;
 	min-height:200px;
 	width:950px;	
 }
 .text-banner{
+	margin:60px auto 0;
 	width:948px;
 	height:150px;
 	overflow:hidden;
@@ -338,10 +338,13 @@ div.text-banner div.text-train > div{
 100%{left:0}
 }
 .bot-shadow{
-	min-height: 40px;
-	background-image : url('images/rotate-bg-div-main.jpg');
-	background-repeat: repeat-x;
-	background-size  : 100% 100%;
+	min-height:80px;
+	left      : 0;
+	right     : 0;
+	background-color:#19292E;
+	background-image:url('images/rotate-bg-div-main.jpg');
+	background-repeat:repeat-x;
+	background-size: 100% 100%;
 }
 
 /* -----------------------Footer--------------------- */
