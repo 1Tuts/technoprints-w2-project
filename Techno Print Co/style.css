@@ -8,6 +8,9 @@ a{
 .en{
 	direction: ltr;
 }
+body{
+	background: #F4F4F2;	
+}
 /* -----------------------Top Header--------------------- */
 .container-topheader{
 	left      : 0;
@@ -177,13 +180,13 @@ a{
 }
 /*  Top Shadow  */
 .top-shadow{
-	min-height: 40px;
+	min-height: 80px;
 	left   : 0;
 	right : 0;
 	background-image : url('images/bg-div-main.jpg');
 	background-repeat: repeat-x;
 	background-size  : 100% 100%;  	
-	background-color:#FFF;
+	
 }
 /* -----------------------Banner--------------------- */
 .container-banner{
