@@ -592,6 +592,7 @@ div.middle .header .menu{
 div.middle .header .text{
 	margin-left:790px;
 	outline:0px solid blue;
+	height:40px;
 	position:relative;
 	line-height:2em;
 	
@@ -604,6 +605,7 @@ div.middle .header .text h3{
 	right:0;
 	top:0;
 	bottom:0;
+	margin:auto;
 	
 	
 }
@@ -625,7 +627,7 @@ div.middle .info{
 	margin-top:60px;
 	margin-left:350px;
 	min-height:450px;
-	outline:1px solid blue;
+	outline:0px solid blue;
 }
 div.middle .info .text{
 	width:450px;
@@ -678,7 +680,12 @@ div.middle .info .botton input:hover{
 	-o-transition-duration:300ms;
 	-webkit-transition-duration:300ms;
 }
-/*  End INFO  */
-
-
 /*  End Of Contact  Page   */
+
+/*-----------------------About Us----------------------------*/
+div.textframe {
+	margin:0 auto;
+	width:900px;
+	height:700px;
+	border:1px solid red;	
+}
