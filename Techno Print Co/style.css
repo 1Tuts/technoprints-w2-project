@@ -12,12 +12,12 @@ a{
 .container-topheader{
 	left      : 0;
 	right     : 0;
-	min-height: 28px;
+	min-height: 20px;
 	background-color : #19292E;
 }
 
 .container-topheader .container{
-	min-height: 28px;
+	min-height: 20px;
 	width     : 970px;
 }
 
@@ -27,23 +27,28 @@ a{
 .container-topheader .container .menu ul{
 	list-style-type: none;
 }
-
 .container-topheader .container .menu li{
+	margin-top:5px;
+	border-right: #B1B1B1 1px solid;
 	float : right;
 }
-
+.container-topheader .container .menu li:first-child{
+	border:none;	
+}
 .container-topheader .container .menu a{
 	color          : #B1B1B1;
-	text-decoration: none;
-	display        : block;
 	font-family    : Arial, sans-serif;
 	font-size      : 12px;
+	padding:7px 12px;
 }
-
+.container-topheader .container .menu a:hover{
+	color:#ffd;	
+}
 .container-topheader .container .tooltip{
 	color      : #B1B1B1;	
 	font-family: Arial;
 	font-size  : 12px;
+	padding:7px 12px;
 }
 
 .container-topheader .container .tooltip a{
@@ -51,6 +56,7 @@ a{
 	font-family    : Arial;
 	font-size      : 12px;
 	color          : #B1B1B1;
+	
 }
 /* -----------------------Header-------------------------------------------- */
 .container-header{
