@@ -145,13 +145,14 @@ body{
 }
 
 .container-header .container .menu li:hover > a > span{
-	background-color: #80979F;
+	background-color: #425961;
 	border-radius   : 3px;
 }
 
 .container-header .container .menu li li a{
 	white-space: nowrap;
 	text-align : right;
+
 }
 
 .container-header .container .menu li li:hover{
@@ -173,13 +174,14 @@ body{
 }
 
 .container-header .container .logo{
+	padding-top:20px;
 	min-height: 108px;	
 }
 
 .container-header .container .logo .text{
-	min-height:30px;
 	font-size:25px;
 	color:white;
+	margin-top:25px;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 .logo-txt{
