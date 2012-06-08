@@ -750,3 +750,16 @@ div.textframe {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+.container-banner-pro .container .head{
+	min-height: 70px;
+	margin-top: 10px;
+}
+
+.container-banner-pro .container .head h1{
+	min-height: 70px;
+}
+
+.container-banner-pro .container .head h2{
+	min-height: 70px;
+}
