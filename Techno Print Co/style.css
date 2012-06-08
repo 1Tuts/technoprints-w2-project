@@ -539,24 +539,24 @@ div.text-banner div.text-train > div{
 .container-bottomfooter{
 	left      : 0;
 	right     : 0;
-	min-height: 40px;
+	min-height: 50px;
 	z-index   : -1;
 	background-image: url('images/copyright.jpg');
 	background-size : 100% 100%;
-	padding-top:30px;
 }
 
 .container-bottomfooter .container{
 	width     : 970px;
-	min-height:40px;
+	min-height:50px;
 }
 
 .container-bottomfooter .container .menu{
-	min-height:40px;
+	min-height:50px;
 }
 
 .container-bottomfooter .container .menu ul{
 	list-style-type: none;
+	padding-top:14px;
 }
 
 .container-bottomfooter .container .menu li{
@@ -564,16 +564,23 @@ div.text-banner div.text-train > div{
 }
 
 .container-bottomfooter .container .menu a{
-	color          : #B1B1B1;
-	text-decoration: none;
+	color          : #7a93a1;
+	text-decoration:underline;
 	display        : block;
 	font-family    : Arial, sans-serif;
-	font-size      : 12px;
+	font-size      : 10px;
+	padding:6px 8px;
 }
-
+.container-bottomfooter .container .menu a:hover{
+	color:#ffd;	
+	text-decoration:none;
+}
 .container-bottomfooter .container .copyright{
-	min-height:40px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:20px;
+	min-height:50px;
 	color     : #B1B1B1;
+	font-size:11px;
 }
 
 /* -----------------------Contact--------------------- */
