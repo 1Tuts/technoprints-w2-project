@@ -96,7 +96,7 @@ body{
 	text-decoration: none;
 	display: block;
 	color  : #ffffeb;
-	padding: 8px 8px 8px 22px;
+	padding: 10px 8px 10px 15px;
 	text-align:right;
 	font-size:16px;
 }
@@ -124,10 +124,10 @@ body{
 	border-radius: 0 0 5px 5px;
 }
 
-.container-header .container .menu li  ul{
+.container-header .container .menu li ul{
 	list-style-type: none;
-	position: absolute;
-	top    : 44px;
+	position       : absolute;
+	top    : 46px;
 	right  : 0;
 	z-index: 2;
 	display: none;
@@ -200,7 +200,7 @@ body{
 	right : 0;
 	background-image : url('images/bg-div-main.jpg');
 	background-repeat: repeat-x;
-	background-size  : 100% 100%;  	
+	background-size  :100% 100%;  	
 	
 }
 /* -----------------------Banner--------------------- */
@@ -432,7 +432,7 @@ div.text-banner div.text-train > div{
 100%{left:0}
 }
 .bot-shadow{
-	min-height:80px;
+	min-height:40px;
 	left:0;
 	right:0;
 	background-image:url('images/rotate-bg-div-main.jpg');
@@ -539,19 +539,20 @@ div.text-banner div.text-train > div{
 .container-bottomfooter{
 	left      : 0;
 	right     : 0;
-	min-height: 90px;
+	min-height: 40px;
 	z-index   : -1;
 	background-image: url('images/copyright.jpg');
 	background-size : 100% 100%;
+	padding-top:30px;
 }
 
 .container-bottomfooter .container{
 	width     : 970px;
-	min-height: 90px;
+	min-height:40px;
 }
 
 .container-bottomfooter .container .menu{
-	min-height: 90px;
+	min-height:40px;
 }
 
 .container-bottomfooter .container .menu ul{
@@ -571,7 +572,7 @@ div.text-banner div.text-train > div{
 }
 
 .container-bottomfooter .container .copyright{
-	min-height: 90px;
+	min-height:40px;
 	color     : #B1B1B1;
 }
 
