@@ -124,9 +124,9 @@ body{
 	border-radius: 0 0 5px 5px;
 }
 
-.container-header .container .menu li ul{
+.container-header .container .menu li  ul{
 	list-style-type: none;
-	position       : absolute;
+	position: absolute;
 	top    : 44px;
 	right  : 0;
 	z-index: 2;
@@ -141,7 +141,7 @@ body{
 
 .container-header .container .menu li a span{
 	display: block;
-	padding: 7px 5px;
+	padding: 5px 5px;
 }
 
 .container-header .container .menu li:hover > a > span{
