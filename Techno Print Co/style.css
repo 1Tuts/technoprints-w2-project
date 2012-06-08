@@ -184,15 +184,26 @@ body{
 	margin-top:25px;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
-.logo-txt{
+
+.logo-txt1{
+	color:#fff;	
+}
+
+.logo-txt2{
 	color:#b1b1b1;	
 }
-.container-header .container .logo .pic{
-	min-height:70px;
-	width:84px;
-	background-image:url('images/logo.png');
-	background-repeat:no-repeat;
+
+.container-header .container .logo h1{
+	min-height: 70px;
+	width: 84px;
+	background-image: url('images/logo.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-indent:2000px;
+	overflow: hidden;
+	
 }
+
 /*  Top Shadow  */
 .top-shadow{
 	min-height: 40px;
