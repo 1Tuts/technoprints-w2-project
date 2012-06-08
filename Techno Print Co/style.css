@@ -42,7 +42,7 @@ body{
 	color          : #a8acaf;
 	font-family    : Arial, sans-serif;
 	font-size      : 12px;
-	padding:7px 12px;
+	padding: 7px 12px;
 }
 .container-topheader .container .menu a:hover{
 	color:#ffd;	
@@ -97,8 +97,8 @@ body{
 	display: block;
 	color  : #ffffeb;
 	padding: 10px 8px 10px 15px;
-	text-align:right;
-	font-size:16px;
+	text-align: right;
+	font-size : 16px;
 }
 .container-header .container .menu a > p{
 	font-size:11px;	
@@ -199,9 +199,8 @@ body{
 	background-image: url('images/logo.png');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	text-indent:2000px;
+	text-indent:1500px;
 	overflow: hidden;
-	
 }
 
 /*  Top Shadow  */
