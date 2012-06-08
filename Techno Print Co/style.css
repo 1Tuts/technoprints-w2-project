@@ -116,6 +116,10 @@ body{
 	border-radius:5px;
 }
 
+.container-header .container .menu li li a{
+	padding: 5px 5px;
+}
+
 .container-header .container .menu li  li:first-child > a{
 	border-radius: 5px 5px 0 0;
 }
@@ -131,7 +135,7 @@ body{
 	right  : 0;
 	z-index: 2;
 	display: none;
-	width: 160px;
+	width  : 160px;
 }
 
 .container-header .container .menu li li{
@@ -152,7 +156,6 @@ body{
 .container-header .container .menu li li a{
 	white-space: nowrap;
 	text-align : right;
-
 }
 
 .container-header .container .menu li li:hover{
@@ -163,13 +166,19 @@ body{
 	display: block;
 }
 
+.container-header .container .menu > ul > li > ul{
+	padding-top: 20px;
+	background-color: #111c20;
+	border-radius: 5px 5px 5px 5px;
+}
+
 .container-header .container .menu li:hover a{
 	background-color: #111c20;
 }
 
 .container-header .container .menu li li ul{
 	position: absolute;
- 	top     : 5px;
+ 	top     : 0;
   	right   : 100px;	  	
 }
 
