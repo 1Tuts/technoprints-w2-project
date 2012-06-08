@@ -1,7 +1,7 @@
-/*body {
+body *{
 	outline: 1px dashed red;
 }
-*/
+
 a{
 	text-decoration:none;
 }
@@ -222,7 +222,7 @@ body{
 	background-size  :100% 100%;  	
 	
 }
-/* -----------------------Banner--------------------- */
+/* -----------------------------------Banner-------------------------------- */
 .container-banner{
 	left      : 0;
 	right     : 0;
@@ -733,4 +733,20 @@ div.textframe {
 	width:900px;
 	height:700px;
 	border:1px solid red;	
+}
+/*-----------------------Product----------------------------*/
+
+.container-banner-pro{
+	left      : 0;
+	right     : 0;
+	min-height: 880px;
+	background-color : #f4f4f2;
+}
+
+.container-banner-pro .container{
+	min-height : 890px;
+	padding-top: 1px;
+	background-image: url('images/backguide2.png');
+	background-repeat: no-repeat;
+	background-position: center;
 }
