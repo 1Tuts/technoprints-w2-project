@@ -555,7 +555,7 @@ div.text-banner div.text-train > div{
 .container-bottomfooter{
 	left      : 0;
 	right     : 0;
-	min-height: 50px;
+	height: 50px;
 	z-index   : -1;
 	background-image: url('images/copyright.jpg');
 	background-size : 100% 100%;
@@ -563,20 +563,20 @@ div.text-banner div.text-train > div{
 
 .container-bottomfooter .container{
 	width     : 970px;
-	min-height:50px;
+	height:50px;
 }
 
 .container-bottomfooter .container .menu{
-	min-height:50px;
+	height:50px;
 }
 
 .container-bottomfooter .container .menu ul{
 	list-style-type: none;
-	padding-top:14px;
 }
 
 .container-bottomfooter .container .menu li{
 	float : right;
+	padding-top:13px;
 }
 
 .container-bottomfooter .container .menu a{
@@ -584,17 +584,16 @@ div.text-banner div.text-train > div{
 	text-decoration:underline;
 	display        : block;
 	font-family    : Arial, sans-serif;
-	font-size      : 10px;
-	padding:6px 8px;
+	font-size      : 11px;
+	padding:4px 7px
 }
 .container-bottomfooter .container .menu a:hover{
 	color:#ffd;	
 	text-decoration:none;
 }
-.container-bottomfooter .container .copyright{
+.container-bottomfooter .container .copyright p{
+	padding-top:18px;
 	font-family:Arial, Helvetica, sans-serif;
-	padding-top:20px;
-	min-height:50px;
 	color     : #B1B1B1;
 	font-size:11px;
 }
