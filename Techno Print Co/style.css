@@ -484,9 +484,9 @@ div.text-banner div.text-train > div{
 	display:block;
 	color:#FFF;
 	font-size:18px;
-	border-bottom:1px solid #FFF;
+	border-bottom:1px solid #5f7984;
 	padding-bottom:10px;
-	margin-bottom:25px;
+	margin-bottom:15px;
 }
 .container-footer .container .title h4{
 	font-size:14px;
@@ -535,22 +535,13 @@ div.text-banner div.text-train > div{
 
 
 /*------------------------- Forth Title----------------------- */
-.container-footer .container .title .forth h4 a{
-	color:#fff;
+.container-footer .container .title .forth ul li h5{
+	padding:5px 0;
+	color:#ffe;
 }
-.container-footer .container .title .forth h4 a:hover{
-	text-decoration:underline;
+.container-footer .container .title .forth ul a{
+	color:#5d93a1;
 }
-
-.container-footer .container .title .forth p a{
-	color:#3399FF;		
-	font-size:15px;	
-}
-.container-footer .container .title .forth p a:hover{
-	text-decoration:underline;
-	color:#fff;
-}
-
 /* -----------------------Bottom of Footer--------------------- */
 .container-bottomfooter{
 	left      : 0;
