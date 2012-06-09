@@ -1,7 +1,7 @@
-body *{
+/*body *{
 	outline: 1px dashed red;
 }
-
+*/
 a{
 	text-decoration:none;
 }
@@ -746,26 +746,29 @@ div.textframe {
 .container-banner-pro .container{
 	min-height : 890px;
 	padding-top: 1px;
-	background-image: url('images/backguide2.png');
-	background-repeat: no-repeat;
-	background-position: center;
 }
 
 .container-banner-pro .container .head{
-	min-height: 70px;
-	margin-top: 10px;
+
 }
 
-.container-banner-pro .container .head .menu{
-	min-height: 70px;
+.container-banner-pro .container .header{
+	margin-top: 15px;
+	background-image: url('images/headmid.jpg');
+	background-repeat: repeat-y;
+	border-radius: 5px 5px 5px 5px;
 }
 
-.container-banner-pro .container .head h1{
-	min-height: 70px;
+.container-banner-pro .container .header .menu{
+	min-height: 60px;
 }
 
-.container-banner-pro .container .head h2{
-	min-height: 70px;
+.container-banner-pro .container .header h1{
+	min-height: 60px;
+}
+
+.container-banner-pro .container .header h2{
+	min-height: 60px;
 }
 
 .container-banner-pro .container .product .frame-a{
@@ -774,7 +777,7 @@ div.textframe {
 
 .container-banner-pro .container .product .frame-a .frame1,.frame2,.frame3,.frame4{
 	min-height: 280px;
-	margin-top: 80px;
+	margin-top: 90px;
 }
 
 .container-banner-pro .container .product .frame-b{
