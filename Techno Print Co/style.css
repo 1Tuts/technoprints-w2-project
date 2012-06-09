@@ -1,7 +1,6 @@
-/*body *{
-	outline: 1px dashed red;
-}
-*/
+/*div{
+	outline:1px red solid;	
+}*/
 a{
 	text-decoration:none;
 }
@@ -364,13 +363,9 @@ div.banner ul.btn li.active{
 	min-height: 380px;
 	background-image:url('images/window.png');
 	background-repeat:no-repeat;
-	background-size: 100% auto;
+	background-size:100% auto;
 }
-.move{
-	margin-top:60px;
-	min-height:200px;
-	width:948px;	
-}
+
 .text-banner{
 	margin:60px auto 0;
 	width:948px;
