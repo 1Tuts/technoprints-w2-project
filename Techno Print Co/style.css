@@ -114,6 +114,7 @@ body{
 }
 .container-header .container .menu > ul > li:hover > a{
 	border-radius:5px;
+	-webkit-transition: background-color 500ms;
 }
 
 .container-header .container .menu li li a{
