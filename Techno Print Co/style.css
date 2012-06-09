@@ -756,10 +756,32 @@ div.textframe {
 	margin-top: 10px;
 }
 
+.container-banner-pro .container .head .menu{
+	min-height: 70px;
+}
+
 .container-banner-pro .container .head h1{
 	min-height: 70px;
 }
 
 .container-banner-pro .container .head h2{
 	min-height: 70px;
+}
+
+.container-banner-pro .container .product .frame-a{
+	padding-top: 1px;
+}
+
+.container-banner-pro .container .product .frame-a .frame1,.frame2,.frame3,.frame4{
+	min-height: 280px;
+	margin-top: 80px;
+}
+
+.container-banner-pro .container .product .frame-b{
+	padding-top: 1px;
+}
+
+.container-banner-pro .container .product .frame-b .frame5,.frame6,.frame7,.frame8{
+	min-height: 280px;
+	margin-top: 30px;
 }
