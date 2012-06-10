@@ -508,7 +508,8 @@ div.text-banner div.text-train > div{
 .container-footer .container .submit1{
 	width:100px;
 	height:20px;
-	margin-right:170px;
+	display: block;
+	margin-top: 15px;
 }
 /*---------------------- Second  title--------------------- */
 .container-footer .container .title .second ul{
