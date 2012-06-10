@@ -505,6 +505,11 @@ div.text-banner div.text-train > div{
 	font-size:14px;
 	margin-top:17px;
 }
+.container-footer .container .submit1{
+	width:100px;
+	height:20px;
+	margin-right:170px;
+}
 /*---------------------- Second  title--------------------- */
 .container-footer .container .title .second ul{
 	text-decoration:none;	
@@ -514,33 +519,70 @@ div.text-banner div.text-train > div{
 		margin-left:10px;
 }
 .container-footer .container .title .second a{
-	-webkit-transition-duration:300ms;
-	-moz-transition-duration:300ms;
-	-o-transition-duration:300ms;
-	-ms-transition-duration:300ms;	
+	-webkit-transition-duration:700ms;
+	-moz-transition-duration:700ms;
+	-o-transition-duration:700ms;
+	-ms-transition-duration:700ms;	
 }
 .container-footer .container .title .second a:hover{
 	opacity:0.6;
-	-webkit-transition-duration:300ms;
-	-moz-transition-duration:300ms;
-	-o-transition-duration:300ms;
-	-ms-transition-duration:300ms;
+	-webkit-transition-duration:700ms;
+	-moz-transition-duration:700ms;
+	-o-transition-duration:700ms;
+	-ms-transition-duration:700ms;
 }
 .container-footer .container .title .second img{
 	width:42px;
 	height:42px;
 }
 /*------------------------- third Title---------------------- */
-
-
-
-/*------------------------- Forth Title----------------------- */
-.container-footer .container .title .forth ul li h5{
-	padding:5px 0;
+.linkbox1{
+	width:43px;
+	height:43px;
+	background-color:#3b4c51;
+	float:right;
+	position:relative;	
+}
+.linkbox2{
+	width:35px;
+	height:35px;
+	background-color:#536369;
+	position:absolute;
+	bottom:0;
+	top:0;
+	left:0;
+	right:0;
+	margin:auto;
+	background-image:url(images/usefulllink.png);	
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.title3 .third p{
+	color:#5d93a1;
+	font-size:15px;
+	font-weight:bold;
+}
+.title3 .third a{
+	color:#9fcccc;	
+}
+.title3 .third a:hover{
 	color:#ffe;
+	text-decoration:underline;	
+}
+/*------------------------- Forth Title----------------------- */
+.container-footer .container .title .forth ul li h6{
+	color:#ffe;
+}
+.container-footer .container .title .forth ul li h6:hover{
+	text-decoration:underline;
 }
 .container-footer .container .title .forth ul a{
 	color:#5d93a1;
+	font-size:15px;
+}
+.container-footer .container .title .forth ul a:hover{
+	text-decoration:underline;
+	color:#ffc;	
 }
 /* -----------------------Bottom of Footer--------------------- */
 .container-bottomfooter{
