@@ -570,7 +570,7 @@ div.text-banner div.text-train > div{
 	left:0;
 	right:0;
 	margin:auto;
-	background-image:url(images/usefulllink.png);	
+	background-image:url('images/usefulllink.png');	
 	background-repeat:no-repeat;
 	background-size:contain;
 }
@@ -801,7 +801,6 @@ div.textframe {
 	border:1px solid red;	
 }
 /*-------------------Product 4 Column-------------------*/
-
 .container-banner-pro{
 	left      : 0;
 	right     : 0;
@@ -838,83 +837,171 @@ div.textframe {
 	min-height: 60px;
 }
 
-.container-banner-pro .container .product .frame-a{
-	padding-top: 1px;
-}
-.container-banner-pro .container .product .frame-a .frame1,.frame2,.frame3,.frame4{
-	min-height: 280px;
-	margin-top: 30px;
-}
 .container-banner-pro .container .product .frame-a,.frame-b{
-	text-align:center;	
-	margin-top: 90px;
-}
-
-.container-banner-pro .container .product .frame-b{
-	padding-top: 1px;
-}
-
-.container-banner-pro .container .product .frame-b .frame5,.frame6,.frame7,.frame8{
-	min-height: 280px;
 	margin-top: 30px;
+}
+
+.container-banner-pro .container .product .frame-a .frame1{
+	min-height: 280px;
+	background-image:url('images/window-product.jpg');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+.container-banner-pro .container .product .frame-a .frame2{
+	min-height: 280px;
+	background-image:url('images/window-product.jpg');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+.container-banner-pro .container .product .frame-a .frame3{
+	min-height: 280px;
+	background-image:url('images/window-product.jpg');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+.container-banner-pro .container .product .frame-a .frame4{
+	min-height: 280px;
+	background-image:url('images/window-product.jpg');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+.container-banner-pro .container .product .frame-b .frame5{
+	min-height: 280px;
+	background-image:url('images/window-product.jpg');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+.container-banner-pro .container .product .frame-b .frame6{
+	min-height: 280px;
+	background-image:url('images/window-product.jpg');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+.container-banner-pro .container .product .frame-b .frame7{
+	min-height: 280px;
+	background-image:url('images/window-product.jpg');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+.container-banner-pro .container .product .frame-b .frame8{
+	min-height: 280px;
+	background-image:url('images/window-product.jpg');
+	background-repeat:no-repeat;
+	background-position: top center;
 }
 /*-------------------Product 3 Column-------------------*/
-
-.container-banner-pro{
+.container-banner-subpro{
 	left      : 0;
 	right     : 0;
 	min-height: 880px;
-	background-color : #f4f4f2;
+	background-color : #f4f43;
 }
 
-.container-banner-pro .container{
+.container-banner-subpro .container{
 	min-height : 890px;
 	padding-top: 1px;
+	background-color : #f4f43;
 }
 
-.container-banner-pro .container .head{
-
-}
-.container-banner-pro .container .product .frame-a .frame1,.frame2,.frame3,.frame4{
-	min-height: 300px;
-	margin-top: 60px;
-	background-image:url('images/window-product.jpg');
-	background-repeat:no-repeat;
-
-}
-.container-banner-pro .container .product .frame-a .frame1, .frame2, .frame3{
-	background-position:top center;
-}
-.container-banner-pro .container .product .frame-a .frame4{
-	background-position: top right;
-}
-.container-banner-pro .container .product .frame-a{
-	padding-top: 1px;
-}
-
-.container-banner-pro .container .product .frame-a .frame1,.frame2,.frame3{
-	min-height: 290px;
-	margin-top: 50px;
-}
-.container-banner-pro .container .product .frame-b{
-	padding-top: 1px;
-}
-
-.container-banner-pro .container .product .frame-b .frame4,.frame5,.frame6{
-	min-height: 290px;
-	margin-top: 50px;
-}
-.container-banner-pro .container .product .frame-c{
-	padding-top: 1px;
-}
-
-.container-banner-pro .container .product .frame-c .frame7,.frame8,.frame9{
-	min-height: 280px;
-	margin-top: 30px;
+.container-banner-subpro .container .head{
 	
 }
+
+.container-banner-subpro .container .header{
+	margin-top: 15px;
+	background-image:url('images/product-second-header.png');
+	background-repeat: repeat-y;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.container-banner-subpro .container .header .menu{
+	min-height: 60px;
+}
+
+.container-banner-subpro .container .header h1{
+	min-height: 60px;
+}
+
+.container-banner-subpro .container .header h2{
+	min-height: 60px;
+}
+
+.container-banner-subpro .container .product .frame-a,.frame-b,.frame-c{
+	margin-top: 30px;
+}
+
+.container-banner-subpro .container .product .frame-a .frame1{
+	min-height: 280px;
+	
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+.container-banner-subpro .container .product .frame-a .frame2{
+	min-height: 280px;
+	
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+.container-banner-subpro .container .product .frame-a .frame3{
+	min-height: 280px;
+	
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+.container-banner-subpro .container .product .frame-b .frame4{
+	min-height: 280px;
+	
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+.container-banner-subpro .container .product .frame-b .frame5{
+	min-height: 280px;
+	
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+.container-banner-subpro .container .product .frame-b .frame6{
+	min-height: 280px;
+	
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+.container-banner-subpro .container .product .frame-c .frame7{
+	min-height: 280px;
+	
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+.container-banner-subpro .container .product .frame-c .frame8{
+	min-height: 280px;
+	
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+.container-banner-subpro .container .product .frame-c .frame9{
+	min-height: 280px;
+	
+	background-repeat:no-repeat;
+	background-position: top center;
+}
 /*-----------------buttonpage----------------------*/
-#buttonpage{
+/*
+.buttonpage{
 	width:170px;
 	height:30px;
 	margin-top:50px;
@@ -923,14 +1010,17 @@ div.textframe {
 	text-align:right;
 	
 }
-#buttonpage input{
+
+.buttonpage input{
 	width:35px;
 	height:30px;
 	background-color:#fffffd;
 	border:1px outset  #dddddd;
 	border-radius:6px;
 }
-#buttonpage input:hover{
+
+.buttonpage input:hover{
 	background-color:#415762;
 	border:1px outset  #415762;
 }
+*/
