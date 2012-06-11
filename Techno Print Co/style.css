@@ -1,6 +1,6 @@
-/*div{
+div{
 	outline:1px red solid;	
-}*/
+}
 a{
 	text-decoration:none;
 	-webkit-transition-duration:300ms;
@@ -26,6 +26,7 @@ body{
 	right     : 0;
 	min-height: 20px;
 	background-color : #19292E;
+	
 }
 
 .container-topheader .container{
@@ -774,7 +775,7 @@ div.textframe {
 	height:700px;
 	border:1px solid red;	
 }
-/*-----------------------Product----------------------------*/
+/*-------------------Product 4 Column-------------------*/
 
 .container-banner-pro{
 	left      : 0;
@@ -827,4 +828,88 @@ div.textframe {
 .container-banner-pro .container .product .frame-b .frame5,.frame6,.frame7,.frame8{
 	min-height: 280px;
 	margin-top: 30px;
+}
+/*-------------------Product 3 Column-------------------*/
+
+.container-banner-pro{
+	left      : 0;
+	right     : 0;
+	min-height: 880px;
+	background-color : #f4f4f2;
+}
+
+.container-banner-pro .container{
+	min-height : 890px;
+	padding-top: 1px;
+}
+
+.container-banner-pro .container .head{
+
+}
+
+.container-banner-pro .container .header{
+	margin-top: 15px;
+	background-image: url('images/headmid.jpg');
+	background-repeat: repeat-y;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.container-banner-pro .container .header .menu{
+	min-height: 60px;
+}
+
+.container-banner-pro .container .header h1{
+	min-height: 60px;
+}
+
+.container-banner-pro .container .header h2{
+	min-height: 60px;
+}
+
+.container-banner-pro .container .product .frame-a{
+	padding-top: 1px;
+}
+
+.container-banner-pro .container .product .frame-a .frame1,.frame2,.frame3{
+	min-height: 280px;
+	margin-top: 90px;
+}
+
+.container-banner-pro .container .product .frame-b{
+	padding-top: 1px;
+}
+
+.container-banner-pro .container .product .frame-b .frame4,.frame5,.frame6{
+	min-height: 280px;
+	margin-top: 30px;
+}
+.container-banner-pro .container .product .frame-c{
+	padding-top: 1px;
+}
+
+.container-banner-pro .container .product .frame-c .frame7,.frame8,.frame9{
+	min-height: 280px;
+	margin-top: 30px;
+	
+}
+/*-----------------buttonpage----------------------*/
+#buttonpage{
+	width:170px;
+	height:30px;
+	margin-top:50px;
+	margin-right:0px;
+	margin-bottom:20px;
+	text-align:right;
+	
+}
+#buttonpage input{
+	width:35px;
+	height:30px;
+	background-color:#fffffd;
+	border:1px outset  #dddddd;
+	border-radius:6px;
+}
+#buttonpage input:hover{
+	background-color:#415762;
+	border:1px outset  #415762;
 }
