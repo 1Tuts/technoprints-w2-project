@@ -156,11 +156,13 @@ body{
 .container-header .container .menu li a span{
 	display: block;
 	padding: 7px 5px;
+	-webkit-transition: background-color 1s;
 }
 
 .container-header .container .menu li:hover > a > span{
 	background-color: #425961;
 	border-radius   : 3px;
+	-webkit-transition: background-color 600ms;
 }
 
 .container-header .container .menu li li a{
@@ -589,6 +591,10 @@ div.text-banner div.text-train > div{
 	font-size:15px;
 	font-weight:bold;
 }
+.title3 .third .click{
+	margin-right: 60px;
+}
+
 .title3 .third a{
 	color:#9fcccc;	
 }
@@ -599,6 +605,7 @@ div.text-banner div.text-train > div{
 /*------------------------- Forth Title----------------------- */
 .container-footer .container .title .forth ul li h6{
 	color:#ffe;
+
 }
 .container-footer .container .title .forth ul li h6:hover{
 	text-decoration:underline;
@@ -606,10 +613,25 @@ div.text-banner div.text-train > div{
 .container-footer .container .title .forth ul a{
 	color:#5d93a1;
 	font-size:15px;
+	display: block;
+	padding-top: 5px;
 }
+
+.container-footer .container .title .forth ul a:first-child{
+	padding-top: 0;
+}
+
 .container-footer .container .title .forth ul a:hover{
 	text-decoration:underline;
 	color:#ffc;	
+}
+
+.container-footer .container .title .forth ul li{
+	padding-top: 15px;
+}
+
+.container-footer .container .title .forth ul li:first-child{
+	padding-top: 0;
 }
 /* -----------------------Bottom of Footer--------------------- */
 .container-bottomfooter{
