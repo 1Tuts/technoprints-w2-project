@@ -95,7 +95,6 @@ body{
 	margin:35px auto;
 	list-style-type: none;
 }
-
 .container-header .container .menu li{
 	float : right;
 	border-right: 1px solid #445356;
@@ -151,6 +150,7 @@ body{
 .container-header .container .menu li li{
 	float : none;
 	border: 0 none;
+
 }
 
 .container-header .container .menu li a span{
