@@ -96,7 +96,6 @@ body{
 	margin:35px auto;
 	list-style-type: none;
 }
-
 .container-header .container .menu li{
 	float : right;
 	border-right: 1px solid #445356;
@@ -152,6 +151,7 @@ body{
 .container-header .container .menu li li{
 	float : none;
 	border: 0 none;
+
 }
 
 .container-header .container .menu li a span{
@@ -301,6 +301,9 @@ div.banner div.scroll > div.adv4{
 
 div.banner div.scroll > div.adv5{
 	background-image: url('images/b5.jpg');
+}
+div.banner div.scroll > div.adv5 .img-box5{
+	background-image:url('images/marine.png');
 }
 div.btn{
 	width:950px;
@@ -781,21 +784,22 @@ div.textframe {
 	left      : 0;
 	right     : 0;
 	min-height: 880px;
-	background-color : #f4f4f2;
+	background-color : #f4f43;
 }
 
 .container-banner-pro .container{
 	min-height : 890px;
 	padding-top: 1px;
+	background-color : #f4f43;
 }
 
 .container-banner-pro .container .head{
-
+	
 }
 
 .container-banner-pro .container .header{
 	margin-top: 15px;
-	background-image: url('images/headmid.jpg');
+	background-image:url('images/product-second-header.png');
 	background-repeat: repeat-y;
 	border-radius: 5px 5px 5px 5px;
 }
@@ -815,9 +819,8 @@ div.textframe {
 .container-banner-pro .container .product .frame-a{
 	padding-top: 1px;
 }
-
-.container-banner-pro .container .product .frame-a .frame1,.frame2,.frame3,.frame4{
-	min-height: 280px;
+.container-banner-pro .container .product .frame-a,.frame-b{
+	text-align:center;	
 	margin-top: 90px;
 }
 
@@ -846,42 +849,26 @@ div.textframe {
 .container-banner-pro .container .head{
 
 }
+.container-banner-pro .container .product .frame-a .frame1,.frame2,.frame3,.frame4{
+	min-height: 300px;
+	margin-top: 60px;
+	background-image:url('images/window-product.jpg');
+	background-repeat:no-repeat;
 
-.container-banner-pro .container .header{
-	margin-top: 15px;
-	background-image: url('images/headmid.jpg');
-	background-repeat: repeat-y;
-	border-radius: 5px 5px 5px 5px;
 }
-
-.container-banner-pro .container .header .menu{
-	min-height: 60px;
+.container-banner-pro .container .product .frame-a .frame2,.frame3{
+	background-position:top center;
 }
-
-.container-banner-pro .container .header h1{
-	min-height: 60px;
+.container-banner-pro .container .product .frame-a .frame4{
+	background-position: top right;
 }
-
-.container-banner-pro .container .header h2{
-	min-height: 60px;
-}
-
-.container-banner-pro .container .product .frame-a{
-	padding-top: 1px;
-}
-
-.container-banner-pro .container .product .frame-a .frame1,.frame2,.frame3{
-	min-height: 280px;
-	margin-top: 90px;
-}
-
 .container-banner-pro .container .product .frame-b{
 	padding-top: 1px;
 }
 
-.container-banner-pro .container .product .frame-b .frame4,.frame5,.frame6{
-	min-height: 280px;
-	margin-top: 30px;
+.container-banner-pro .container .product .frame-b .frame5,.frame6,.frame7,.frame8{
+	min-height: 290px;
+	margin-top: 50px;
 }
 .container-banner-pro .container .product .frame-c{
 	padding-top: 1px;
