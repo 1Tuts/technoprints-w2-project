@@ -841,6 +841,10 @@ div.textframe {
 .container-banner-pro .container .product .frame-a{
 	padding-top: 1px;
 }
+.container-banner-pro .container .product .frame-a .frame1,.frame2,.frame3,.frame4{
+	min-height: 280px;
+	margin-top: 30px;
+}
 .container-banner-pro .container .product .frame-a,.frame-b{
 	text-align:center;	
 	margin-top: 90px;
@@ -878,17 +882,25 @@ div.textframe {
 	background-repeat:no-repeat;
 
 }
-.container-banner-pro .container .product .frame-a .frame2,.frame3{
+.container-banner-pro .container .product .frame-a .frame1, .frame2, .frame3{
 	background-position:top center;
 }
 .container-banner-pro .container .product .frame-a .frame4{
 	background-position: top right;
 }
+.container-banner-pro .container .product .frame-a{
+	padding-top: 1px;
+}
+
+.container-banner-pro .container .product .frame-a .frame1,.frame2,.frame3{
+	min-height: 290px;
+	margin-top: 50px;
+}
 .container-banner-pro .container .product .frame-b{
 	padding-top: 1px;
 }
 
-.container-banner-pro .container .product .frame-b .frame5,.frame6,.frame7,.frame8{
+.container-banner-pro .container .product .frame-b .frame4,.frame5,.frame6{
 	min-height: 290px;
 	margin-top: 50px;
 }
