@@ -998,3 +998,27 @@ div.textframe {
 	border:1px outset  #415762;
 }
 */
+/*--------------introduction------------------*/
+.container-introduction{
+	left:0;
+	right:0;
+	background-color:#f4f4f3;
+	min-height:890px;	
+	
+}
+.container-introduction .container{
+	min-height:880px;
+	padding-top:1px;
+	background-color:#f4f4f3;
+	outline:solid 2px #d4d4d3;
+}
+.container-introduction .container .detail{
+	min-height:130px;	
+}
+.container-introduction .container .tool{
+	min-height:340px;
+}
+.container-introduction .container .chart{
+	min-height:700px;
+	margin-top:130px;
+}
