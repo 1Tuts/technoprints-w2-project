@@ -75,7 +75,7 @@ body{
 	color          : #B1B1B1;
 	
 }
-/* -----------------------Header-------------------------------------------- */
+/* -----------------------Header---------------------------- */
 .container-header{
 	min-height: 130px;
 	left      : 0;
@@ -679,7 +679,7 @@ div.middle{
 	width:950px;
 	margin:0 auto;
 	background-color:#f4f4f2;
-	margin-top:10px;
+	margin-top:16px;
 }
 /*  header of contact */
 div.middle .header{
@@ -799,10 +799,18 @@ div.middle .info .botton input:hover{
 
 /*-----------------------About Us----------------------------*/
 div.textframe {
+	left      : 0;
+	right     : 0;
+	min-height: 880px;
+	background-color : #f4f43;
+}
+
+div.textframe .text-container{
 	margin:0 auto;
-	width:900px;
-	height:700px;
-	border:1px solid red;	
+	width:950px;
+	min-height : 890px;
+	padding-top: 1px;
+	background-color : #f4f43;
 }
 /*-------------------Product 4 Column-------------------*/
 .container-banner-pro{
@@ -821,22 +829,24 @@ div.textframe {
 .container-banner-pro .container .head{
 	
 }
-
-.container-banner-pro .container .header{
+#container-header{
 	margin-top: 15px;
 	background-image:url('images/product-second-header.png');
 	background-repeat: repeat-y;
-	border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;	
+}
+#middle-part{
+	min-height: 60px;	
+}
+#right-part{
+}
+#left-part{
 }
 
-.container-banner-pro .container .header .root{
+.container-banner-pro .container .head h1{
 	min-height: 60px;
 }
-
-.container-banner-pro .container .header h1{
-	min-height: 60px;
-}
-.container-banner-pro .container .header h2{
+.container-banner-pro .container .head h2{
 	min-height: 60px;
 }
 .container-banner-pro .container .product .frame-a,.frame-b{
