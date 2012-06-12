@@ -1,6 +1,6 @@
-body *{
+/*body *{
 	outline:1px solid red;
-}
+}*/
 a{
 	text-decoration:none;
 	-webkit-transition-duration:300ms;
