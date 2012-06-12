@@ -726,13 +726,13 @@ div.middle .header .text h3{
 /* end */ 
 
 /*  CONTACT INFO */
-div.middle .mobile{
+div.middle .googlemap{
 	float:left;
 	margin-top:60px;
 	margin-left:30px;
 }
-div.middle .mobile iframe{
-	
+div.middle .googlemap p{
+	text-align:right;
 }
 div.middle .info{
 	width:370px;
