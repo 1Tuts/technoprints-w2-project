@@ -209,10 +209,12 @@ body{
 
 .logo-txt1{
 	color:#fff;	
+	font-style:italic;
 }
 
 .logo-txt2{
-	color:#b1b1b1;	
+	color:#b1b1b1;
+	font-style:italic;
 }
 
 .container-header .container .logo h1{
