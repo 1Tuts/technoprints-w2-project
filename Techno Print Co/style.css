@@ -847,28 +847,28 @@ div.textframe {
 }
 
 .container-banner-pro .container .product .frame-a .frame2,.frame3{
-background-position:top center;
+	background-position:top center;
 }
 .container-banner-pro .container .product .frame-a .frame4{
-background-position: top right;
+	background-position: top right;
 }
 
  .container-banner-pro .container .product .frame-b{
    padding-top: 1px;
  }
  .container-banner-pro .container .product .frame-b .frame5,.frame6,.frame7,.frame8{  	
-min-height: 280px;	
-margin-top: 30px;	
-min-height: 290px;
-margin-top: 50px;
-background-image:url('images/window-product.jpg');
-background-repeat:no-repeat;
+	min-height: 280px;	
+	margin-top: 30px;	
+	min-height: 290px;
+	margin-top: 50px;
+	background-image:url('images/window-product.jpg');
+	background-repeat:no-repeat;
 }
 .container-banner-pro .container .product .frame-b .frame6,.frame7{
-background-position:top center;
+	background-position:top center;
 }
 .container-banner-pro .container .product .frame-b .frame8{
-background-position: top right;
+	background-position: top right;
  }
 /*-------------------Product 3 Column-------------------*/
 .container-banner-subpro{
