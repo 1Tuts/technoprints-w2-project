@@ -1,5 +1,5 @@
-div{
-	outline:0px red solid;	
+body *{
+	outline:1px solid red;
 }
 a{
 	text-decoration:none;
@@ -839,46 +839,60 @@ div.textframe {
 	padding-top:1px;
 	text-align:center;  
  }
-.container-banner-pro .container .product .frame-a .frame1,.frame2,.frame3,.frame4{
+
+.container-banner-pro .container .product .frame-a .frame1{
 	min-height: 300px;
 	margin-top: 60px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 }
-.container-banner-pro .container .product .frame-a .frame1{
-	
-}
 .container-banner-pro .container .product .frame-a .frame2{
+	min-height: 300px;
+	margin-top: 60px;
+	background-image:url('images/window-product.jpg');
+	background-repeat:no-repeat;
 	background-position:top center;
 }
 .container-banner-pro .container .product .frame-a .frame3{
+	min-height: 300px;
+	margin-top: 60px;
+	background-image:url('images/window-product.jpg');
+	background-repeat:no-repeat;
 	background-position:top center;
 }
 .container-banner-pro .container .product .frame-a .frame4{
+	min-height: 300px;
+	margin-top: 60px;
+	background-image:url('images/window-product.jpg');
+	background-repeat:no-repeat;
 	background-position: top right;
 }
 
- .container-banner-pro .container .product .frame-b{
-   padding-top: 1px;
- }
- .container-banner-pro .container .product .frame-b .frame5,.frame6,.frame7,.frame8{  	
-	min-height: 280px;	
-	margin-top: 30px;	
-	min-height: 290px;
-	margin-top: 50px;
+.container-banner-pro .container .product .frame-b .frame5{
+	min-height: 300px;
+	margin-top: 60px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 }
-.container-banner-pro .container .product .frame-b .frame5{
-	
-}
 .container-banner-pro .container .product .frame-b .frame6{
+	min-height: 300px;
+	margin-top: 60px;
+	background-image:url('images/window-product.jpg');
+	background-repeat:no-repeat;
 	background-position:top center;
 }
 .container-banner-pro .container .product .frame-b .frame7{
+	min-height: 300px;
+	margin-top: 60px;
+	background-image:url('images/window-product.jpg');
+	background-repeat:no-repeat;
 	background-position:top center;	
 }
 .container-banner-pro .container .product .frame-b .frame8{
+	min-height: 300px;
+	margin-top: 60px;
+	background-image:url('images/window-product.jpg');
+	background-repeat:no-repeat;
 	background-position: top right;
  }
 /*-------------------Product 3 Column-------------------*/
@@ -924,68 +938,67 @@ div.textframe {
 
 .container-banner-subpro .container .product .frame-a .frame1{
 	min-height: 280px;
-	
+	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
-	background-position: top center;
+	background-position: top left;
 }
 
 .container-banner-subpro .container .product .frame-a .frame2{
 	min-height: 280px;
-	
+	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
-	background-position: top center;
+	background-position: top right;
 }
 
 .container-banner-subpro .container .product .frame-a .frame3{
 	min-height: 280px;
-	
+	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
 
 .container-banner-subpro .container .product .frame-b .frame4{
 	min-height: 280px;
-	
+	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
-	background-position: top center;
+	background-position: top left;
 }
 
 .container-banner-subpro .container .product .frame-b .frame5{
 	min-height: 280px;
-	
+	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
-	background-position: top center;
+	background-position: top right;
 }
 
 .container-banner-subpro .container .product .frame-b .frame6{
 	min-height: 280px;
-	
+	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
 
 .container-banner-subpro .container .product .frame-c .frame7{
 	min-height: 280px;
-	
+	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
-	background-position: top center;
+	background-position: top left;
 }
 
 .container-banner-subpro .container .product .frame-c .frame8{
 	min-height: 280px;
-	
+	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
-	background-position: top center;
+	background-position: top right;
 }
 
 .container-banner-subpro .container .product .frame-c .frame9{
 	min-height: 280px;
-	
+	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
 /*-----------------buttonpage----------------------*/
-/*
 .buttonpage{
 	width:170px;
 	height:30px;
@@ -1008,7 +1021,7 @@ div.textframe {
 	background-color:#415762;
 	border:1px outset  #415762;
 }
-*/
+
 /*--------------introduction------------------*/
 .container-introduction{
 	left:0;
