@@ -1,5 +1,5 @@
 div{
-	outline:1px red solid;	
+	outline:0px red solid;	
 }
 a{
 	text-decoration:none;
@@ -664,7 +664,7 @@ div.text-banner div.text-train > div{
 .container-bottomfooter .container .copyright p{
 	padding-top:18px;
 	font-family:Arial, Helvetica, sans-serif;
-	color     : #B1B1B1;
+	color: #B1B1B1;
 	font-size:11px;
 }
 
@@ -674,9 +674,7 @@ div.middle{
 	margin:0 auto;
 	background-color:#f4f4f2;
 	margin-top:10px;
-	
 }
-
 /*  header of contact */
 div.middle .header{
 	width:950px;	
@@ -684,7 +682,6 @@ div.middle .header{
 	text-align:center;
 	vertical-align:bottom;
 	background-color:#333333;
-	
 }
 div.middle .header .search{
 	float:left;
@@ -727,28 +724,29 @@ div.middle .mobile{
 	float:left;
 	margin-top:60px;
 	margin-left:30px;
-	text-align:center;
 }
-div.middle .mobile img{
-	width:210px;
-	height:450px;
+div.middle .mobile iframe{
+	
 }
 div.middle .info{
-	width:600px;
+	width:370px;
 	margin-top:60px;
-	margin-left:350px;
 	min-height:450px;
-	outline:0px solid blue;
-}
+	}
 div.middle .info .text{
-	width:450px;
-	height:85px;
-	margin-left:120px;
-	
+	margin-right:30px;
+	font-size:15px;
+	text-align:right;
+	color:#333333;
+	font-family:"Times New Roman", Times, serif;
 }
 div.middle .info .name, .email, .website, .comment{
 	margin-top:7px;
 	text-align:right;
+}
+div.middle .info span{
+	color:red;
+	font-size:12px;
 }
 div.middle .info input{
 	width:240px;	
