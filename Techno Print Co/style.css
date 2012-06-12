@@ -631,7 +631,7 @@ div.text-banner div.text-train > div{
 .container-bottomfooter{
 	left      : 0;
 	right     : 0;
-	height: 50px;
+	height: 80px;
 	z-index   : -1;
 	background-image: url('images/copyright.jpg');
 	background-size : 100% 100%;
@@ -640,10 +640,12 @@ div.text-banner div.text-train > div{
 .container-bottomfooter .container{
 	width     : 970px;
 	height:50px;
+	padding-top: 25px;
 }
 
 .container-bottomfooter .container .menu{
 	height:50px;
+	
 }
 
 .container-bottomfooter .container .menu ul{
@@ -652,7 +654,7 @@ div.text-banner div.text-train > div{
 
 .container-bottomfooter .container .menu li{
 	float : right;
-	padding-top:13px;
+	
 }
 
 .container-bottomfooter .container .menu a{
@@ -661,14 +663,14 @@ div.text-banner div.text-train > div{
 	display        : block;
 	font-family    : Arial, sans-serif;
 	font-size      : 11px;
-	padding:4px 7px
+	padding: 0 7px
 }
 .container-bottomfooter .container .menu a:hover{
 	color:#ffd;	
 	text-decoration:none;
 }
 .container-bottomfooter .container .copyright p{
-	padding-top:18px;
+	
 	font-family:Arial, Helvetica, sans-serif;
 	color: #B1B1B1;
 	font-size:11px;
