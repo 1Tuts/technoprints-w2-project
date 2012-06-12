@@ -845,8 +845,13 @@ div.textframe {
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 }
-
-.container-banner-pro .container .product .frame-a .frame2,.frame3{
+.container-banner-pro .container .product .frame-a .frame1{
+	
+}
+.container-banner-pro .container .product .frame-a .frame2{
+	background-position:top center;
+}
+.container-banner-pro .container .product .frame-a .frame3{
 	background-position:top center;
 }
 .container-banner-pro .container .product .frame-a .frame4{
@@ -864,8 +869,14 @@ div.textframe {
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 }
-.container-banner-pro .container .product .frame-b .frame6,.frame7{
+.container-banner-pro .container .product .frame-b .frame5{
+	
+}
+.container-banner-pro .container .product .frame-b .frame6{
 	background-position:top center;
+}
+.container-banner-pro .container .product .frame-b .frame7{
+	background-position:top center;	
 }
 .container-banner-pro .container .product .frame-b .frame8{
 	background-position: top right;
