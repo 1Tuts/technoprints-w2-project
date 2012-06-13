@@ -1036,17 +1036,17 @@ div.textframe .text-container{
 	left:0;
 	right:0;
 	background-color:#f4f4f3;
-	min-height:590px;	
+	height:590px;	
 	
 }
 .container-introduction .container{
-	min-height:580px;
+	height:580px;
 	padding-top:1px;
 	background-color:#f4f4f3;
 	outline:solid 2px #e4e4d3;
 }
 .container-introduction .container .detail{
-	min-height:130px;
+	height:130px;
 	padding-top:40px;
 	text-align:right;	
 }
@@ -1075,7 +1075,7 @@ div.textframe .text-container{
 	top:0;
 	left:0;
 	right:0;
-	margin:35px auto 0;
+	margin:0 auto;
 }
 .introduction-chart td,.introduction-chart th{
 	font-weight:bold;
