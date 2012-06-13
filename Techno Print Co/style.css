@@ -1,7 +1,6 @@
-/*body *{
+/*div{
 	outline:1px solid red;
-}
-*/
+}*/
 a{
 	text-decoration:none;
 	-webkit-transition-duration:300ms;
@@ -1035,22 +1034,65 @@ div.textframe .text-container{
 	left:0;
 	right:0;
 	background-color:#f4f4f3;
-	min-height:890px;	
+	min-height:590px;	
 	
 }
 .container-introduction .container{
-	min-height:880px;
+	min-height:580px;
 	padding-top:1px;
 	background-color:#f4f4f3;
-	outline:solid 2px #d4d4d3;
+	outline:solid 2px #e4e4d3;
 }
 .container-introduction .container .detail{
-	min-height:130px;	
+	min-height:130px;
+	padding-top:40px;
+	text-align:right;	
+}
+.container-introduction .container .detail h1{
+	color:#1a292e;
+	font-size:23px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
 }
 .container-introduction .container .tool{
 	min-height:340px;
+	background-image:url('images/motorla.png');
+	background-repeat:no-repeat;
 }
 .container-introduction .container .chart{
 	min-height:700px;
 	margin-top:130px;
+	position:relative;
+}
+.introduction-chart{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse:collapse;
+	width:615px;
+	position:absolute;
+	bottom:0;
+	top:0;
+	left:0;
+	right:0;
+	margin:35px auto 0;
+}
+.introduction-chart td,.introduction-chart th{
+	font-weight:bold;
+	border:1px solid #f4f4f3;
+	padding:10px 9px 2px 13px; 
+	color:#112;
+}
+.introduction-chart th{
+	text-align:center;
+	background-color:#2c4047;
+	color:#FFF;
+	padding:8px 6px 6px 11px; 
+}
+.introduction-chart td{
+	background-color:#e4e4d3;
+	color:#000;
+	text-align:center;	
+}
+.introduction-chart tr.alt td 
+{
+	background-color:#7a93a1;
 }
