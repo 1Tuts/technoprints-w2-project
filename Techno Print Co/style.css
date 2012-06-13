@@ -940,68 +940,77 @@ div.textframe .text-container{
 	min-height: 60px;
 }
 
-.container-banner-subpro .container .product .frame-a,.frame-b,.frame-c{
+.container-banner-subpro .container .scanner .frame-a1,.frame-b1,.frame-c1{
 	margin-top: 30px;
 	text-align:center;
 }
-
-.container-banner-subpro .container .product .frame-a .frame1{
+.container-banner-subpro .container .scanner .frame-a1 .frame1{
 	min-height: 280px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 	background-position: top left;
+	outline:1px blue solid;
 }
-
-.container-banner-subpro .container .product .frame-a .frame2{
+.container-banner-subpro .container .scanner .frame-a1 .frame1 .scanner1{
+	width:202px;
+	height:119px;
+	margin-top:6px;
+	margin-left:6px;
+	outline:solid red 1px;
+}
+.container-banner-subpro .container .scanner .frame-a1 .frame1 .scanner1{
+	
+}
+.container-banner-subpro .container .scanner .frame-a1 .frame2{
 	min-height: 280px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .product .frame-a .frame3{
+.container-banner-subpro .container .scanner .frame-a1 .frame3{
 	min-height: 280px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
 
-.container-banner-subpro .container .product .frame-b .frame4{
+.container-banner-subpro .container .scanner .frame-b1 .frame4{
 	min-height: 280px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 
-.container-banner-subpro .container .product .frame-b .frame5{
+.container-banner-subpro .container .scanner .frame-b1 .frame5{
 	min-height: 280px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .product .frame-b .frame6{
+.container-banner-subpro .container .scanner .frame-b1 .frame6{
 	min-height: 280px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
 
-.container-banner-subpro .container .product .frame-c .frame7{
+.container-banner-subpro .container .scanner .frame-c1 .frame7{
 	min-height: 280px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 
-.container-banner-subpro .container .product .frame-c .frame8{
+.container-banner-subpro .container .scanner .frame-c1 .frame8{
 	min-height: 280px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .product .frame-c .frame9{
+.container-banner-subpro .container .scanner .frame-c1 .frame9{
 	min-height: 280px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
