@@ -946,31 +946,20 @@ div.textframe .text-container{
 }
 .container-banner-subpro .container .scanner .frame-a1 .frame1{
 	min-height: 280px;
-	background-image:url('images/window-product.jpg');
+	background-image:url('images/at506-small.png');
 	background-repeat:no-repeat;
 	background-position: top left;
-	outline:1px blue solid;
-}
-.container-banner-subpro .container .scanner .frame-a1 .frame1 .scanner1{
-	width:202px;
-	height:119px;
-	margin-top:6px;
-	margin-left:6px;
-	outline:solid red 1px;
-}
-.container-banner-subpro .container .scanner .frame-a1 .frame1 .scanner1{
-	
 }
 .container-banner-subpro .container .scanner .frame-a1 .frame2{
 	min-height: 280px;
-	background-image:url('images/window-product.jpg');
+	background-image:url('images/datalogic-i-big.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
 .container-banner-subpro .container .scanner .frame-a1 .frame3{
 	min-height: 280px;
-	background-image:url('images/window-product.jpg');
+	background-image:url('images/Datalogic L.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
