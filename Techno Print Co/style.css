@@ -947,13 +947,13 @@ div.textframe .text-container{
 }
 .container-banner-subpro .container .scanner .frame-a1 .frame1{
 	min-height: 280px;
-	background-image:url('images/at506-small.png');
+	background-image:url('images/at506-big.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 .container-banner-subpro .container .scanner .frame-a1 .frame2{
 	min-height: 280px;
-	background-image:url('images/datalogic-i-big.png');
+	background-image:url('images/datalogic-i.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
