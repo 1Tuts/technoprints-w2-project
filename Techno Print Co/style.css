@@ -941,9 +941,8 @@ div.textframe .text-container{
 	min-height: 60px;
 }
 
-.container-banner-subpro .container .scanner .frame-a1,.frame-b1,.frame-c1{
+.container-banner-subpro .container .scanner .frame-a1,.frame-b1,.frame-c1,.frame-d1,.frame-e1,.frame-e1{
 	margin-top: 30px;
-	text-align:center;
 }
 .container-banner-subpro .container .scanner .frame-a1 .frame1{
 	min-height: 280px;
@@ -1001,6 +1000,60 @@ div.textframe .text-container{
 }
 
 .container-banner-subpro .container .scanner .frame-c1 .frame9{
+	min-height: 280px;
+	background-image:url('images/ls2208.png');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+.container-banner-subpro .container .scanner .frame-d1 .frame10{
+	min-height: 280px;
+	background-image:url('images/ls7708.png');
+	background-repeat:no-repeat;
+	background-position: top left;
+}
+.container-banner-subpro .container .scanner .frame-d1 .frame11{
+	min-height: 280px;
+	background-image:url('images/hr100.png');
+	background-repeat:no-repeat;
+	background-position: top right;
+}
+.container-banner-subpro .container .scanner .frame-d1 .frame12{
+	min-height: 280px;
+	background-image:url('images/ms320.png');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+.container-banner-subpro .container .scanner .frame-e1 .frame13{
+	min-height: 280px;
+	background-image:url('images/ms350.png');
+	background-repeat:no-repeat;
+	background-position: top left;
+}
+.container-banner-subpro .container .scanner .frame-e1 .frame14{
+	min-height: 280px;
+	background-image:url('images/ls2208.png');
+	background-repeat:no-repeat;
+	background-position: top right;
+}
+.container-banner-subpro .container .scanner .frame-e1 .frame15{
+	min-height: 280px;
+	background-image:url('images/ls2208.png');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+.container-banner-subpro .container .scanner .frame-f1 .frame16{
+	min-height: 280px;
+	background-image:url('images/ls2208.png');
+	background-repeat:no-repeat;
+	background-position: top left;
+}
+.container-banner-subpro .container .scanner .frame-f1 .frame17{
+	min-height: 280px;
+	background-image:url('images/ls2208.png');
+	background-repeat:no-repeat;
+	background-position: top right;
+}
+.container-banner-subpro .container .scanner .frame-f1 .frame18{
 	min-height: 280px;
 	background-image:url('images/ls2208.png');
 	background-repeat:no-repeat;
