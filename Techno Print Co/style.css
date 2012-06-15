@@ -676,87 +676,40 @@ div.text-banner div.text-train > div{
 }
 
 /* -----------------------Contact--------------------- */
-div.middle{
-	width:950px;
-	margin:0 auto;
-	background-color:#f4f4f2;
-	margin-top:16px;
-}
-/*  header of contact */
-div.middle .header{
-	width:950px;	
-	height:40px;
-	text-align:center;
-	vertical-align:bottom;
-	background-color:#333333;
-}
-div.middle .header .search{
-	float:left;
-	width:130px;	
-	outline:0px solid blue;
-	height:40px;
-	line-height:32px;
-}
-div.middle .header .menu{
-	width:150px;
-	float:left;50px;
-	margin-left:10px;
-	outline:0px solid green;
-	
-}
-div.middle .header .text{
-	margin-left:790px;
-	outline:0px solid blue;
-	height:40px;
-	position:relative;
-	line-height:2em;
-	
-}
-div.middle .header .text h3{
-	font-size:26px;
-	color:red;
-	position:absolute;
-	left:0;
-	right:0;
-	top:0;
-	bottom:0;
-	margin:auto;	
-}
-/* end */ 
-
-/*  CONTACT INFO */
-div.middle .googlemap{
-	float:left;
-	margin-top:60px;
+#googlemap{
 	margin-left:30px;
 }
-div.middle .googlemap p{
+
+#googlemap p{
 	font-family: Arial, sans-serif;
 	margin-top: 10px;
 	text-align:right;
 	font-size: 14px;
 }
-div.middle .info{
-	width:370px;
-	margin-top:60px;
-	min-height:450px;
-	}
-div.middle .info .text{
+
+#info{
+
+}
+
+#info .text{
 	margin-right:30px;
 	font-size:15px;
 	text-align:right;
 	color:#333333;
 	font-family:"Times New Roman", Times, serif;
 }
-div.middle .info .name, .email, .website, .comment{
+
+#info .name, .email, .website, .comment{
 	margin-top:7px;
 	text-align:right;
 }
-div.middle .info span{
+
+#info span{
 	color:red;
 	font-size:12px;
 }
-div.middle .info input{
+
+#info input{
 	width:240px;	
 	height:35px;
 	margin-right:30px;
@@ -764,7 +717,8 @@ div.middle .info input{
 	text-align:right;
 	direction:rtl;
 }
-div.middle .info textarea{
+
+#info textarea{
 	margin-right:30px;
 	width:330px;
 	height:145px;
@@ -772,12 +726,14 @@ div.middle .info textarea{
 	text-align:right;
 	direction:rtl;
 }
-div.middle .info .botton{
+
+#info .botton{
 	text-align:right;
 	margin-right:0px;
 	margin-top:10px;		
 }
-div.middle .info .botton input{
+
+#info .botton input{
 	width:85px;
 	height:40px;	
 	color:#FFF;	
@@ -789,7 +745,8 @@ div.middle .info .botton input{
 	box-shadow:3px 3px 3px  #272727;
 	text-align:center;
 }
-div.middle .info .botton input:hover{
+
+#info .botton input:hover{
 	background-color:#5F5F5F;	
 	border:3px outset #555;
 	-moz-transition-duration:300ms;
@@ -797,419 +754,365 @@ div.middle .info .botton input:hover{
 	-o-transition-duration:300ms;
 	-webkit-transition-duration:300ms;
 }
-/*  End Of Contact  Page   */
-
 /*-----------------------About Us----------------------------*/
-div.textframe {
+#about{
+	border: 2px solid #E4E4D3;
+	min-height: 650px;
+	border-radius: 5px 5px 5px 5px;
+}
+/*-------------------Header for other page -------------------*/
+.container-middle{
 	left      : 0;
 	right     : 0;
-	min-height: 880px;
 	background-color : #f4f43;
 }
 
-div.textframe .text-container{
-	margin:0 auto;
-	width:950px;
-	min-height : 890px;
-	padding-top: 1px;
-	background-color : #f4f43;
-}
-/*-------------------Product 4 Column-------------------*/
-.container-banner-pro{
-	left      : 0;
-	right     : 0;
-	min-height: 880px;
-	background-color : #f4f43;
+.container-middle .container{
+	padding: 15px 0;
 }
 
-.container-banner-pro .container{
-	min-height : 890px;
-	padding-top: 1px;
-	background-color : #f4f43;
+.container-middle .container .banner{
+
 }
 
-.container-banner-pro .container .head{
-	
-}
-#container-header{
-	margin-top: 15px;
+.container-middle .container .banner .container-head{
+	min-height: 60px;
+	margin-bottom: 30px;
 	background-image:url('images/product-second-header.png');
 	background-repeat: repeat-y;
 	border-radius: 5px 5px 5px 5px;	
 }
-#middle-part{
-	min-height: 60px;	
-}
-#right-part{
-}
-#left-part{
+
+.container-middle .container .banner .search{
+	
 }
 
-.container-banner-pro .container .head h1{
-	min-height: 60px;
+.container-middle .container .banner .name{
+	
 }
-.container-banner-pro .container .head h2{
-	min-height: 60px;
+
+.container-middle .container .banner .root{
+	
 }
-.container-banner-pro .container .product .frame-a,.frame-b{
+
+/*-------------------Product 4 column-------------------*/
+.container-middle .container .product{
+
+}
+
+.container-middle .container .product .frame-a,.frame-b{
 	padding-top:1px;
 	text-align:center;  
 	margin-top: 30px;
  }
 
-.container-banner-pro .container .product .frame-a .frame1{
+.container-middle .container .product .frame-a .frame1{
 	min-height: 300px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 }
-.container-banner-pro .container .product .frame-a .frame2{
-	min-height: 300px;
-	background-image:url('images/window-product.jpg');
-	background-repeat:no-repeat;
-	background-position:top center;
-}
-.container-banner-pro .container .product .frame-a .frame3{
+
+.container-middle .container .product .frame-a .frame2{
 	min-height: 300px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 	background-position:top center;
 }
-.container-banner-pro .container .product .frame-a .frame4{
+
+.container-middle .container .product .frame-a .frame3{
+	min-height: 300px;
+	background-image:url('images/window-product.jpg');
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+
+.container-middle .container .product .frame-a .frame4{
 	min-height: 300px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-pro .container .product .frame-b .frame5{
+.container-middle .container .product .frame-b .frame5{
 	min-height: 300px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 }
-.container-banner-pro .container .product .frame-b .frame6{
+
+.container-middle .container .product .frame-b .frame6{
 	min-height: 300px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 	background-position:top center;
 }
-.container-banner-pro .container .product .frame-b .frame7{
+
+.container-middle .container .product .frame-b .frame7{
 	min-height: 300px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 	background-position:top center;	
 }
-.container-banner-pro .container .product .frame-b .frame8{
+
+.container-middle .container .product .frame-b .frame8{
 	min-height: 300px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 	background-position: top right;
  }
 /*-------------------Product 3 Column scanner-------------------*/
-.container-banner-subpro{
-	left      : 0;
-	right     : 0;
-	min-height: 880px;
-	background-color : #f4f43;
-}
-
-.container-banner-subpro .container{
-	min-height : 890px;
-	padding-top: 1px;
-	background-color : #f4f43;
-}
-
-.container-banner-subpro .container .head{
-	
-}
-
-.container-banner-subpro .container .header{
-	margin-top: 15px;
-	background-image:url('images/product-second-header.png');
-	background-repeat: repeat-y;
-	border-radius: 5px 5px 5px 5px;
-}
-
-.container-banner-subpro .container .header .root{
-	min-height: 60px;
-}
-
-.container-banner-subpro .container .header h1{
-	min-height: 60px;
-}
-
-.container-banner-subpro .container .header h2{
-	min-height: 60px;
-}
-
-.container-banner-subpro .container .scanner .frame-a1,.frame-b1,.frame-c1,.frame-d1,.frame-e1,.frame-e1{
+#scanner .frame-a1,.frame-b1,.frame-c1,.frame-d1,.frame-e1,.frame-e1{
 	margin-top: 30px;
 }
-.container-banner-subpro .container .scanner .frame-a1 .frame1{
+
+#scanner .frame-a1 .frame1{
 	min-height: 280px;
 	background-image:url('images/at506-big.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
-.container-banner-subpro .container .scanner .frame-a1 .frame2{
+
+#scanner .frame-a1 .frame2{
 	min-height: 280px;
 	background-image:url('images/datalogic-i.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .scanner .frame-a1 .frame3{
+#scanner .frame-a1 .frame3{
 	min-height: 280px;
 	background-image:url('images/Datalogic L.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
 
-.container-banner-subpro .container .scanner .frame-b1 .frame4{
+#scanner .frame-b1 .frame4{
 	min-height: 280px;
 	background-image:url('images/3820.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 
-.container-banner-subpro .container .scanner .frame-b1 .frame5{
+#scanner .frame-b1 .frame5{
 	min-height: 280px;
 	background-image:url('images/4600g.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .scanner .frame-b1 .frame6{
+#scanner .frame-b1 .frame6{
 	min-height: 280px;
 	background-image:url('images/ms5145.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
 
-.container-banner-subpro .container .scanner .frame-c1 .frame7{
+#scanner .frame-c1 .frame7{
 	min-height: 280px;
 	background-image:url('images/cs1504.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 
-.container-banner-subpro .container .scanner .frame-c1 .frame8{
+#scanner .frame-c1 .frame8{
 	min-height: 280px;
 	background-image:url('images/cs3070.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .scanner .frame-c1 .frame9{
+#scanner .frame-c1 .frame9{
 	min-height: 280px;
 	background-image:url('images/ls2208.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
-.container-banner-subpro .container .scanner .frame-d1 .frame10{
+
+#scanner .frame-d1 .frame10{
 	min-height: 280px;
 	background-image:url('images/ls7708.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
-.container-banner-subpro .container .scanner .frame-d1 .frame11{
+
+#scanner .frame-d1 .frame11{
 	min-height: 280px;
 	background-image:url('images/hr100.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
-.container-banner-subpro .container .scanner .frame-d1 .frame12{
+
+#scanner .frame-d1 .frame12{
 	min-height: 280px;
 	background-image:url('images/ms320.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
-.container-banner-subpro .container .scanner .frame-e1 .frame13{
+
+#scanner .frame-e1 .frame13{
 	min-height: 280px;
 	background-image:url('images/ms350.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
-.container-banner-subpro .container .scanner .frame-e1 .frame14{
+
+#scanner .frame-e1 .frame14{
 	min-height: 280px;
 	background-image:url('images/ls2208.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
-.container-banner-subpro .container .scanner .frame-e1 .frame15{
+
+#scanner .frame-e1 .frame15{
 	min-height: 280px;
 	background-image:url('images/ls2208.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
-.container-banner-subpro .container .scanner .frame-f1 .frame16{
+
+#scanner .frame-f1 .frame16{
 	min-height: 280px;
 	background-image:url('images/ls2208.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
-.container-banner-subpro .container .scanner .frame-f1 .frame17{
+
+#scanner .frame-f1 .frame17{
 	min-height: 280px;
 	background-image:url('images/ls2208.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
-.container-banner-subpro .container .scanner .frame-f1 .frame18{
+
+#scanner .frame-f1 .frame18{
 	min-height: 280px;
 	background-image:url('images/ls2208.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
-
 /*-------------------Product 3 Column printer-------------------*/
-.container-banner-subpro{
-	left      : 0;
-	right     : 0;
-	min-height: 880px;
-	background-color : #f4f43;
-}
 
-.container-banner-subpro .container{
-	min-height : 890px;
-	padding-top: 1px;
-	background-color : #f4f43;
-}
-
-.container-banner-subpro .container .head{
-	
-}
-
-.container-banner-subpro .container .header{
-	margin-top: 15px;
-	background-image:url('images/product-second-header.png');
-	background-repeat: repeat-y;
-	border-radius: 5px 5px 5px 5px;
-}
-
-.container-banner-subpro .container .header .root{
-	min-height: 60px;
-}
-
-.container-banner-subpro .container .header h1{
-	min-height: 60px;
-}
-
-.container-banner-subpro .container .header h2{
-	min-height: 60px;
-}
-
-.container-banner-subpro .container .scanner .frame-g1,.frame-h1,.frame-i1.frame-j1,.frame-k1,.frame-l1{
+#printer .frame-g1,.frame-h1,.frame-i1.frame-j1,.frame-k1,.frame-l1{
 	margin-top: 30px;
 }
-.container-banner-subpro .container .scanner .frame-g1 .frame1{
+#printer .frame-g1 .frame1{
 	min-height: 280px;
 	background-image:url('images/btp2002np.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
-.container-banner-subpro .container .scanner .frame-g1 .frame2{
+#printer .frame-g1 .frame2{
 	min-height: 280px;
 	background-image:url('images/srp350plu.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .scanner .frame-g1 .frame3{
+#printer .frame-g1 .frame3{
 	min-height: 280px;
 	background-image:url('images/sam4s.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
 
-.container-banner-subpro .container .scanner .frame-h1 .frame4{
+#printer .frame-h1 .frame4{
 	min-height: 280px;
 	background-image:url('images/105sl.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 
-.container-banner-subpro .container .scanner .frame-h1 .frame5{
+#printer .frame-h1 .frame5{
 	min-height: 280px;
 	background-image:url('images/140xi3.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .scanner .frame-h1 .frame6{
+#printer .frame-h1 .frame6{
 	min-height: 280px;
 	background-image:url('images/170xi3.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
 
-.container-banner-subpro .container .scanner .frame-i1 .frame7{
+#printer .frame-i1 .frame7{
 	min-height: 280px;
 	background-image:url('images/220xiIII.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 
-.container-banner-subpro .container .scanner .frame-i1 .frame8{
+#printer .frame-i1 .frame8{
 	min-height: 280px;
 	background-image:url('images/em220.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .scanner .frame-i1 .frame9{
+#printer .frame-i1 .frame9{
 	min-height: 280px;
 	background-image:url('images/gk420t.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
-.container-banner-subpro .container .scanner .frame-j1 .frame10{
+
+#printer .frame-j1 .frame10{
 	min-height: 280px;
 	background-image:url('images/gx430t.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
-.container-banner-subpro .container .scanner .frame-j1 .frame11{
+
+#printer .frame-j1 .frame11{
 	min-height: 280px;
 	background-image:url('images/md_b314e_hc100.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
-.container-banner-subpro .container .scanner .frame-j1 .frame12{
+
+#printer .frame-j1 .frame12{
 	min-height: 280px;
 	background-image:url('images/mz220.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
-.container-banner-subpro .container .scanner .frame-k1 .frame13{
+
+#printer .frame-k1 .frame13{
 	min-height: 280px;
 	background-image:url('images/p4t.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
-.container-banner-subpro .container .scanner .frame-k1 .frame14{
+
+#printer .frame-k1 .frame14{
 	min-height: 280px;
 	background-image:url('images/rw420.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
-.container-banner-subpro .container .scanner .frame-k1 .frame15{
+
+#printer .frame-k1 .frame15{
 	min-height: 280px;
 	background-image:url('images/rw220.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
-.container-banner-subpro .container .scanner .frame-l1 .frame16{
+
+#printer .frame-l1 .frame16{
 	min-height: 280px;
 	background-image:url('images/s4m.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
-.container-banner-subpro .container .scanner .frame-l1 .frame17{
+
+#printer .frame-l1 .frame17{
 	min-height: 280px;
 	background-image:url('images/s600.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
-.container-banner-subpro .container .scanner .frame-l1 .frame18{
+
+#printer .frame-l1 .frame18{
 	min-height: 280px;
 	background-image:url('images/tlp2844.png');
 	background-repeat:no-repeat;
@@ -1217,101 +1120,67 @@ div.textframe .text-container{
 }
 
 /*-------------------Product 3 Column pvc printer-------------------*/
-.container-banner-subpro{
-	left      : 0;
-	right     : 0;
-	min-height: 880px;
-	background-color : #f4f43;
-}
-
-.container-banner-subpro .container{
-	min-height : 890px;
-	padding-top: 1px;
-	background-color : #f4f43;
-}
-
-.container-banner-subpro .container .head{
-	
-}
-
-.container-banner-subpro .container .header{
-	margin-top: 15px;
-	background-image:url('images/product-second-header.png');
-	background-repeat: repeat-y;
-	border-radius: 5px 5px 5px 5px;
-}
-
-.container-banner-subpro .container .header .root{
-	min-height: 60px;
-}
-
-.container-banner-subpro .container .header h1{
-	min-height: 60px;
-}
-
-.container-banner-subpro .container .header h2{
-	min-height: 60px;
-}
-
-.container-banner-subpro .container .scanner .frame-m1,.frame-n1,.frame-o1,.frame-j1,.frame-j1,.frame-l1{
+#printerpvc .frame-m1,.frame-n1,.frame-o1,.frame-j1,.frame-j1,.frame-l1{
 	margin-top: 30px;
 }
-.container-banner-subpro .container .scanner .frame-m1 .frame1{
+
+#printerpvc .frame-m1 .frame1{
 	min-height: 280px;
 	background-image:url('images/p100i.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
-.container-banner-subpro .container .scanner .frame-m1 .frame2{
+
+#printerpvc .frame-m1 .frame2{
 	min-height: 280px;
 	background-image:url('images/p110i.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .scanner .frame-m1 .frame3{
+#printerpvc .frame-m1 .frame3{
 	min-height: 280px;
 	background-image:url('images/p110m.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
 
-.container-banner-subpro .container .scanner .frame-n1 .frame4{
+#printerpvc .frame-n1 .frame4{
 	min-height: 280px;
 	background-image:url('images/p120i.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 
-.container-banner-subpro .container .scanner .frame-n1 .frame5{
+#printerpvc .frame-n1 .frame5{
 	min-height: 280px;
 	background-image:url('images/p330i.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .scanner .frame-n1 .frame6{
+#printerpvc .frame-n1 .frame6{
 	min-height: 280px;
 	background-image:url('images/p430i.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
 
-.container-banner-subpro .container .scanner .frame-o1 .frame7{
+#printerpvc .frame-o1 .frame7{
 	min-height: 280px;
 	background-image:url('images/p640i.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 
-.container-banner-subpro .container .scanner .frame-o1 .frame8{
+#printerpvc .frame-o1 .frame8{
 	min-height: 280px;
 	/*background-image:url('images/gk420t.png');*/
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .scanner .frame-o1 .frame9{
+#printerpvc .frame-o1 .frame9{
 	min-height: 280px;
 	background-image:url('images/zxp8.png');
 	background-repeat:no-repeat;
@@ -1319,101 +1188,66 @@ div.textframe .text-container{
 }
 
 /*-------------------Product 3 Column EPOS-------------------*/
-.container-banner-subpro{
-	left      : 0;
-	right     : 0;
-	min-height: 880px;
-	background-color : #f4f43;
-}
-
-.container-banner-subpro .container{
-	min-height : 890px;
-	padding-top: 1px;
-	background-color : #f4f43;
-}
-
-.container-banner-subpro .container .head{
-	
-}
-
-.container-banner-subpro .container .header{
-	margin-top: 15px;
-	background-image:url('images/product-second-header.png');
-	background-repeat: repeat-y;
-	border-radius: 5px 5px 5px 5px;
-}
-
-.container-banner-subpro .container .header .root{
-	min-height: 60px;
-}
-
-.container-banner-subpro .container .header h1{
-	min-height: 60px;
-}
-
-.container-banner-subpro .container .header h2{
-	min-height: 60px;
-}
-
-.container-banner-subpro .container .scanner .frame-p1,.frame-q1,.frame-r1{
+#pos .frame-p1,.frame-q1,.frame-r1{
 	margin-top: 30px;
 }
-.container-banner-subpro .container .scanner .frame-p1 .frame1{
+
+#pos .frame-p1 .frame1{
 	min-height: 280px;
 	background-image:url('images/bcd1000.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
-.container-banner-subpro .container .scanner .frame-p1 .frame2{
+
+#pos .frame-p1 .frame2{
 	min-height: 280px;
 	background-image:url('images/cashdrawer.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .scanner .frame-p1 .frame3{
+#pos .frame-p1 .frame3{
 	min-height: 280px;
 	background-image:url('images/ir700.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
 
-.container-banner-subpro .container .scanner .frame-q1 .frame4{
+#pos .frame-q1 .frame4{
 	min-height: 280px;
 	background-image:url('images/pos2000.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 
-.container-banner-subpro .container .scanner .frame-q1 .frame5{
+#pos .frame-q1 .frame5{
 	min-height: 280px;
 	background-image:url('images/pos2700.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .scanner .frame-q1 .frame6{
+#pos .frame-q1 .frame6{
 	min-height: 280px;
 	background-image:url('images/pos3000.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
 /*
-.container-banner-subpro .container .scanner .frame-r1 .frame7{
+#pos .frame-r1 .frame7{
 	min-height: 280px;
 	background-image:url('images/cs1504.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 
-.container-banner-subpro .container .scanner .frame-r1 .frame8{
+#pos .frame-r1 .frame8{
 	min-height: 280px;
 	background-image:url('images/cs3070.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
-
-.container-banner-subpro .container .scanner .frame-r1 .frame9{
+#pos .frame-r1 .frame9{
 	min-height: 280px;
 	background-image:url('images/ls2208.png');
 	background-repeat:no-repeat;
@@ -1421,161 +1255,130 @@ div.textframe .text-container{
 }
 */
 /*-------------------Product 3 Column scanphone-------------------*/
-.container-banner-subpro{
-	left      : 0;
-	right     : 0;
-	min-height: 880px;
-	background-color : #f4f43;
-}
-
-.container-banner-subpro .container{
-	min-height : 890px;
-	padding-top: 1px;
-	background-color : #f4f43;
-}
-
-.container-banner-subpro .container .head{
-	
-}
-
-.container-banner-subpro .container .header{
-	margin-top: 15px;
-	background-image:url('images/product-second-header.png');
-	background-repeat: repeat-y;
-	border-radius: 5px 5px 5px 5px;
-}
-
-.container-banner-subpro .container .header .root{
-	min-height: 60px;
-}
-
-.container-banner-subpro .container .header h1{
-	min-height: 60px;
-}
-
-.container-banner-subpro .container .header h2{
-	min-height: 60px;
-}
-
-.container-banner-subpro .container .scanner .frame-s1,.frame-t1,.frame-u1,.frame-v1,.frame-x1,.frame-w1{
+#handheld .frame-s1,.frame-t1,.frame-u1,.frame-v1,.frame-x1,.frame-w1{
 	margin-top: 30px;
 }
-.container-banner-subpro .container .scanner .frame-s1 .frame1{
+
+#handheld .frame-s1 .frame1{
 	min-height: 280px;
 	background-image:url('images/gk7000.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
-.container-banner-subpro .container .scanner .frame-s1 .frame2{
+
+#handheld .frame-s1 .frame2{
 	min-height: 280px;
 	background-image:url('images/at870.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .scanner .frame-s1 .frame3{
+#handheld .frame-s1 .frame3{
 	min-height: 280px;
 	background-image:url('images/at870-.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
 
-.container-banner-subpro .container .scanner .frame-t1 .frame4{
+#handheld .frame-t1 .frame4{
 	min-height: 280px;
 	background-image:url('images/si303.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 
-.container-banner-subpro .container .scanner .frame-t1 .frame5{
+#handheld .frame-t1 .frame5{
 	min-height: 280px;
 	background-image:url('images/smarteagle.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .scanner .frame-t1 .frame6{
+#handheld .frame-t1 .frame6{
 	min-height: 280px;
 	background-image:url('images/memor.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
 
-.container-banner-subpro .container .scanner .frame-u1 .frame7{
+#handheld .frame-u1 .frame7{
 	min-height: 280px;
 	background-image:url('images/scorpio1.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 
-.container-banner-subpro .container .scanner .frame-u1 .frame8{
+#handheld .frame-u1 .frame8{
 	min-height: 280px;
 	background-image:url('images/scorpio2.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .scanner .frame-u1 .frame9{
+#handheld .frame-u1 .frame9{
 	min-height: 280px;
 	background-image:url('images/ds3.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
-.container-banner-subpro .container .scanner .frame-v1 .frame10{
+
+#handheld .frame-v1 .frame10{
 	min-height: 280px;
 	background-image:url('images/dolphin6000.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 
-.container-banner-subpro .container .scanner .frame-v1 .frame11{
+#handheld .frame-v1 .frame11{
 	min-height: 280px;
 	background-image:url('images/dolphin6500.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .scanner .frame-v1 .frame12{
+#handheld .frame-v1 .frame12{
 	min-height: 280px;
 	background-image:url('images/dolphin9900.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
-.container-banner-subpro .container .scanner .frame-x1 .frame13{
+
+#handheld .frame-x1 .frame13{
 	min-height: 280px;
 	background-image:url('images/dolphin9900-2.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 
-.container-banner-subpro .container .scanner .frame-x1 .frame14{
+#handheld .frame-x1 .frame14{
 	min-height: 280px;
 	background-image:url('images/7500s.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .scanner .frame-x1 .frame15{
+#handheld .frame-x1 .frame15{
 	min-height: 280px;
 	background-image:url('images/es400.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
-.container-banner-subpro .container .scanner .frame-w1 .frame16{
+
+#handheld .frame-w1 .frame16{
 	min-height: 280px;
 	background-image:url('images/mc3100.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 
-.container-banner-subpro .container .scanner .frame-w1 .frame17{
+#handheld .frame-w1 .frame17{
 	min-height: 280px;
 	background-image:url('images/mc9090g.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
-.container-banner-subpro .container .scanner .frame-w1 .frame18{
+#handheld .frame-w1 .frame18{
 	min-height: 280px;
 	background-image:url('images/mc9090g-2.png');
 	background-repeat:no-repeat;
@@ -1606,69 +1409,53 @@ div.textframe .text-container{
 }
 
 /*--------------introduction------------------*/
-.container-introduction{
-	left:0;
-	right:0;
-	background-color:#f4f4f3;
-	height:590px;	
-	
-}
-.container-introduction .container{
-	height:580px;
-	padding-top:1px;
-	background-color:#f4f4f3;
-	outline:solid 2px #e4e4d3;
-}
-.container-introduction .container .detail{
-	height:130px;
-	padding-top:40px;
+#detail{
 	text-align:right;	
 }
-.container-introduction .container .detail h1{
+
+#detail h1{
 	color:#1a292e;
 	font-size:23px;
 	font-weight:bold;
 	font-family:Arial, Helvetica, sans-serif;
 }
-.container-introduction .container .tool{
+
+#tool{
 	min-height:340px;
 	background-image:url('images/motorla.png');
 	background-repeat:no-repeat;
 }
-.container-introduction .container .chart{
-	min-height:700px;
-	margin-top:130px;
-	position:relative;
+
+#chart{
+	margin-top: 80px;
 }
-.introduction-chart{
+
+#introduction-chart{
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	border-collapse:collapse;
-	width:615px;
-	position:absolute;
-	bottom:0;
-	top:0;
-	left:0;
-	right:0;
-	margin:0 auto;
+	
 }
-.introduction-chart td,.introduction-chart th{
+
+#introduction-chart td , #introduction-chart th{
 	font-weight:bold;
 	border:1px solid #f4f4f3;
 	padding:10px 9px 2px 13px; 
 	color:#112;
 }
-.introduction-chart th{
+
+#introduction-chart th{
 	text-align:center;
 	background-color:#2c4047;
 	color:#FFF;
 	padding:8px 6px 6px 11px; 
 }
-.introduction-chart td{
+
+#introduction-chart td{
 	background-color:#e4e4d3;
 	color:#000;
 	text-align:center;	
 }
-.introduction-chart tr.alt td 
-{
+
+#introduction-chart tr.alt td{
 	background-color:#7a93a1;
 }
