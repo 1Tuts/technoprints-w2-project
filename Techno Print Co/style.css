@@ -127,6 +127,7 @@ body{
 .container-header .container .menu > ul > li:hover > a{
 	border-radius:5px;
 	-webkit-transition: background-color 500ms;
+	-moz-transition: background-color 500ms;;
 }
 
 .container-header .container .menu li li a{
@@ -161,12 +162,14 @@ body{
 	display: block;
 	padding: 7px 5px;
 	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
 }
 
 .container-header .container .menu li:hover > a > span{
 	background-color: #425961;
 	border-radius   : 3px;
 	-webkit-transition: background-color 600ms;
+	-moz-transition: background-color 600ms;;
 }
 
 .container-header .container .menu li li a{
@@ -278,6 +281,9 @@ div.banner div.scroll{
 	-webkit-transition-property: all;
 	-webkit-transition-duration: 800ms;
 	-webkit-transition-timing-function: cubic-bezier(0,0.7,0.3,1);
+	-moz-transition-property: all;
+	-moz-transition-duration: 800ms;
+	-moz-transition-timing-function: cubic-bezier(0,0.7,0.3,1);
 	background-color:#162427;
 }
 
