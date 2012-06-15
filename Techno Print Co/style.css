@@ -382,11 +382,21 @@ div.banner ul.btn li.active{
 
 .container-banner .container .pic1,.pic2,.pic3,.pic4{
 	min-height: 380px;
-	background-image:url('images/window.png');
 	background-repeat:no-repeat;
 	background-size:100% auto;
 }
-
+.container-banner .container .pic1{
+	background-image:url("images/Consumables.png")
+}
+.container-banner .container .pic2{
+	background-image:url("images/application.png")	
+}
+.container-banner .container .pic3{
+	background-image:url("images/printer.png")		
+}
+.container-banner .container .pic4{
+	background-image:url("images/scanners.png")	
+}
 .text-banner{
 	margin:60px auto 0;
 	width:948px;
