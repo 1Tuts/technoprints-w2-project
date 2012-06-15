@@ -1457,7 +1457,7 @@ div.textframe .text-container{
 	min-height: 60px;
 }
 
-.container-banner-subpro .container .scanner .frame-s1,.frame-t1,.frame-u1{
+.container-banner-subpro .container .scanner .frame-s1,.frame-t1,.frame-u1,.frame-v1,.frame-x1,.frame-w1{
 	margin-top: 30px;
 }
 .container-banner-subpro .container .scanner .frame-s1 .frame1{
@@ -1521,7 +1521,66 @@ div.textframe .text-container{
 	background-repeat:no-repeat;
 	background-position: top center;
 }
+.container-banner-subpro .container .scanner .frame-v1 .frame10{
+	min-height: 280px;
+	background-image:url('images/dolphin6000.png');
+	background-repeat:no-repeat;
+	background-position: top left;
+}
 
+.container-banner-subpro .container .scanner .frame-v1 .frame11{
+	min-height: 280px;
+	background-image:url('images/dolphin6500.png');
+	background-repeat:no-repeat;
+	background-position: top right;
+}
+
+.container-banner-subpro .container .scanner .frame-v1 .frame12{
+	min-height: 280px;
+	background-image:url('images/dolphin9900.png');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+.container-banner-subpro .container .scanner .frame-x1 .frame13{
+	min-height: 280px;
+	background-image:url('images/dolphin9900-2.png');
+	background-repeat:no-repeat;
+	background-position: top left;
+}
+
+.container-banner-subpro .container .scanner .frame-x1 .frame14{
+	min-height: 280px;
+	background-image:url('images/7500s.png');
+	background-repeat:no-repeat;
+	background-position: top right;
+}
+
+.container-banner-subpro .container .scanner .frame-x1 .frame15{
+	min-height: 280px;
+	background-image:url('images/es400.png');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+.container-banner-subpro .container .scanner .frame-w1 .frame16{
+	min-height: 280px;
+	background-image:url('images/mc3100.png');
+	background-repeat:no-repeat;
+	background-position: top left;
+}
+
+.container-banner-subpro .container .scanner .frame-w1 .frame17{
+	min-height: 280px;
+	background-image:url('images/mc9090g.png');
+	background-repeat:no-repeat;
+	background-position: top right;
+}
+
+.container-banner-subpro .container .scanner .frame-w1 .frame18{
+	min-height: 280px;
+	background-image:url('images/mc9090g-2.png');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
 /*-----------------buttonpage----------------------*/
 .buttonpage{
 	width:170px;
