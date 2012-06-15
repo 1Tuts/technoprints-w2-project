@@ -1420,6 +1420,108 @@ div.textframe .text-container{
 	background-position: top center;
 }
 */
+/*-------------------Product 3 Column scanphone-------------------*/
+.container-banner-subpro{
+	left      : 0;
+	right     : 0;
+	min-height: 880px;
+	background-color : #f4f43;
+}
+
+.container-banner-subpro .container{
+	min-height : 890px;
+	padding-top: 1px;
+	background-color : #f4f43;
+}
+
+.container-banner-subpro .container .head{
+	
+}
+
+.container-banner-subpro .container .header{
+	margin-top: 15px;
+	background-image:url('images/product-second-header.png');
+	background-repeat: repeat-y;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.container-banner-subpro .container .header .root{
+	min-height: 60px;
+}
+
+.container-banner-subpro .container .header h1{
+	min-height: 60px;
+}
+
+.container-banner-subpro .container .header h2{
+	min-height: 60px;
+}
+
+.container-banner-subpro .container .scanner .frame-s1,.frame-t1,.frame-u1{
+	margin-top: 30px;
+}
+.container-banner-subpro .container .scanner .frame-s1 .frame1{
+	min-height: 280px;
+	background-image:url('images/gk7000.png');
+	background-repeat:no-repeat;
+	background-position: top left;
+}
+.container-banner-subpro .container .scanner .frame-s1 .frame2{
+	min-height: 280px;
+	background-image:url('images/at870.png');
+	background-repeat:no-repeat;
+	background-position: top right;
+}
+
+.container-banner-subpro .container .scanner .frame-s1 .frame3{
+	min-height: 280px;
+	background-image:url('images/at870-.png');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+.container-banner-subpro .container .scanner .frame-t1 .frame4{
+	min-height: 280px;
+	background-image:url('images/si303.png');
+	background-repeat:no-repeat;
+	background-position: top left;
+}
+
+.container-banner-subpro .container .scanner .frame-t1 .frame5{
+	min-height: 280px;
+	background-image:url('images/smarteagle.png');
+	background-repeat:no-repeat;
+	background-position: top right;
+}
+
+.container-banner-subpro .container .scanner .frame-t1 .frame6{
+	min-height: 280px;
+	background-image:url('images/memor.png');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
+.container-banner-subpro .container .scanner .frame-u1 .frame7{
+	min-height: 280px;
+	background-image:url('images/scorpio1.png');
+	background-repeat:no-repeat;
+	background-position: top left;
+}
+
+.container-banner-subpro .container .scanner .frame-u1 .frame8{
+	min-height: 280px;
+	background-image:url('images/scorpio2.png');
+	background-repeat:no-repeat;
+	background-position: top right;
+}
+
+.container-banner-subpro .container .scanner .frame-u1 .frame9{
+	min-height: 280px;
+	background-image:url('images/ds3.png');
+	background-repeat:no-repeat;
+	background-position: top center;
+}
+
 /*-----------------buttonpage----------------------*/
 .buttonpage{
 	width:170px;
