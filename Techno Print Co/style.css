@@ -1253,7 +1253,7 @@ div.textframe .text-container{
 	min-height: 60px;
 }
 
-.container-banner-subpro .container .scanner .frame-m1,.frame-n1,.frame-o1{
+.container-banner-subpro .container .scanner .frame-m1,.frame-n1,.frame-o1,.frame-j1,.frame-j1,.frame-l1{
 	margin-top: 30px;
 }
 .container-banner-subpro .container .scanner .frame-m1 .frame1{
@@ -1306,14 +1306,14 @@ div.textframe .text-container{
 
 .container-banner-subpro .container .scanner .frame-o1 .frame8{
 	min-height: 280px;
-	background-image:url('images/zxp8.png');
+	/*background-image:url('images/gk420t.png');*/
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
 .container-banner-subpro .container .scanner .frame-o1 .frame9{
 	min-height: 280px;
-	/*background-image:url('images/gk420t.png');*/
+	background-image:url('images/zxp8.png');
 	background-repeat:no-repeat;
 	background-position: top center;
 }
