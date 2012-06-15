@@ -127,6 +127,7 @@ body{
 .container-header .container .menu > ul > li:hover > a{
 	border-radius:5px;
 	-webkit-transition: background-color 500ms;
+	-moz-transition: background-color 500ms;;
 }
 
 .container-header .container .menu li li a{
@@ -161,12 +162,14 @@ body{
 	display: block;
 	padding: 7px 5px;
 	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
 }
 
 .container-header .container .menu li:hover > a > span{
 	background-color: #425961;
 	border-radius   : 3px;
 	-webkit-transition: background-color 600ms;
+	-moz-transition: background-color 600ms;;
 }
 
 .container-header .container .menu li li a{
@@ -278,6 +281,9 @@ div.banner div.scroll{
 	-webkit-transition-property: all;
 	-webkit-transition-duration: 800ms;
 	-webkit-transition-timing-function: cubic-bezier(0,0.7,0.3,1);
+	-moz-transition-property: all;
+	-moz-transition-duration: 800ms;
+	-moz-transition-timing-function: cubic-bezier(0,0.7,0.3,1);
 	background-color:#162427;
 }
 
@@ -289,28 +295,42 @@ div.banner div.scroll > div{
 	background-position: left top;
 	background-size:100% 100%;
 }
-
+div.banner div.scroll > div > div{
+	width:300px;
+	height:280px;
+	background-position:right bottom;
+	background-repeat:no-repeat;
+	margin-right:7px;
+}
 div.banner div.scroll > div.adv1{
 	background-image: url('images/b1.jpg');
 }
-
+div.banner div.scroll > div.adv1 .img-box1{
+	background-image:url('images/rahkarhaye-senfi.jpg');
+}
 div.banner div.scroll > div.adv2{
 	background-image: url('images/b2.jpg');
 }
-
+div.banner div.scroll > div.adv2 .img-box2{
+	background-image:url('images/darmani.jpg');
+}
 div.banner div.scroll > div.adv3{
 	background-image: url('images/b3.jpg');
 }
-
+div.banner div.scroll > div.adv3 .img-box3{
+	background-image:url('images/amval-daraii.jpg');
+}
 div.banner div.scroll > div.adv4{
 	background-image: url('images/b4.jpg');
 }
-
+div.banner div.scroll > div.adv4 .img-box4{
+	background-image:url('images/modiriate-anbar1.jpg');
+}
 div.banner div.scroll > div.adv5{
 	background-image: url('images/b5.jpg');
 }
 div.banner div.scroll > div.adv5 .img-box5{
-	background-image:url('images/marine.png');
+	background-image:url('images/radyabi-tolid.jpg');
 }
 div.btn{
 	width:950px;
@@ -382,11 +402,21 @@ div.banner ul.btn li.active{
 
 .container-banner .container .pic1,.pic2,.pic3,.pic4{
 	min-height: 380px;
-	background-image:url('images/window.png');
 	background-repeat:no-repeat;
 	background-size:100% auto;
 }
-
+.container-banner .container .pic1{
+	background-image:url("images/Consumables.png")
+}
+.container-banner .container .pic2{
+	background-image:url("images/application.png")	
+}
+.container-banner .container .pic3{
+	background-image:url("images/printer.png")		
+}
+.container-banner .container .pic4{
+	background-image:url("images/scanners.png")	
+}
 .text-banner{
 	margin:60px auto 0;
 	width:948px;
