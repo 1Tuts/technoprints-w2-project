@@ -289,28 +289,42 @@ div.banner div.scroll > div{
 	background-position: left top;
 	background-size:100% 100%;
 }
-
+div.banner div.scroll > div > div{
+	width:300px;
+	height:280px;
+	background-position:right bottom;
+	background-repeat:no-repeat;
+	margin-right:7px;
+}
 div.banner div.scroll > div.adv1{
 	background-image: url('images/b1.jpg');
 }
-
+div.banner div.scroll > div.adv1 .img-box1{
+	background-image:url('images/rahkarhaye-senfi.jpg');
+}
 div.banner div.scroll > div.adv2{
 	background-image: url('images/b2.jpg');
 }
-
+div.banner div.scroll > div.adv2 .img-box2{
+	background-image:url('images/darmani.jpg');
+}
 div.banner div.scroll > div.adv3{
 	background-image: url('images/b3.jpg');
 }
-
+div.banner div.scroll > div.adv3 .img-box3{
+	background-image:url('images/amval-daraii.jpg');
+}
 div.banner div.scroll > div.adv4{
 	background-image: url('images/b4.jpg');
 }
-
+div.banner div.scroll > div.adv4 .img-box4{
+	background-image:url('images/modiriate-anbar1.jpg');
+}
 div.banner div.scroll > div.adv5{
 	background-image: url('images/b5.jpg');
 }
 div.banner div.scroll > div.adv5 .img-box5{
-	background-image:url('images/marine.png');
+	background-image:url('images/radyabi-tolid.jpg');
 }
 div.btn{
 	width:950px;
