@@ -466,6 +466,20 @@ div.text-banner div.text-train > div{
 	height:150px;
 	background-color:#d1d3d0;
 	float:left;
+	position:relative;
+}
+div.text-banner div.text-train > div .text-slide{
+	width:600px !important;
+	height:110px !important;
+	bottom:0;
+	top:0;
+	left:0;
+	right:0;
+	position:absolute;
+	margin:auto;
+	text-align:right;
+	font-weight:bold;	
+	padding-bottom:10px;
 }
 .text6{
 	width:958  !important;	
