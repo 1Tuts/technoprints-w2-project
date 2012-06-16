@@ -295,12 +295,35 @@ div.banner div.scroll > div{
 	background-position: left top;
 	background-size:100% 100%;
 }
+div.banner div.scroll > div .slide-text1,.slide-text2{
+	height:220px !important;
+	width:400px !important;
+	margin-right:0 !important;
+	padding-right:30px;
+	padding-top:40px;
+	text-align:right;
+}
+div.banner div.scroll > div .slide-text3,.slide-text4,.slide-text5{
+	height:220px !important;
+	width:400px !important;
+	margin-right:0 !important;
+	padding-right:30px;
+	padding-top:30px;
+	text-align:right;
+}
+div.banner div.scroll > div h1{
+	text-align:right;
+	color:#e4e4e4;
+	padding-bottom:5px;
+	font-style:italic;
+	font-size:18px;	
+}
 div.banner div.scroll > div > div{
 	width:400px;
-	height:287px;
-	background-position:right bottom;
+	height:267px;
+	background-position:left bottom;
 	background-repeat:no-repeat;
-	margin-right:22px;
+	margin-left:22px;
 }
 div.banner div.scroll > div.adv1{
 	background-image: url('images/b1.jpg');
@@ -330,7 +353,7 @@ div.banner div.scroll > div.adv5{
 	background-image: url('images/b5.jpg');
 }
 div.banner div.scroll > div.adv5 .img-box5{
-	background-image:url('images/radyabi-tolid.jpg');
+	background-image:url('images/slide-b5.png');
 }
 div.btn{
 	width:950px;
