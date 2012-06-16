@@ -817,7 +817,18 @@ div.text-banner div.text-train > div{
 .container-middle .container .banner .search{
 	
 }
-
+.container-middle .container .banner .srh{
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	width:150px;
+	height:18px;
+	background-image:url('images/magnyfie2.png');
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+.container-middle .container .banner .srh:hover{
+	background-image:url('images/magnyfie1.png');
+}
 .container-middle .container .banner .name{
 	text-align: right;
 	color: #fff;
