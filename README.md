@@ -1,4 +1,4 @@
-#TechnoPrints wesite# 
+#TechnoPrints website
 The website for the **TechnoPrints** company
 -----------------------
 ###Contributing
@@ -7,7 +7,7 @@ The website for the **TechnoPrints** company
 
 * Check our project's source with
 ```
-* git clone https://github.com/1schools-projects/technoprints.git
+*   git clone https://github.com/1schools-projects/technoprints.git
 ```
 
 
@@ -19,7 +19,7 @@ The website for the **TechnoPrints** company
 
 
 
-###The Team
+###Our Team
 * [**Ali Mihandoost**](http://github.com/alimd) Teacher  & Technical Manager
 * [**Ebrahim Tehranipour**](http://github.com/aligh) Project Manager / Developer
 * [**Koorosh Karachi**](https://github.com/ghasem-sadeghi) Designer / Developer
