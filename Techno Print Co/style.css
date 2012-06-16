@@ -296,17 +296,18 @@ div.banner div.scroll > div{
 	background-size:100% 100%;
 }
 div.banner div.scroll > div > div{
-	width:300px;
-	height:280px;
+
+	width:400px;
+	height:287px;
 	background-position:right bottom;
 	background-repeat:no-repeat;
-	margin-right:7px;
+	margin-right:20px;
 }
 div.banner div.scroll > div.adv1{
 	background-image: url('images/b1.jpg');
 }
 div.banner div.scroll > div.adv1 .img-box1{
-	background-image:url('images/rahkarhaye-senfi.jpg');
+	background-image:url('images/slide-b1.png');
 }
 div.banner div.scroll > div.adv2{
 	background-image: url('images/b2.jpg');
