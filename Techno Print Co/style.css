@@ -848,6 +848,24 @@ div.text-banner div.text-train > div .text-slide{
 	min-height: 650px;
 	border-radius: 5px 5px 5px 5px;
 }
+/*-----------------------article----------------------------*/
+#article{
+	border: 2px solid #E4E4D3;
+	min-height: 650px;
+	border-radius: 5px 5px 5px 5px;
+	text-align:justify;
+	color:#555;
+	padding:12px 15px 0 15px;
+	line-height:25px;
+	font-size:17px;
+}
+#article h1{
+	font-size:19px;
+	color:#1f252f;
+	border-bottom:2px solid #fff;
+	padding-bottom:10px;
+	text-align:right;
+}
 /*-------------------Header for other page -------------------*/
 .container-middle{
 	left      : 0;
