@@ -312,11 +312,18 @@ div.banner div.scroll > div .slide-text3,.slide-text4,.slide-text5{
 	text-align:right;
 }
 div.banner div.scroll > div h1{
+	text-shadow:5px 5px 5px #0f2227;
 	text-align:right;
 	color:#e4e4e4;
 	padding-bottom:5px;
-	font-style:italic;
-	font-size:18px;	
+	font-weight:bold;
+	font-size:20px;	
+}
+div.banner div.scroll > div p{
+	line-height:19px;
+	font-size:16px;
+	color:#05050a;
+	font-weight:500;
 }
 div.banner div.scroll > div > div{
 	width:400px;
