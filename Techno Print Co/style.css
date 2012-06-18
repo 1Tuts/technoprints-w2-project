@@ -855,9 +855,9 @@ div.text-banner div.text-train > div .text-slide{
 	min-height: 650px;
 	border-radius: 5px 5px 5px 5px;
 	text-align:justify;
-	color:#555;
+	color:#494952;
 	padding:12px 15px 0 15px;
-	line-height:25px;
+	line-height:28px;
 	font-size:17px;
 }
 #article h1{
@@ -866,6 +866,31 @@ div.text-banner div.text-train > div .text-slide{
 	border-bottom:2px solid #fff;
 	padding-bottom:10px;
 	text-align:right;
+	background-color:#f1f1f3;
+}
+#article h2{
+	font-size:18px;
+	color:#2f454f;
+}
+#article #art-img1{
+	width:300px;
+	margin:10px 320px 0 320px;
+}
+#article #art-img2{
+	float:left;	
+	padding-right:20px;
+	padding-bottom:10px;
+	width:200px;
+	height:200px;
+}
+#article #art-img3{
+	float:left;
+	width:200px;
+	height:200px;
+	padding-right:20px;
+}
+#article #art-img4,#art-img5{
+	float:left;	
 }
 /*-------------------Header for other page -------------------*/
 .container-middle{
