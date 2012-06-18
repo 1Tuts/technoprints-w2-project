@@ -33,6 +33,6 @@ window.onload=function(){
 		})(i);
 	}
 
-	setInterval(nextSlide,15000);
+	setInterval(nextSlide,12000);
 
 }

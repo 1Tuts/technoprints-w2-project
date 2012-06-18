@@ -331,6 +331,7 @@ div.banner div.scroll > div > div{
 	background-position:left bottom;
 	background-repeat:no-repeat;
 	margin-left:22px;
+	margin-top:20px;
 }
 div.banner div.scroll > div.adv1{
 	background-image: url('images/b1.jpg');
