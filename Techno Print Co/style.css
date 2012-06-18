@@ -867,6 +867,11 @@ div.text-banner div.text-train > div .text-slide{
 	padding-bottom:10px;
 	text-align:right;
 	background-color:#f1f1f3;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	text-indent:10px;
+	line-height:25px;
+	padding-top:8px;
 }
 #article h2{
 	font-size:18px;
