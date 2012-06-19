@@ -932,8 +932,7 @@ div.text-banner div.text-train > div .text-slide{
 	margin-top: 17px;
 }
 .container-middle .container .banner .srh{
-	-webkit-border-radius:8px;
-	-moz-border-radius:8px;
+	border-radius:8px;
 	width:150px;
 	height:18px;
 	background-image:url('images/magnyfie2.png');
