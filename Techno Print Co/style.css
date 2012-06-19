@@ -444,6 +444,17 @@ div.banner ul.btn li.active{
 	font-size:19px;
 	color:#213144;
 }
+.container-banner .container .frame-text ul{
+	list-style-type:disc;
+	padding-right:14px;
+}
+.container-banner .container .frame-text a{
+	color:#213144;;
+}
+.container-banner .container .frame-text a:hover{
+	color:#656faf;
+	border-bottom:solid 1px #b5cfef;
+}
 .container-banner .container .pic1{
 	background-image:url("images/application.png")
 }
