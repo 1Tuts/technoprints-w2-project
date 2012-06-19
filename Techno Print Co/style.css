@@ -426,6 +426,10 @@ div.banner ul.btn li.active{
 	right:0;
 }
 
+.container-banner .container .text p{
+	text-align: right;
+}
+
 
 .container-banner .container .frame{
 
