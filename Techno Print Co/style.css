@@ -911,9 +911,14 @@ div.text-banner div.text-train > div .text-slide{
 }
 #article span > a:hover{
 	color:#233acf;	
-	border-bottom:dotted 1px #233a6f;
+	border-bottom:solid 1px #233a6f;
 	-webkit-transition:all 500ms;
 	-moz-transition:all 500ms;
+}
+#article #anchor{
+	font-size:14px;
+	color:#335;
+	margin-right:30px;
 }
 /*-------------------Header for other page -------------------*/
 .container-middle{
@@ -931,27 +936,26 @@ div.text-banner div.text-train > div .text-slide{
 }
 
 .container-middle .container .banner .container-head{
-	min-height: 60px;
+	min-height: 30px;
 	margin-bottom: 30px;
 	background-image:url('images/product-second-header.png');
 	background-repeat: repeat-y;
 	border-radius: 5px 5px 5px 5px;
-	padding: 1px 10px;
+	padding: 15px 10px;
 }
 
 .container-middle .container .banner .search{
-	margin-top: 17px;
+	
 }
 .container-middle .container .banner .srh{
-	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
 	width:150px;
 	height:18px;
 	background-image:url('images/magnyfie2.png');
 	background-repeat:no-repeat;
 	background-position:left center;
-	outline: none;
 }
-
 .container-middle .container .banner .srh:hover{
 	background-image:url('images/magnyfie1.png');
 }
@@ -959,13 +963,11 @@ div.text-banner div.text-train > div .text-slide{
 	text-align: right;
 	color: #fff;
 	font-size: 20px;
-	margin-top: 18px;
 }
 
 .container-middle .container .banner .root{
 	text-align: right;
-	color: #fff;
-	margin-top: 19px;	
+	color: #fff;	
 }
 
 .container-middle .container .banner .root a{
