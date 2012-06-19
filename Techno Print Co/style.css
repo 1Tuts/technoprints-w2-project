@@ -892,6 +892,19 @@ div.text-banner div.text-train > div .text-slide{
 #article #art-img4,#art-img5{
 	float:left;	
 }
+#article span > a{
+	color:#002;
+	font-style:italic;
+	font-size:17px;
+	-webkit-transition:all 900ms;
+	-moz-transition:all 900ms;
+}
+#article span > a:hover{
+	color:#233acf;	
+	border-bottom:dotted 1px #233a6f;
+	-webkit-transition:all 500ms;
+	-moz-transition:all 500ms;
+}
 /*-------------------Header for other page -------------------*/
 .container-middle{
 	left      : 0;
