@@ -155,7 +155,7 @@ body{
 .container-header .container .menu li li{
 	float : none;
 	border: 0 none;
-
+	
 }
 
 .container-header .container .menu li a span{
@@ -449,7 +449,8 @@ div.banner ul.btn li.active{
 	padding-right:14px;
 }
 .container-banner .container .frame-text a{
-	color:#213144;;
+	color:#011124;
+	text-decoration:underline;
 }
 .container-banner .container .frame-text a:hover{
 	color:#656faf;
