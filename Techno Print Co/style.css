@@ -1060,8 +1060,19 @@ div.text-banner div.text-train > div .text-slide{
 /*-------------------Product 3 Column scanner-------------------*/
 #scanner .frame-a1,.frame-b1,.frame-c1,.frame-d1,.frame-e1,.frame-e1{
 	margin-top: 30px;
+	line-height:320px;
+	color:#335;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:22px;
+	text-shadow:3px 3px 3px #aaa;
+	text-transform:capitalize;
 }
-
+#tool1{
+	margin-left:100px;	
+}
+#tool2{
+	margin-left:50px;	
+}
 #scanner .frame-a1 .frame1{
 	min-height: 280px;
 	background-image:url('images/at506-big.png');
