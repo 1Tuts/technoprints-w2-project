@@ -744,7 +744,10 @@ div.text-banner div.text-train > div .text-slide{
 .container-bottomfooter .container .menu ul{
 	list-style-type: none;
 }
-
+.container-bottomfooter .container .menu li > span a{
+	color:white;
+	text-decoration:none;
+}
 .container-bottomfooter .container .menu li{
 	float : right;
 	
@@ -756,7 +759,7 @@ div.text-banner div.text-train > div .text-slide{
 	display        : block;
 	font-family    : Arial, sans-serif;
 	font-size      : 11px;
-	padding: 0 7px
+	padding: 0 9px
 }
 .container-bottomfooter .container .menu a:hover{
 	color:#ffd;	
@@ -919,6 +922,16 @@ div.text-banner div.text-train > div .text-slide{
 	font-size:14px;
 	color:#335;
 	margin-right:30px;
+}
+#article a img #move{
+	position:relative;
+	-webkit-animation:mymove 2s infinte;
+	-webkit-animation-direction:alternate;
+}
+@-webkit-keyframes mymove{
+0% {top:0px}
+50% {top:-70px}
+100%{top:0px}	
 }
 /*-------------------Header for other page -------------------*/
 .container-middle{
