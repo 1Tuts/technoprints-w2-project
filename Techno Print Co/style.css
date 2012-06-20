@@ -991,57 +991,61 @@ div.text-banner div.text-train > div .text-slide{
 }
 /*-------------------Product 4 column-------------------*/
 .container-middle .container .product{
-
+	min-height:600px;
+	padding-top:1px;
 }
 
 .container-middle .container .product .frame-a,.frame-b{
 	padding-top:1px;
-	text-align:center;  
 	margin-top: 30px;
  }
-
+.container-middle .container .product .frame-a,.frame-b p{
+	line-height:290px;
+	text-indent:20px;
+	text-align:right;
+}
 .container-middle .container .product .frame-a .frame1{
 	min-height: 300px;
-	background-image:url('images/window-product.jpg');
+	background-image:url('images/window-product1.jpg');
 	background-repeat:no-repeat;
 }
 
 .container-middle .container .product .frame-a .frame2{
 	min-height: 300px;
-	background-image:url('images/window-product.jpg');
+	background-image:url('images/window-product2.jpg');
 	background-repeat:no-repeat;
 	background-position:top center;
 }
 
 .container-middle .container .product .frame-a .frame3{
 	min-height: 300px;
-	background-image:url('images/window-product.jpg');
+	background-image:url('images/window-product3.jpg');
 	background-repeat:no-repeat;
 	background-position:top center;
 }
 
 .container-middle .container .product .frame-a .frame4{
-	min-height: 300px;
-	background-image:url('images/window-product.jpg');
+	min-height:300px;
+	background-image:url('images/window-product4.jpg');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
 .container-middle .container .product .frame-b .frame5{
-	min-height: 300px;
-	background-image:url('images/window-product.jpg');
+	min-height:300px;
+	background-image:url('images/window-product5.jpg');
 	background-repeat:no-repeat;
 }
 
 .container-middle .container .product .frame-b .frame6{
 	min-height: 300px;
-	background-image:url('images/window-product.jpg');
+	background-image:url('images/window-product6.jpg');
 	background-repeat:no-repeat;
 	background-position:top center;
 }
 
 .container-middle .container .product .frame-b .frame7{
-	min-height: 300px;
+	min-height:300px;
 	background-image:url('images/window-product.jpg');
 	background-repeat:no-repeat;
 	background-position:top center;	
