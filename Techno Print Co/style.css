@@ -1190,8 +1190,14 @@ div.text-banner div.text-train > div .text-slide{
 }
 /*-------------------Product 3 Column printer-------------------*/
 
-#printer .frame-g1,.frame-h1,.frame-i1.frame-j1,.frame-k1,.frame-l1{
+#printer .frame-g1,.frame-h1,.frame-i1,.frame-j1,.frame-k1,.frame-l1{
 	margin-top: 30px;
+	line-height:320px;
+	color:#335;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:22px;
+	text-shadow:3px 3px 3px #aaa;
+	text-transform:capitalize;
 }
 #printer .frame-g1 .frame1{
 	min-height: 280px;
