@@ -1047,15 +1047,17 @@ div.text-banner div.text-train > div .text-slide{
 	background-repeat:no-repeat;
 	background-position: top right;
  }
-/*-------------------Product 3 Column scanner-------------------*/
-#scanner .frame-a1,.frame-b1,.frame-c1,.frame-d1,.frame-e1,.frame-e1{
-	margin-top: 30px;
+ #scanner,#printerpvc a{
 	line-height:320px;
-	color:#335;
+	color:#335 ;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size:22px;
 	text-shadow:2px 2px 2px #bbb;
-	text-transform:capitalize;
+	text-transform:capitalize;	 
+}
+/*-------------------Product 3 Column scanner-------------------*/
+#scanner .frame-a1,.frame-b1,.frame-c1,.frame-d1,.frame-e1,.frame-e1{
+	margin-top: 30px;
 }
 #tool1{
 	margin-left:100px;	
