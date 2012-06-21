@@ -777,18 +777,15 @@ div.text-banner div.text-train > div .text-slide{
 #googlemap{
 	margin-left:30px;
 }
-
 #googlemap p{
 	font-family: Arial, sans-serif;
 	margin-top: 10px;
 	text-align:right;
 	font-size: 14px;
 }
-
 #info{
 
 }
-
 #info .text{
 	margin-right:30px;
 	font-size:15px;
@@ -796,17 +793,14 @@ div.text-banner div.text-train > div .text-slide{
 	color:#333333;
 	font-family:"Times New Roman", Times, serif;
 }
-
 #info .name, .email, .website, .comment{
 	margin-top:7px;
 	text-align:right;
 }
-
 #info span{
 	color:red;
 	font-size:12px;
 }
-
 #info input{
 	width:240px;	
 	height:35px;
@@ -815,7 +809,6 @@ div.text-banner div.text-train > div .text-slide{
 	text-align:right;
 	direction:rtl;
 }
-
 #info textarea{
 	margin-right:30px;
 	width:330px;
@@ -824,13 +817,11 @@ div.text-banner div.text-train > div .text-slide{
 	text-align:right;
 	direction:rtl;
 }
-
 #info .botton{
 	text-align:right;
 	margin-right:0px;
 	margin-top:10px;		
 }
-
 #info .botton input{
 	width:85px;
 	height:40px;	
@@ -843,7 +834,6 @@ div.text-banner div.text-train > div .text-slide{
 	box-shadow:3px 3px 3px  #272727;
 	text-align:center;
 }
-
 #info .botton input:hover{
 	background-color:#5F5F5F;	
 	border:3px outset #555;
@@ -1631,7 +1621,7 @@ div.text-banner div.text-train > div .text-slide{
 
 #tool{
 	min-height:340px;
-	background-image:url('images/motorla.png');
+	background-image:url(images/3820-big.jpg);
 	background-repeat:no-repeat;
 }
 
