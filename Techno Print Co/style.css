@@ -1054,14 +1054,17 @@ div.text-banner div.text-train > div .text-slide{
 	color:#335;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size:22px;
-	text-shadow:3px 3px 3px #aaa;
+	text-shadow:2px 2px 2px #bbb;
 	text-transform:capitalize;
 }
 #tool1{
 	margin-left:100px;	
 }
 #tool2{
-	margin-left:50px;	
+	margin-left:45px;	
+}
+#tool3{
+	margin-left:72px
 }
 #scanner .frame-a1 .frame1{
 	min-height: 280px;
@@ -1196,7 +1199,7 @@ div.text-banner div.text-train > div .text-slide{
 	color:#335;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size:22px;
-	text-shadow:3px 3px 3px #aaa;
+	text-shadow:2px 2x 2px #bbb;
 	text-transform:capitalize;
 }
 #printer .frame-g1 .frame1{
@@ -1462,8 +1465,13 @@ div.text-banner div.text-train > div .text-slide{
 /*-------------------Product 3 Column scanphone-------------------*/
 #handheld .frame-s1,.frame-t1,.frame-u1,.frame-v1,.frame-x1,.frame-w1{
 	margin-top: 30px;
+	line-height:320px;
+	color:#335;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:22px;
+	text-shadow:2px 2px 2px #bbb;
+	text-transform:capitalize;
 }
-
 #handheld .frame-s1 .frame1{
 	min-height: 280px;
 	background-image:url('images/gk7000.png');
