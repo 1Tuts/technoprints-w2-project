@@ -1483,9 +1483,19 @@ div.text-banner div.text-train > div .text-slide{
 	background-position: top center;
 }
 
-/*-------------------Product 3 Column EPOS-------------------*/
+/*-------------------Product 3 Column POS-------------------*/
 #pos .frame-p1,.frame-q1,.frame-r1{
-	margin-top: 30px;
+	
+}
+
+#pos p{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:22px;
+	padding-top: 150px;
+}
+
+#pos a{
+	color: #222;
 }
 
 #pos .frame-p1 .frame1{
