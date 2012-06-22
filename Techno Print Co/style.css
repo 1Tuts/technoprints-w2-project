@@ -1560,9 +1560,8 @@ div.text-banner div.text-train > div .text-slide{
 	background-position: top center;
 }
 */
-/*-------------------Product 3 Column scanphone-------------------*/
+/*-------------------Product 3 Column handheld-------------------*/
 #handheld .frame-s1,.frame-t1,.frame-u1,.frame-v1,.frame-x1,.frame-w1{
-	margin-top: 30px;
 	line-height:320px;
 	color:#335;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -1570,6 +1569,11 @@ div.text-banner div.text-train > div .text-slide{
 	text-shadow:2px 2px 2px #bbb;
 	text-transform:capitalize;
 }
+
+#handheld a{
+	color: #222;
+}
+
 #handheld .frame-s1 .frame1{
 	min-height: 280px;
 	background-image:url('images/gk7000.png');
