@@ -318,11 +318,13 @@ div.banner div.scroll > div h1{
 	text-align:right;
 	color:#e4e4e4;
 	padding-bottom:7px;
+	font-family:'bmitra' , Tahoma , Arial;
 	font-weight:bold;
 	font-size:20px;	
 }
 div.banner div.scroll > div p{
 	line-height:25px;
+	font-family:'bmitra' , Tahoma , Arial;
 	font-size:15px;
 	color:#cfd5df;
 }
@@ -417,8 +419,8 @@ div.banner ul.btn li.active{
 }
 .container-banner .container .text{
 	height: 90px;
-	border-top:solid 2px #fff;
-	border-bottom:solid 2px #fff;
+	border-top:solid 1px #bbf;
+	border-bottom:solid 1px #bbf;
 	margin:auto;
 	position:absolute;
 	top:0;
@@ -429,6 +431,9 @@ div.banner ul.btn li.active{
 
 .container-banner .container .text p{
 	text-align: right;
+	margin-top: 15px;
+	font-family:'bmitra' , Tahoma , Arial;
+	line-height: 30px;
 }
 
 
@@ -441,7 +446,6 @@ div.banner ul.btn li.active{
 	background-repeat:no-repeat;
 	background-size:100% auto;
 	padding-top:1px;
-	outline:2px #fff solid;
 }
 .container-banner .container .frame-text{
 	margin-top:150px;
@@ -451,21 +455,22 @@ div.banner ul.btn li.active{
 	padding-right:6px;
 }
 .container-banner .container .frame-text h1{
-	font-family    : 'bmitra' , Tahoma , Arial;
+	font-family: 'bmitra' , Tahoma , Arial;
 	font-size:19px;
 	color:#213144;
+	margin-bottom:10px;
 }
 .container-banner .container .frame-text ul{
 	list-style-type:disc;
 	padding-right:14px;
 }
 .container-banner .container .frame-text a{
-	color:#011124;
-	text-decoration:underline;
+	text-decoration: none;
+	font-family: 'bmitra' , Tahoma , Arial;
+	color: #011124;
 }
 .container-banner .container .frame-text a:hover{
-	color:#656faf;
-	border-bottom:solid 1px #b5cfef;
+	color:#999;
 }
 .container-banner .container .pic1{
 	background-image:url("images/application.png")
