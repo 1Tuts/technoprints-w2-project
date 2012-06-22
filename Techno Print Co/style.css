@@ -1464,14 +1464,14 @@ div.text-banner div.text-train > div .text-slide{
 
 #printerpvc .frame-o1 .frame7{
 	min-height: 280px;
-	background-image:url('images/p640i.png');
+	
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 
 #printerpvc .frame-o1 .frame8{
 	min-height: 280px;
-	
+	background-image:url('images/p640i.png');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
