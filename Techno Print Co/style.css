@@ -61,7 +61,7 @@ body{
 }
 .container-topheader .container .menu a{
 	color          : #a8acaf;
-	font-family    : 'bmitra' , Tahoma , Arial;
+	font-family    : 'bmitra' , Arial;
 	font-size      : 12px;
 	padding:5px 12px;
 }
@@ -118,11 +118,11 @@ body{
 	color  : #ffffeb;
 	padding: 10px 8px 10px 15px;
 	text-align: right;
-	font-family    : 'bmitra' , Tahoma , Arial;
+	font-family    : 'bmitra' , Arial;
 	font-size : 16px;
 }
 .container-header .container .menu a > p{
-	font-family    : 'bmitra' , Tahoma , Arial;
+	font-family    : 'bmitra' , Arial;
 	font-size:11px;	
 	color:#778a90;
 	margin-top:8px;
@@ -318,13 +318,13 @@ div.banner div.scroll > div h1{
 	text-align:right;
 	color:#e4e4e4;
 	padding-bottom:7px;
-	font-family:'bmitra' , Tahoma , Arial;
+	font-family:'bmitra' , Arial;
 	font-weight:bold;
 	font-size:20px;	
 }
 div.banner div.scroll > div p{
 	line-height:25px;
-	font-family:'bmitra' , Tahoma , Arial;
+	font-family:'bmitra' , Arial;
 	font-size:15px;
 	color:#cfd5df;
 }
@@ -432,7 +432,7 @@ div.banner ul.btn li.active{
 .container-banner .container .text p{
 	text-align: right;
 	margin-top: 15px;
-	font-family:'bmitra' , Tahoma , Arial;
+	font-family:'bmitra' , Arial;
 	line-height: 30px;
 }
 
@@ -457,7 +457,7 @@ div.banner ul.btn li.active{
 }
 
 .container-banner .container .frame-text h1{
-	font-family: 'bmitra' , Tahoma , Arial;
+	font-family: 'bmitra' , Arial;
 	font-size:19px;
 	color:#213144;
 	margin-bottom:10px;
@@ -470,7 +470,7 @@ div.banner ul.btn li.active{
 
 .container-banner .container .frame-text a{
 	text-decoration: none;
-	font-family: 'bmitra' , Tahoma , Arial;
+	font-family: 'bmitra' , Arial;
 	color: #011124;
 }
 
@@ -596,6 +596,7 @@ div.text-banner div.text-train > div .text-slide{
 96%{left:-4740px}
 100%{left:0}
 }
+
 .bot-shadow{
 	min-height:40px;
 	left:0;
@@ -632,14 +633,14 @@ div.text-banner div.text-train > div .text-slide{
 .container-footer .container .title h3{
 	display:block;
 	color:#FFF;
-	font-family    : 'bmitra' , Tahoma , Arial;
+	font-family    : 'bmitra' ,  Arial;
 	font-size:18px;
 	border-bottom:1px solid #5f7984;
 	padding-bottom:10px;
 	margin-bottom:15px;
 }
 .container-footer .container .title h4{
-	font-family    : 'bmitra' , Tahoma , Arial;
+	font-family    : 'bmitra' , Arial;
 	font-size:14px;
 	color:#FFF;	
 	margin-bottom:11px;
@@ -653,7 +654,6 @@ div.text-banner div.text-train > div .text-slide{
 }
 .container-footer .container .title .first h6{
 	color:#FFF;	
-	font-family    : 'bmitra' , Tahoma , Arial;
 	font-size:14px;
 	margin-top:17px;
 }
@@ -712,9 +712,9 @@ div.text-banner div.text-train > div .text-slide{
 }
 .title3 .third p{
 	color:#5d93a1;
-	font-family    : 'bmitra' , Tahoma , Arial;
+	font-family: 'bmitra' , Arial;
 	font-size:15px;
-	font-weight:bold;
+	line-height: 22px;
 }
 .title3 .third .click{
 	margin-right: 60px;
@@ -730,17 +730,18 @@ div.text-banner div.text-train > div .text-slide{
 /*------------------------- Forth Title----------------------- */
 .container-footer .container .title .forth ul li h6{
 	color:#ffe;
-
+	font-family: 'bmitra' , Arial;
+	font-size: 15px;
 }
+
 .container-footer .container .title .forth ul li h6:hover{
 	text-decoration:underline;
 }
 .container-footer .container .title .forth ul a{
 	color:#5d93a1;
-	font-family    : 'bmitra' , Tahoma , Arial;
-	font-size:15px;
 	display: block;
 	padding-top: 5px;
+	text-decoration: none;
 }
 
 .container-footer .container .title .forth ul a:first-child{
@@ -748,7 +749,6 @@ div.text-banner div.text-train > div .text-slide{
 }
 
 .container-footer .container .title .forth ul a:hover{
-	text-decoration:underline;
 	color:#ffc;	
 }
 
@@ -795,7 +795,7 @@ div.text-banner div.text-train > div .text-slide{
 	color          : #7a93a1;
 	text-decoration:underline;
 	display        : block;
-	font-family    : 'bmitra' , Tahoma , Arial;
+	font-family    : 'bmitra' , Arial;
 	font-size      : 11px;
 	padding: 0 9px
 }
@@ -804,8 +804,7 @@ div.text-banner div.text-train > div .text-slide{
 	text-decoration:none;
 }
 .container-bottomfooter .container .copyright p{
-	
-	font-family:Arial, Helvetica, sans-serif;
+	font-family    : 'bmitra' , Arial;
 	color: #B1B1B1;
 	font-size:11px;
 }
