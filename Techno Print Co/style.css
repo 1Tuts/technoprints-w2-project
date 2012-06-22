@@ -51,23 +51,28 @@ body{
 .container-topheader .container .menu ul{
 	list-style-type: none;
 }
+
 .container-topheader .container .menu li{
 	margin-top:5px;
 	border-right: #a8acaf 1px solid;
 	float : right;
 }
+
 .container-topheader .container .menu li:first-child{
 	border:none;	
 }
+
 .container-topheader .container .menu a{
 	color          : #a8acaf;
 	font-family    : 'bmitra' , Arial;
 	font-size      : 12px;
 	padding:5px 12px;
 }
+
 .container-topheader .container .menu a:hover{
 	color:#ffd;	
 }
+
 .container-topheader .container .tooltip{
 	color      : #B1B1B1;	
 	font-family: Arial;
