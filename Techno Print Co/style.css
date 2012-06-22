@@ -142,7 +142,6 @@ body{
 .container-header .container .menu > ul > li:hover > a{
 	border-radius:5px;
 	-webkit-transition: background-color 500ms;
-	-moz-transition: background-color 500ms;;
 }
 
 .container-header .container .menu li li a{
@@ -176,6 +175,7 @@ body{
 .container-header .container .menu li a span{
 	display: block;
 	padding: 7px 5px;
+	border-radius   : 3px;
 	-webkit-transition: background-color 1s;
 	-moz-transition: background-color 1s;
 }
@@ -184,7 +184,6 @@ body{
 	background-color: #425961;
 	border-radius   : 3px;
 	-webkit-transition: background-color 600ms;
-	-moz-transition: background-color 600ms;;
 }
 
 .container-header .container .menu li li a{
@@ -659,6 +658,7 @@ div.text-banner div.text-train > div .text-slide{
 }
 .container-footer .container .title .first h6{
 	color:#FFF;	
+	font-family: Arial;
 	font-size:14px;
 	margin-top:17px;
 }
