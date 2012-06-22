@@ -1408,7 +1408,16 @@ div.text-banner div.text-train > div .text-slide{
 
 /*-------------------Product 3 Column pvc printer-------------------*/
 #printerpvc .frame-m1,.frame-n1,.frame-o1,.frame-j1,.frame-j1,.frame-l1{
-	margin-top: 30px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:22px;
+}
+
+#printerpvc a{
+	color: #222;
+}
+
+#printerpvc p{
+	padding-top: 150px;
 }
 
 #printerpvc .frame-m1 .frame1{
@@ -1462,7 +1471,7 @@ div.text-banner div.text-train > div .text-slide{
 
 #printerpvc .frame-o1 .frame8{
 	min-height: 280px;
-	/*background-image:url('images/gk420t.png');*/
+	
 	background-repeat:no-repeat;
 	background-position: top right;
 }
