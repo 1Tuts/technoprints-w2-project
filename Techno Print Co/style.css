@@ -1141,18 +1141,6 @@ div.text-banner div.text-train > div .text-slide{
 	text-transform: capitalize;
 }
 
-#tool1{
-	margin-left:100px;	
-}
-
-#tool2{
-	margin-left:45px;	
-}
-
-#tool3{
-	margin-left:72px
-}
-
 #scanner .frame-a1 .frame1{
 	min-height: 280px;
 	background-image:url('images/at506-big.png');
@@ -1281,14 +1269,16 @@ div.text-banner div.text-train > div .text-slide{
 /*-------------------Product 3 Column printer-------------------*/
 #printer .frame-g1,.frame-h1,.frame-i1,.frame-j1,.frame-k1,.frame-l1{
 	margin-top: 30px;
-	line-height:320px;
+	line-height:440px;
 	color:#335;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size:22px;
 	text-shadow:2px 2x 2px #bbb;
 	text-transform:capitalize;
 }
-
+#printer P{
+	text-align:center;
+}
 #printer a{
 	color: #222;
 }
