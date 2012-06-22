@@ -1126,19 +1126,15 @@ div.text-banner div.text-train > div .text-slide{
 
 /*-------------------Product 3 Column scanner-------------------*/
 #scanner .frame-a1,.frame-b1,.frame-c1,.frame-d1,.frame-e1,.frame-e1{
-	
+	line-height: 440px;
+	text-align:center;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:22px;
+	text-transform: capitalize;
 }
 
 #scanner a{
 	color: #222;
-}
-
-#scanner p{
-	padding-top: 150px;
-	text-align: left;
-	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-size:22px;
-	text-transform: capitalize;
 }
 
 #scanner .frame-a1 .frame1{
