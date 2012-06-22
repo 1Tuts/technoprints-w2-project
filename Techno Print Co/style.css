@@ -1,3 +1,7 @@
+/*div{
+	outline: 1px dashed red;
+}
+*/
 @font-face{
     font-family: 'bmitra';
     src: url('fonts/smitrabd_0.eot');
@@ -992,6 +996,7 @@ div.text-banner div.text-train > div .text-slide{
 .container-middle .container .banner .search{
 	margin-top: 17px;
 }
+
 .container-middle .container .banner .srh{
 	border-radius:8px;
 	width:150px;
@@ -1001,20 +1006,25 @@ div.text-banner div.text-train > div .text-slide{
 	background-position:left center;
 	outline: 0;
 }
+
 .container-middle .container .banner .srh:hover{
 	background-image:url('images/magnyfie1.png');
 }
+
 .container-middle .container .banner .name{
 	text-align: right;
 	color: #fff;
-	font-size: 20px;
-	margin-top: 18px;
+	font-family: 'bmitra' , Arial;
+	font-size: 18px;
+	margin-top: 20px;
 }
 
 .container-middle .container .banner .root{
 	text-align: right;
 	color: #fff;	
-	margin-top: 19px;
+	margin-top: 23px;
+	font-family: 'bmitra' , Arial;
+	font-size: 12px;
 }
 
 .container-middle .container .banner .root a{
@@ -1023,79 +1033,84 @@ div.text-banner div.text-train > div .text-slide{
 /*-------------------Product 4 column-------------------*/
 .container-middle .container .product{
 	min-height:600px;
-	padding-top:1px;
+	padding-top: 1px;
+}
+
+.container-middle .container .product a{
+	font-family: 'bmitra' , Arial;
+	font-size: 17px ;
+	color: #222;
 }
 
 .container-middle .container .product .frame-a,.frame-b{
 	padding-top:1px;
-	margin-top: 30px;
  }
-.container-middle .container .product .frame-a,.frame-b p{
-	line-height:290px;
+
+ .container-middle .container .product .text{
+ 	padding-top: 150px;
+ 	min-height: 10px;
+ }
+
+.container-middle .container .product .text p{
 	text-indent:20px;
 	text-align:right;
 }
+
 .container-middle .container .product .frame-a .frame1{
 	min-height: 300px;
-	background-image:url('images/window-product1.jpg');
+	background-image:url('images/window-product4.jpg');
 	background-repeat:no-repeat;
 }
 
 .container-middle .container .product .frame-a .frame2{
-	min-height: 300px;
-	background-image:url('images/window-product2.jpg');
-	background-repeat:no-repeat;
-	background-position:top center;
-}
-
-.container-middle .container .product .frame-a .frame3{
 	min-height: 300px;
 	background-image:url('images/window-product3.jpg');
 	background-repeat:no-repeat;
 	background-position:top center;
 }
 
+.container-middle .container .product .frame-a .frame3{
+	min-height: 300px;
+	background-image:url('images/window-product2.jpg');
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+
 .container-middle .container .product .frame-a .frame4{
 	min-height:300px;
-	background-image:url('images/window-product4.jpg');
+	background-image:url('images/window-product1.jpg');
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
 .container-middle .container .product .frame-b .frame5{
 	min-height:300px;
-	background-image:url('images/window-product5.jpg');
+	
 	background-repeat:no-repeat;
 }
 
 .container-middle .container .product .frame-b .frame6{
 	min-height: 300px;
-	background-image:url('images/window-product6.jpg');
+	
 	background-repeat:no-repeat;
 	background-position:top center;
 }
 
 .container-middle .container .product .frame-b .frame7{
 	min-height:300px;
-	background-image:url('images/window-product.jpg');
+	background-image:url('images/window-product5.jpg');
 	background-repeat:no-repeat;
 	background-position:top center;	
 }
 
 .container-middle .container .product .frame-b .frame8{
 	min-height: 300px;
-	background-image:url('images/window-product.jpg');
+	background-image:url('images/window-product6.jpg');
 	background-repeat:no-repeat;
 	background-position: top right;
  }
- #scanner,#printerpvc a{
-	line-height:320px;
-	color:#335 ;
-	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-size:22px;
-	text-shadow:2px 2px 2px #bbb;
-	text-transform:capitalize;	 
-}
+
+
 /*-------------------Product 3 Column scanner-------------------*/
 #scanner .frame-a1,.frame-b1,.frame-c1,.frame-d1,.frame-e1,.frame-e1{
 	margin-top: 30px;
