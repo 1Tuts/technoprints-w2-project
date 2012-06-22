@@ -1016,7 +1016,7 @@ div.text-banner div.text-train > div .text-slide{
 	color: #fff;
 	font-family: 'bmitra' , Arial;
 	font-size: 18px;
-	margin-top: 20px;
+	margin-top: 18px;
 }
 
 .container-middle .container .banner .root{
@@ -1123,9 +1123,8 @@ div.text-banner div.text-train > div .text-slide{
 #scanner p{
 	padding-top: 150px;
 	text-align: left;
-	font-family: Arial;
-	font-size: 17px;
-	font-weight: bold;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:22px;
 	text-transform: capitalize;
 }
 
@@ -1267,7 +1266,6 @@ div.text-banner div.text-train > div .text-slide{
 	background-position: top center;
 }
 /*-------------------Product 3 Column printer-------------------*/
-
 #printer .frame-g1,.frame-h1,.frame-i1,.frame-j1,.frame-k1,.frame-l1{
 	margin-top: 30px;
 	line-height:320px;
@@ -1277,12 +1275,18 @@ div.text-banner div.text-train > div .text-slide{
 	text-shadow:2px 2x 2px #bbb;
 	text-transform:capitalize;
 }
+
+#printer a{
+	color: #222;
+}
+
 #printer .frame-g1 .frame1{
 	min-height: 280px;
 	background-image:url('images/btp2002np.png');
 	background-repeat:no-repeat;
 	background-position: top left;
 }
+
 #printer .frame-g1 .frame2{
 	min-height: 280px;
 	background-image:url('images/srp350plu.png');
