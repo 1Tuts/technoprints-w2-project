@@ -447,6 +447,7 @@ div.banner ul.btn li.active{
 	background-size:100% auto;
 	padding-top:1px;
 }
+
 .container-banner .container .frame-text{
 	margin-top:150px;
 	text-align:right;
@@ -454,36 +455,45 @@ div.banner ul.btn li.active{
 	color:#223240;
 	padding-right:6px;
 }
+
 .container-banner .container .frame-text h1{
 	font-family: 'bmitra' , Tahoma , Arial;
 	font-size:19px;
 	color:#213144;
 	margin-bottom:10px;
 }
+
 .container-banner .container .frame-text ul{
 	list-style-type:disc;
 	padding-right:14px;
 }
+
 .container-banner .container .frame-text a{
 	text-decoration: none;
 	font-family: 'bmitra' , Tahoma , Arial;
 	color: #011124;
 }
+
 .container-banner .container .frame-text a:hover{
 	color:#999;
 }
+
 .container-banner .container .pic1{
 	background-image:url("images/application.png")
 }
+
 .container-banner .container .pic2{
 	background-image:url("images/consumables.png")	
 }
+
 .container-banner .container .pic3{
 	background-image:url("images/printer.png")		
 }
+
 .container-banner .container .pic4{
 	background-image:url("images/scanners.png")	
 }
+
 .text-banner{
 	margin:60px auto 0;
 	width:948px;
@@ -495,6 +505,7 @@ div.banner ul.btn li.active{
 	-webkit-border-radius:6px;
 	-moz-border-radius:6px;
 }
+
 .text-train{
 	width:6500px;
 	height:150px;
@@ -505,6 +516,7 @@ div.banner ul.btn li.active{
 	-webkit-animation:move 30s infinite;
 	-moz-animation:move 30s infinite;
 }
+
 div.text-banner div.text-train > div{
 	width:948px;
 	height:150px;
@@ -512,6 +524,7 @@ div.text-banner div.text-train > div{
 	float:left;
 	position:relative;
 }
+
 div.text-banner div.text-train > div .text-slide{
 	width:800px !important;
 	height:120px !important;
@@ -522,13 +535,16 @@ div.text-banner div.text-train > div .text-slide{
 	position:absolute;
 	margin:auto;
 	text-align:right;
+	font-family: 'bmitra' , Arial;
+	line-height:30px;
 	font-weight:bold;	
 	padding-bottom:10px;
-	line-height:22px;
 }
+
 .text6{
 	width:958  !important;	
 }
+
 @-webkit-keyframes move{
 0%{left:0}
 16%{left:0}
