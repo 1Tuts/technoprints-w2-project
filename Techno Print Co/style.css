@@ -1113,17 +1113,34 @@ div.text-banner div.text-train > div .text-slide{
 
 /*-------------------Product 3 Column scanner-------------------*/
 #scanner .frame-a1,.frame-b1,.frame-c1,.frame-d1,.frame-e1,.frame-e1{
-	margin-top: 30px;
+	
 }
+
+#scanner a{
+	color: #222;
+}
+
+#scanner p{
+	padding-top: 150px;
+	text-align: left;
+	font-family: Arial;
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
 #tool1{
 	margin-left:100px;	
 }
+
 #tool2{
 	margin-left:45px;	
 }
+
 #tool3{
 	margin-left:72px
 }
+
 #scanner .frame-a1 .frame1{
 	min-height: 280px;
 	background-image:url('images/at506-big.png');
@@ -1217,35 +1234,35 @@ div.text-banner div.text-train > div .text-slide{
 
 #scanner .frame-e1 .frame14{
 	min-height: 280px;
-	background-image:url('images/ls2208.png');
+	
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
 #scanner .frame-e1 .frame15{
 	min-height: 280px;
-	background-image:url('images/ls2208.png');
+	
 	background-repeat:no-repeat;
 	background-position: top center;
 }
 
 #scanner .frame-f1 .frame16{
 	min-height: 280px;
-	background-image:url('images/ls2208.png');
+	
 	background-repeat:no-repeat;
 	background-position: top left;
 }
 
 #scanner .frame-f1 .frame17{
 	min-height: 280px;
-	background-image:url('images/ls2208.png');
+	
 	background-repeat:no-repeat;
 	background-position: top right;
 }
 
 #scanner .frame-f1 .frame18{
 	min-height: 280px;
-	background-image:url('images/ls2208.png');
+	
 	background-repeat:no-repeat;
 	background-position: top center;
 }
