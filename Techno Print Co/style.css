@@ -1032,11 +1032,29 @@ div.text-banner div.text-train > div .text-slide{
 	-webkit-transition-duration:300ms;
 	transition-duration:300ms;
 }
-/*-----------------------About Us----------------------------*/
+/*------------------AboutUs------------------*/
 #about{
 	border: 2px solid #E4E4D3;
 	min-height: 650px;
 	border-radius: 5px 5px 5px 5px;
+	
+}
+#about p{
+	margin-right:50px;
+	direction:rtl;
+	text-align:right;
+	margin-top:15px;	
+	margin-left:50px;
+	line-height:19px;
+}
+#about .ul{
+	margin-right:80px;	
+}
+#about h1{
+	margin-right:50px;
+	text-align:right;
+	font-family:bmitara, Arial, Helvetica, sans-serif;
+	color:red;
 }
 /*-----------------------article----------------------------*/
 #article{
