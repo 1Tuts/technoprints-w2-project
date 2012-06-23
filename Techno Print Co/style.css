@@ -904,6 +904,17 @@ div.text-banner div.text-train > div .text-slide{
 	border: 2px solid #E4E4D3;
 	min-height: 650px;
 	border-radius: 5px 5px 5px 5px;
+	
+}
+#about p{
+	margin-right:50px;
+	direction:rtl;
+	text-align:right;
+	margin-top:15px;	
+	margin-left:50px;
+}
+#about .ul{
+	margin-right:80px;	
 }
 /*-----------------------article----------------------------*/
 #article{
