@@ -1062,12 +1062,15 @@ div.text-banner div.text-train > div .text-slide{
 	
 }
 #about p{
+	text-align: right;
+	font-family: 'bmitra', Arial;
+	font-size: 17px;
 	margin-right:50px;
 	direction:rtl;
 	text-align:right;
 	margin-top:15px;	
 	margin-left:50px;
-	line-height:19px;
+	line-height:25px;
 }
 #about .ul{
 	margin-right:80px;	
@@ -1075,7 +1078,7 @@ div.text-banner div.text-train > div .text-slide{
 #about h1{
 	margin-right:50px;
 	text-align:right;
-	font-family:bmitara, Arial, Helvetica, sans-serif;
+	font-family: 'bmitra', Arial;
 	color:red;
 }
 /*-----------------------article----------------------------*/
