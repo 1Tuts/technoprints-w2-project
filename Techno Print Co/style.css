@@ -1558,12 +1558,13 @@ div.text-banner div.text-train > div .text-slide{
 */
 /*-------------------Product 3 Column handheld-------------------*/
 #handheld .frame-s1,.frame-t1,.frame-u1,.frame-v1,.frame-x1,.frame-w1{
-	line-height:320px;
+	line-height:440px;
 	color:#335;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size:22px;
 	text-shadow:2px 2px 2px #bbb;
 	text-transform:capitalize;
+	text-align:center;
 }
 
 #handheld a{
