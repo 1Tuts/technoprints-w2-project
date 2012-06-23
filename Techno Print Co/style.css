@@ -899,7 +899,7 @@ div.text-banner div.text-train > div .text-slide{
 	-o-transition-duration:300ms;
 	-webkit-transition-duration:300ms;
 }
-/*-----------------------About Us----------------------------*/
+/*------------------AboutUs------------------*/
 #about{
 	border: 2px solid #E4E4D3;
 	min-height: 650px;
@@ -912,9 +912,20 @@ div.text-banner div.text-train > div .text-slide{
 	text-align:right;
 	margin-top:15px;	
 	margin-left:50px;
+	line-height:19px;
 }
 #about .ul{
 	margin-right:80px;	
+}
+#about h1{
+	margin-right:50px;
+	text-align:right;
+	font-family:bmitara, Arial, Helvetica, sans-serif;
+	color:red;
+}
+#red p{
+	margin-right:1000px;
+	color:red;		
 }
 /*-----------------------article----------------------------*/
 #article{
