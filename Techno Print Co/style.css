@@ -1484,13 +1484,10 @@ div.text-banner div.text-train > div .text-slide{
 
 /*-------------------Product 3 Column POS-------------------*/
 #pos .frame-p1,.frame-q1,.frame-r1{
-	
-}
-
-#pos p{
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size:22px;
-	padding-top: 150px;
+	line-height: 440px;
+	text-align: center;
 }
 
 #pos a{
