@@ -1409,15 +1409,15 @@ div.text-banner div.text-train > div .text-slide{
 #printerpvc .frame-m1,.frame-n1,.frame-o1,.frame-j1,.frame-j1,.frame-l1{
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size:22px;
+	line-height: 440px;
+	text-align: center;
 }
 
 #printerpvc a{
 	color: #222;
 }
 
-#printerpvc p{
-	padding-top: 150px;
-}
+
 
 #printerpvc .frame-m1 .frame1{
 	min-height: 280px;
