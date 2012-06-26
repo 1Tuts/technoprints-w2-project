@@ -6,6 +6,7 @@
     <link type="text/css" rel="stylesheet"  href="reset.css" />
     <link type="text/css" rel="stylesheet"  href="1styles.css" />
     <link type="text/css" rel="stylesheet"  href="style.css" />
+    <script type="text/javascript" src="js/mail.js"></script>
 </head>
 <body>
    <!-- ******************Top Header****************** -->
@@ -19,7 +20,7 @@
                     <li><a href="contact.html">تماس با ما</a></li>
                 </ul>
             </nav>
-            <section class="tooltip mr17 en">Tel: +98 (511) 767-7671</section>
+            <section class="tooltip mr17"><a id="home">تلفن: 1-767 767 (511) 98+</a></section>
             <div class="clear"></div>
         </div>
     </section>
@@ -81,23 +82,25 @@
             </div>
             <div id="info">
                 <div class="text">
-                    <p>شما عزیزان میتوانید با پر کردن فرم زیر وارسال آن با ما در ارتباط باشید .<br />
+                    <p>شما عزیزان می توانید با پر کردن فرم زیر و ارسال آن با ما در ارتباط باشید.</p><br />
                 </div>
-                <div class="name">
-                    <input name="name" type="text" placeholder="نام و نام خانوادگی :">
-                </div>
-                <div class="email">
-                    <input name="email" type="email" placeholder="ایمیل :">
-                </div>
-                <div class="website">
-                    <input name="website" type="url" placeholder="وب سایت :" >
-                </div>
-                <div class="comment">
-                    <textarea name="comment" cols="10" rows="10" placeholder="متن :" ></textarea>
-                </div>
-                <div class="botton">
-                    <input name="send" type="submit" value="ارسال">&nbsp;&nbsp;<span>پر کردن تمامی فیلدها الزامیست</span>
-                </div>
+                <form method="post" action="mail.php">
+                    <div class="name">
+                        <input name="fullName" type="text" placeholder="نام و نام خانوادگی:">
+                    </div>
+                    <div class="email">
+                        <input name="mail" type="text" placeholder="ایمیل:">
+                    </div>
+                    <div class="website">
+                        <input name="subject" type="text" placeholder="موضوع:" >
+                    </div>
+                    <div class="comment">
+                        <textarea name="msg" type="text" cols="10" rows="10" placeholder="متن :" ></textarea>
+                    </div>
+                    <div class="botton">
+                        <input name="sub" type="submit" value="ارسال">&nbsp;&nbsp;<span>پر کردن تمامی فیلدها الزامیست</span>
+                    </div>
+                </form>
                 <div class="clear"></div>
             </div>
     </section>
